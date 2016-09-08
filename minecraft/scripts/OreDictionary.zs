@@ -1,0 +1,14 @@
+<ore:ingotChrome>.add(<modernmetals:chromium_ingot>);
+<ore:dustChrome>.add(<modernmetals:chromium_powder>);
+<ore:nuggetChrome>.add(<modernmetals:chromium_nugget>);
+<ore:blockChrome>.add(<modernmetals:chromium_block>);
+<ore:plateChrome>.add(<modernmetals:chromium_plate>);
+<ore:ammoBolt>.remove(<modernmetals:uranium_bolt>);
+<ore:ingotPlutonium>.remove(<bigreactors:ingotMetals:3>);
+<ore:ingotUranium>.remove(<bigreactors:ingotMetals>);
+recipes.removeShaped(<techreborn:ingot:3>);
+recipes.removeShapeless(<techreborn:ingot:3>);
+recipes.removeShaped(<techreborn:techreborn.storage:3>);
+recipes.removeShapeless(<techreborn:techreborn.storage:3>);
+recipes.removeShaped(<techreborn:nuggets:3>);
+recipes.removeShapeless(<techreborn:nuggets:3>);

@@ -1,0 +1,51 @@
+{
+  "tabs": [
+    {
+      "uuid": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "timestamp": 0,
+          "uuid": "34429a63-c696-4fbe-b235-e8ac4b9f7678",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone 0",
+          "rewards": [
+            {
+              "uuid": "4ab68be6-a691-4912-8532-7cb39c39b859",
+              "type": "reward.crafting",
+              "data": {
+                "actionfilters": [
+                  {
+                    "type": "filter.crafting.exact",
+                    "data": {
+                      "stack": "minecraft:iron_ore"
+                    }
+                  }
+                ],
+                "filters": []
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 80,
+          "y": 45,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanDoAnything": false,
+  "craftAnythingCreative": false
+}

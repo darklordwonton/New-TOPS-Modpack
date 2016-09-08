@@ -1,0 +1,1 @@
+mods.forestry.Still.addRecipe(<liquid:bio.ethanol> * 1, <liquid:hootch> * 1, 100);

@@ -1,0 +1,144 @@
+{
+  "minecraft:rotten_flesh@0": [
+    "Zombie",
+    "PigZombie"
+  ],
+  "minecraft:leather@0": [
+    "EntityHorse",
+    "MushroomCow",
+    "EnderZoo.FallenMount",
+    "Cow"
+  ],
+  "minecraft:chicken@0": [
+    "Chicken"
+  ],
+  "minecraft:slime_ball@0": [
+    "Slime"
+  ],
+  "minecraft:rabbit@0": [
+    "Rabbit"
+  ],
+  "minecraft:ghast_tear@0": [
+    "Ghast"
+  ],
+  "minecraft:gold_ingot@0": [
+    "PigZombie"
+  ],
+  "tconstruct:edible@1": [
+    "tconstruct.blueslime"
+  ],
+  "minecraft:arrow@0": [
+    "EnderZoo.FallenKnight",
+    "Skeleton"
+  ],
+  "minecraft:iron_ingot@0": [
+    "Zombie",
+    "VillagerGolem"
+  ],
+  "minecraft:dye@0": [
+    "Squid"
+  ],
+  "minecraft:sugar@0": [
+    "Witch"
+  ],
+  "minecraft:glass_bottle@0": [
+    "Witch"
+  ],
+  "minecraft:gold_nugget@0": [
+    "PigZombie"
+  ],
+  "harvestcraft:calamarirawItem@0": [
+    "Squid"
+  ],
+  "minecraft:fish@0": [
+    "Guardian"
+  ],
+  "minecraft:stick@0": [
+    "Witch"
+  ],
+  "minecraft:porkchop@0": [
+    "Pig"
+  ],
+  "minecraft:redstone@0": [
+    "Witch"
+  ],
+  "minecraft:blaze_rod@0": [
+    "Blaze"
+  ],
+  "minecraft:carrot@0": [
+    "Zombie"
+  ],
+  "foundry:roundNormal@0": [
+    "foundry.gunSkeleton"
+  ],
+  "minecraft:splash_potion@0": [
+    "EnderZoo.WitherWitch"
+  ],
+  "minecraft:rabbit_foot@0": [
+    "Rabbit"
+  ],
+  "botania:recordGaia1@0": [
+    "Botania.botania:doppleganger"
+  ],
+  "minecraft:bone@0": [
+    "foundry.gunSkeleton",
+    "EnderZoo.FallenKnight",
+    "Skeleton"
+  ],
+  "minecraft:nether_star@0": [
+    "WitherBoss"
+  ],
+  "minecraft:wool@0": [
+    "Sheep"
+  ],
+  "minecraft:prismarine_crystals@0": [
+    "Guardian"
+  ],
+  "minecraft:spider_eye@0": [
+    "CaveSpider",
+    "Spider",
+    "Witch"
+  ],
+  "minecraft:snowball@0": [
+    "SnowMan"
+  ],
+  "minecraft:beef@0": [
+    "MushroomCow",
+    "Cow"
+  ],
+  "minecraft:feather@0": [
+    "EnderZoo.Owl",
+    "Chicken"
+  ],
+  "minecraft:red_flower@0": [
+    "VillagerGolem"
+  ],
+  "botania:manaResource@5": [
+    "Botania.botania:doppleganger"
+  ],
+  "minecraft:string@0": [
+    "CaveSpider",
+    "Spider"
+  ],
+  "minecraft:potato@0": [
+    "Zombie"
+  ],
+  "minecraft:ender_pearl@0": [
+    "Enderman"
+  ],
+  "minecraft:prismarine_shard@0": [
+    "Guardian"
+  ],
+  "minecraft:gunpowder@0": [
+    "EnderZoo.ConcussionCreeper",
+    "Creeper",
+    "Ghast",
+    "Witch"
+  ],
+  "minecraft:rabbit_hide@0": [
+    "Rabbit"
+  ],
+  "minecraft:glowstone_dust@0": [
+    "Witch"
+  ]
+}

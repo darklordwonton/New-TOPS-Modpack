@@ -1,0 +1,127 @@
+{
+    name: "tweaks",
+    description: "Sample file for reference.  To use it, remove the '.sample' extension; only .json files are parsed.",
+    sets: [
+        {
+            name: "default",
+            operations: [
+                {
+					type: "addBloodAltarRecipe",
+					output: "basemetals:mithril_ingot",
+					with: ["basemetals:mithril_blend"],
+                    minTier: 1,
+                    lpCost: 200,
+                    consumeRate: 2,
+                    drainRate: 1,
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:0",
+                    output: "elementsofpower:magicOrb:0:2",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:1",
+                    output: "elementsofpower:magicOrb:1:2",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:2",
+                    output: "elementsofpower:magicOrb:2:2",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:3",
+                    output: "elementsofpower:magicOrb:3:2",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:4",
+                    output: "elementsofpower:magicOrb:4:1",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:5",
+                    output: "elementsofpower:magicOrb:5:4",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:6",
+                    output: "elementsofpower:magicOrb:6:1",
+                },
+                {
+                    type: "AbyssalCraft.addTransmutation",
+                    with: "elementsofpower:spelldust:7",
+                    output: "elementsofpower:magicOrb:7:8",
+                },
+                {
+                    type: "Botania.addManaInfusion",
+                    output: "basemetals:mithril_ingot",
+                    with: "basemetals:mithril_blend",
+                    mana: 2000,
+                },
+                {
+                    type: "Botania.removeManaInfusion",
+                    what: "botania:manaResource:0",
+                },
+                {
+                    type: "Botania.addManaInfusion",
+                    output: "botania:manaResource:0",
+                    with: "basemetals:mithril_ingot",
+                    mana: 4000,
+                },
+                {
+                    type: "Botania.removeManaInfusion",
+                    what: "botania:storage:0",
+                },
+                {
+                    type: "Botania.addManaInfusion",
+                    output: "botania:storage:0",
+                    with: "basemetals:mithril_block",
+                    mana: 36000,
+                },
+				{
+					type: "TechReborn.addCentrifuge",
+                    what: ["modernmetals:uranium_crossbow:0:4","modernmetals:uranium_bolt:0:1","substratum:dustSmall:13:1"],
+                    with: ["modernmetals:uranium_powder"],
+                    ticks: 200,
+                    euPerTick: 30,
+                    useOreDict: true
+				},
+				{
+					type: "TechReborn.addImplosionCompressor",
+               		what: ["bigreactors:ingotMetals:0:1"],
+               	 	with: ["modernmetals:uranium_horsearmor:0:1","minecraft:tnt:0:4"],
+               	 	ticks: 20,
+                	euPerTick: 30
+				},
+				{
+                    type: "TechReborn.addIndustrialElectrolyzer",
+                    what: ["modernmetals:uranium_crossbow:0:3","modernmetals:plutonium_horsearmor:0:1","substratum:dustSmall:13:1","techreborn:dynamicCell:0:1"],
+                    with: ["bigreactors:ingotMetals:1:1"],
+                    ticks: 100,
+                    euPerTick: 120,
+				},
+				{
+					type: "TechReborn.addCentrifuge",
+                    what: ["modernmetals:plutonium_smallpowder:0:1","modernmetals:plutonium_bolt:0:2","modernmetals:plutonium_crossbow:0:3"],
+                    with: ["modernmetals:plutonium_horsearmor"],
+                    ticks: 200,
+                    euPerTick: 30,
+                    useOreDict: true
+				},
+				{
+					type: "TechReborn.addImplosionCompressor",
+               		what: ["bigreactors:ingotMetals:3:1"],
+               	 	with: ["techreborn:part:21:1","minecraft:tnt:0:8"],
+               	 	ticks: 20,
+                	euPerTick: 30
+				},
+				{
+                    type: "show",
+                    what: "bigreactors:ingotMetals:0"
+				}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,338 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Crafting Harmonics Core (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar)
+  ValkyrienWarfareBase CoreMod (Valkyrien Warfare .8d.jar)
+  TANLoadingPlugin (ToughAsNails-1.9.4-1.0.11.jar)
+  LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  LoadingHook (Mekanism-1.10.2-9.2.0.292.jar)
+  EnderCorePlugin (EnderCore-1.10.2-0.4.1.54-beta.jar)
+  MalisisCorePlugin (malisiscore-1.9.4-4.1.1.jar)
+  DepLoader (BrandonsCore-1.10.2-2.1.0.40-universal.jar)
+  LoadingPlugin (Bloodmoon-MC1.9.4-1.4.1.jar)
+  Chiseled Me ASM (Chiseled-Me-1.0.jar)
+  llibrary (llibrary-1.5.1-1.10.2.jar)
+  ProgressionTransformer (Progression-1.10.2-0.6.8.jar)
+  AppleCore (AppleCore-mc1.10.2-2.0.1.jar)
+  LoadingPlugin (Quark-r1.0-55.jar)
+  FMLPlugin (InventoryTweaks-1.61-58.jar)
+  SHLoadingPlugin (ScalingHealth-1.9.4-0.2.3-21.jar)
+  TransformerLoader (OpenComputers-MC1.10.2-1.6.0.3-rc.1.jar)
+  ValkyrienWarfareBase Mod Compatibility Hack (VW Mod Compatibility Hack.jar)
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.73-universal.jar)
+  dsurroundcore_unofficial (DynamicSurroundingsUnofficial-1.10.2-3.0.6.1BETA.jar)
+Contact their authors BEFORE contacting forge
+
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 9/7/16 8:57 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderException: java.lang.NoClassDefFoundError: arc/bloodarsenal/item/sigil/ItemSigilAugmentedHolding
+	at net.minecraftforge.fml.common.LoadController.transition(LoadController.java:186)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:610)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:255)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:439)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:351)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:310)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:395)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:170)
+	at org.multimc.EntryPoint.main(EntryPoint.java:54)
+Caused by: java.lang.NoClassDefFoundError: arc/bloodarsenal/item/sigil/ItemSigilAugmentedHolding
+	at arc.bloodarsenal.BloodArsenal.preInit(BloodArsenal.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:595)
+	at sun.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:239)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:142)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:607)
+	... 18 more
+Caused by: java.lang.ClassNotFoundException: arc.bloodarsenal.item.sigil.ItemSigilAugmentedHolding
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 45 more
+Caused by: java.lang.NoClassDefFoundError: WayofTime/bloodmagic/util/handler/IKeybindable
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 47 more
+Caused by: java.lang.ClassNotFoundException: WayofTime.bloodmagic.util.handler.IKeybindable
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Mac OS X (x86_64) version 10.10.2
+	Java Version: 1.8.0_65, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 4053070848 bytes (3865 MB) / 5198839808 bytes (4958 MB) up to 5198839808 bytes (4958 MB)
+	JVM Flags: 2 total; -Xms5120m -Xmx5120m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.32 Powered by Forge 12.18.1.2076 152 mods loaded, 152 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCH	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCH	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.1.2076-universal.jar) 
+	UCH	Forge{12.18.1.2076} [Minecraft Forge] (forge-1.10.2-12.18.1.2076-universal.jar) 
+	UCH	OpenComputers|Core{1.6.0.3-rc.1} [OpenComputers (Core)] (minecraft.jar) 
+	UCH	bettercombatmod{1.3.5} [Better Combat] ([MC 1.10.X] BetterCombatMod 1.3.5.jar) 
+	UCH	mantle{1.10.2-0.10.4.jenkins163} [Mantle] (Mantle-1.10.2-0.10.4.jar) 
+	UCH	tconstruct{1.10-2.3.3a.jenkins271} [Tinkers' Construct] (TConstruct-1.10-2.3.3a.jar) 
+	UCH	immersiveengineering{${version}} [Immersive Engineering] (ImmersiveEngineering-0.10-40.jar) 
+	UCH	JEI{3.9.0.244} [Just Enough Items] (jei_1.10.2-3.9.0.244.jar) 
+	UCH	abyssalcraft{1.9.2.9} [AbyssalCraft] (AbyssalCraft-1.10.2-1.9.2.9.jar) 
+	UCH	acintegration{1.4.5} [AbyssalCraft Integration] (AbyssalCraft Integration-1.9.4-1.4.5.jar) 
+	UCH	advancedcables{1.1.0} [Advanced Cables] (advancedcables-1.1.0.jar) 
+	UCH	AppleCore{2.0.1} [AppleCore] (AppleCore-mc1.10.2-2.0.1.jar) 
+	UCH	appleskin{1.0.3} [AppleSkin] (AppleSkin-mc1.10.2-1.0.3.jar) 
+	UCH	Quark{r1.0-55} [Quark] (Quark-r1.0-55.jar) 
+	UCH	AutoRegLib{1.0-2} [AutoRegLib] (AutoRegLib-1.0-2.jar) 
+	UCH	AutoSapling{1.3.3} [AutoSapling] (Autosapling-1.3.3-MC1.10.jar) 
+	UCH	basemetals{2.4.0} [Base Metals] (BaseMetals_1.10.2-2.4.0.11.jar) 
+	UCH	Baubles{1.2.1.0} [Baubles] (Baubles-1.9.4-1.2.1.0.jar) 
+	UCH	betterbuilderswands{0.6.5} [Better Builder's Wands] (BetterBuildersWands-0.6.5-1.10r138+8595fc7.jar) 
+	UCH	BetterHorseHud{1.0} [Better Horse Hud] (BetterHorseHud-[1.9-1.10.2]-1.0.jar) 
+	UCH	guideapi{@VERSION@} [Guide-API] (Guide-API-1.10.2-2.0.2-45.jar) 
+	UCH	BloodMagic{1.9.4-2.0.4-58} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.9.4-2.0.4-58.jar) 
+	UCE	BloodArsenal{1.10.2-2.0.1-CUSTOM} [Blood Arsenal] (BloodArsenal-1.10.2-2.0.1-11.jar) 
+	UCH	Bloodmoon{1.2} [Bloodmoon] (Bloodmoon-MC1.9.4-1.4.1.jar) 
+	UCH	Botania{r1.8-321} [Botania] (Botania-unofficial.r1.8-321.jar) 
+	UCH	brandonscore{2.1.0} [Brandon's Core] (BrandonsCore-1.10.2-2.1.0.40-universal.jar) 
+	UCH	Chameleon{1.10-2.1.7} [Chameleon] (Chameleon-1.10-2.1.7.jar) 
+	UCH	chameleoncreepers{1.4.1} [Chameleon Creepers] (chameleoncreepers-1.4.1-1.10.2.jar) 
+	UCH	mcmultipart{1.2.1} [MCMultiPart] (MCMultiPart-1.2.1-universal.jar) 
+	UCH	CharsetLib{0.3.0-pre15} [‽] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetAudio{0.3.0-pre15} [♫] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetCarts{0.3.0-pre15} [U] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetDecoration{0.3.0-pre15} [�?] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetDrama{0.3.0-pre15} [!] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetFarming{0.3.0-pre15} [;] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetGates{0.3.0-pre15} [&] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetPipes{0.3.0-pre15} [|] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetStorage{0.3.0-pre15} [#] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetTweaks{0.3.0-pre15} [*] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetWires{0.3.0-pre15} [+] (Charset-0.3.0-pre15.jar) 
+	UCH	CharsetWrench{0.3.0-pre15} [/] (Charset-0.3.0-pre15.jar) 
+	UCH	chisel{MC1.9.4-0.0.6.33} [Chisel] (Chisel-MC1.9.4-0.0.6.33.jar) 
+	UCH	chiseled_me{1.0} [Chiseled Me] (Chiseled-Me-1.0.jar) 
+	UCH	chiselsandbits{12.1} [Chisels & Bits] (chiselsandbits-12.1.jar) 
+	UCH	combathelp{1.0.3} [Combat Help] (combathelp-1.9.4-1.0.3.jar) 
+	UCH	cookingforblockheads{4.2.14} [Cooking for Blockheads] (CookingForBlockheads_1.10.2-4.2.14.jar) 
+	UCH	cosmeticarmorreworked{1.10.2-v1a} [CosmeticArmorReworked] (CosmeticArmorReworked-1.10.2-v1a.jar) 
+	UCH	NashornLib{1.9.4-1.8.77-1.3.1} [Nashorn Library] (NashornLib-1.9.4-1.8.77-1.3.1.8 (1).jar) 
+	UCH	craftingharmonics{1.9.4_1.10_1.10.2-1.5.7} [Crafting Harmonics] (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar) 
+	UCH	MineTweaker3{3.0.11} [MineTweaker 3] (CraftTweaker-1.10.2-3.0.11.jar) 
+	UCH	wonderfulwands{2.2.0} [Wonderful Wands] (CyanosWonderfulWands_1.10.2-2.2.0.jar) 
+	UCH	cyberware{beta-0.2.1} [Cyberware] (cyberware-1.9.4-1.10.2-beta-0.2.1.jar) 
+	UCH	cyclopscore{0.7.7} [Cyclops Core] (CyclopsCore-1.9.4-0.7.7.jar) 
+	UCH	forestry{5.2.9.242} [Forestry] (forestry_1.10.2-5.2.9.242.jar) 
+	UCH	ElecCore{1.5.311} [ElecCore] (ElecCore-1.9.4-1.5.311.jar) 
+	UCH	OpenComputers{1.6.0.3-rc.1} [OpenComputers] (OpenComputers-MC1.10.2-1.6.0.3-rc.1.jar) 
+	UCH	deepresonance{1.2.2} [DeepResonance] (deepresonance-1.10-1.2.2.jar) 
+	UCH	dimensionalcake{0.0.1} [Dimensional Cake] (dimensionalcake-1.9.4-0.0.1.jar) 
+	UCH	dldungeonsjdg{1.8.13} [Doomlike Dungeons] (DoomlikeDungeons-1.8.13-MC1.10.jar) 
+	UCH	draconicevolution{2.0.0} [Draconic Evolution] (Draconic-Evolution-1.10.2-2.0.0.92-universal.jar) 
+	UCH	DragonMounts{r46-1.9.4} [Dragon Mounts] (DragonMounts-r46-1.9.4.jar) 
+	UCH	StorageDrawers{1.10.2-3.2.7} [Storage Drawers] (StorageDrawers-1.10.2-3.2.7.jar) 
+	UCH	bitdrawers{0.31} [Drawers & Bits] (DrawersBits-1.10.2-0.31.jar) 
+	UCH	lootablebodies{2.2.0} [DrCyano's Lootable Bodies] (DrCyanosLootableBodies_1.10.2-2.2.0.jar) 
+	UCH	dsurroundunofficial{3.0.6.1BETA} [Dynamic Surroundings Unofficial] (DynamicSurroundingsUnofficial-1.10.2-3.0.6.1BETA.jar) 
+	UCH	elementsofpower{0.7.10-alpha} [Elements of Power] (ElementsOfPower-1.9.4-0.7.10-alpha.jar) 
+	UCH	enchiridion{3.1.7} [Enchiridion] (Enchiridion-1.9.4-3.1.7.jar) 
+	UCH	endercore{1.10.2-0.4.1.54-beta} [EnderCore] (EnderCore-1.10.2-0.4.1.54-beta.jar) 
+	UCH	EnderIO{1.10.2-3.0.1.104_beta} [Ender IO] (EnderIO-1.10.2-3.0.1.104_beta.jar) 
+	UCH	EnderZoo{1.10-1.2.3.43} [Ender Zoo] (EnderZoo-1.10-1.2.3.43.jar) 
+	UCH	evilcraft{0.10.11} [EvilCraft] (EvilCraft-1.10.2-0.10.11.jar) 
+	UCH	zerocore{1.10.2-0.0.8.0} [Zero CORE] (zerocore-1.10.2-0.0.8.0.jar) 
+	UCH	bigreactors{0.4.5.12} [Extreme Reactors] (ExtremeReactors-1.9.4-0.4.5.12.jar) 
+	UCH	fastleafdecay{v11} [Fast Leaf Decay] (FastLeafDecay-v11.jar) 
+	UCH	godweapons{4.5_1.10} [Gods' Weapons] (godweapons - 4.5_1.10.jar) 
+	UCH	grapplemod{1.10-v7} [Grappling hook mod] (grapplemod-1.10.2-v7.jar) 
+	UCH	iberia{0.1} [Iberia] (iberia-0.14.jar) 
+	UCH	InfernalMobs{1.7.1} [Infernal Mobs] (InfernalMobs-1.10.jar) 
+	UCH	inventorybook{0.0.3} [InventoryBook] (inventorybook-0.0.3.jar) 
+	UCH	inventorytweaks{1.61-58-a1fd884} [Inventory Tweaks] (InventoryTweaks-1.61-58.jar) 
+	UCH	ironchest{1.10.2-7.0.9.796} [Iron Chest] (ironchest-1.10.2-7.0.9.796.jar) 
+	UCH	llibrary{1.5.1} [LLibrary] (llibrary-1.5.1-1.10.2.jar) 
+	UCH	jurassicraft{2.0.2} [JurassiCraft] (JurassiCraft-2.0.2.jar) 
+	UCH	jeresources{0.4.8.48} [Just Enough Resources] (JustEnoughResources-1.10.2-0.4.8.48.jar) 
+	UCH	lycanitesmobs{1.15.1.2 - MC 1.10.2} [Lycanites Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	arcticmobs{1.15.1.2 - MC 1.10.2} [Lycanites Arctic Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	demonmobs{1.15.1.2 - MC 1.10.2} [Lycanites Demon Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	desertmobs{1.15.1.2 - MC 1.10.2} [Lycanites Desert Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	forestmobs{1.15.1.2 - MC 1.10.2} [Lycanites Forest Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	freshwatermobs{1.15.1.2 - MC 1.10.2} [Lycanites Freshwater Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	infernomobs{1.15.1.2 - MC 1.10.2} [Lycanites Inferno Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	junglemobs{1.15.1.2 - MC 1.10.2} [Lycanites Jungle Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	mountainmobs{1.15.1.2 - MC 1.10.2} [Lycanites Mountain Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	plainsmobs{1.15.1.2 - MC 1.10.2} [Lycanites Plains Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	saltwatermobs{1.15.1.2 - MC 1.10.2} [Lycanites Saltwater Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	shadowmobs{1.15.1.2 - MC 1.10.2} [Lycanites Shadow Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	swampmobs{1.15.1.2 - MC 1.10.2} [Lycanites Swamp Mobs] (LycanitesMobsComplete 1.15.1.2 [1.10.2].jar) 
+	UCH	malisiscore{1.9.4-4.1.1} [MalisisCore] (malisiscore-1.9.4-4.1.1.jar) 
+	UCH	malisisdoors{1.9.4-5.0.4} [MalisisDoors] (malisisdoors-1.9.4-5.0.4.jar) 
+	UCH	Mekanism{9.2.0} [Mekanism] (Mekanism-1.10.2-9.2.0.292.jar) 
+	UCH	MekanismGenerators{9.2.0} [MekanismGenerators] (MekanismGenerators-1.10.2-9.2.0.292.jar) 
+	UCH	MekanismTools{9.2.0} [MekanismTools] (MekanismTools-1.10.2-9.2.0.292.jar) 
+	UCH	testdummy{1.11} [MmmMmmMmmMmm] (MmmMmmMmmMmm-1.11.jar) 
+	UCH	moarsigns{3.2.0} [MoarSigns] (MoarSigns-1.9.4-3.2.0.jar) 
+	UCH	modernmetals{0.11.0} [Modern Metals] (ModernMetals-0.11.0.jar) 
+	UCH	modtweaker{2.0.1} [Mod Tweaker] (ModTweaker2-2.0.1.jar) 
+	UCH	Morpheus{1.10.2-3.1.7} [Morpheus] (Morpheus-1.10.2-3.1.7.jar) 
+	UCH	mousetweaks{2.6.4} [Mouse Tweaks] (MouseTweaks-2.6.4-mc1.10.2.jar) 
+	UCH	openglasses{1.4} [OC Glasses] (OpenGlasses-1.4.jar) 
+	UCH	harvestcraft{1.9.4-pre} [Pam's HarvestCraft] (Pam's HarvestCraft 1.9.4-1.10.2b.jar) 
+	UCH	StellarAPI{0.5.4.1.3} [Stellar API] (Stellar API-0.5.4.1.3.jar) 
+	UCH	Photoptics{0.5.1.3.4} [Photoptics] (Photoptics-0.5.1.3.4.jar) 
+	UCH	playerrugs{1.9.4-1.3.2} [Player Rugs] (PlayerRugs-1.9.4-1.3.2.jar) 
+	UCH	possessed{0.1.0} [Possessed] (possessed-0.1.0.jar) 
+	UCH	progression{0.6.8} [Progression] (Progression-1.10.2-0.6.8.jar) 
+	UCH	ReAuth{3.2} [ReAuth] (ReAuth-3.2.jar) 
+	UCH	reborncore{2.7.0.33} [RebornCore] (RebornCore-1.10.2-2.7.0.33-universal.jar) 
+	UCH	reborncore-mcmultipart{2.7.0.33} [reborncore-MCMultiPart] (RebornCore-1.10.2-2.7.0.33-universal.jar) 
+	UCH	ResourceLoader{1.5.1} [Resource Loader] (ResourceLoader-MC1.9.4-1.5.1.jar) 
+	UCH	Roguelike{1.5.4} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.4.jar) 
+	UCH	roots{0.201} [Roots] (roots-1.10.2-0.201.0.jar) 
+	UCH	roughMobs{1.0} [Rough Mobs] (roughMobs1.0.7-1.10.2.jar) 
+	UCH	runesofwizardry{1.10.2-0.7.1} [Runes of Wizardry] (Runes-of-Wizardry-1.10.2-0.7.1.jar) 
+	UCH	runesofwizardry_classics{1.10.2-0.4.2} [Runes of Wizardry - Classic Dusts Pack] (RunesofWizardry-Classics-1.10.2-0.4.2.jar) 
+	UCH	SilentLib{1.0.12} [Silent Lib] (SilentLib-1.9.4-1.0.12-20.jar) 
+	UCH	scalinghealth{0.2.3} [Scaling Health] (ScalingHealth-1.9.4-0.2.3-21.jar) 
+	UCH	smedry{1.0} [Silimatics] (Silimatics-r1.0.jar) 
+	UCH	soundfilters{0.9_for_1.9} [Sound Filters] (SoundFilters-0.9_for_1.9.4.jar) 
+	UCH	SpiceOfLife{1.3.4} [The Spice of Life] (SpiceOfLife-mc1.9.4-1.3.4.jar) 
+	UCH	stacksonstacks{1.1.4} [stacksonstacks] (StacksOnStacks2-1.1.4.jar) 
+	UCH	substratum{1.8.1.0} [Substratum] (Substratum-1.10.2-1.8.1.0.jar) 
+	UCH	techreborn{1.4.2.50} [TechReborn] (TechReborn-1.10.2-1.4.2.50-universal.jar) 
+	UCH	tesla{1.2.1.49} [TESLA] (Tesla-1.10.2-1.2.1.49.jar) 
+	UCH	theoneprobe{1.1.0} [The One Probe] (theoneprobe-1.10-1.1.0.jar) 
+	UCH	thirdpersonelytra{1.0} [Third Person Elytra] (thirdpersonelytra-110.2-1.0.jar) 
+	UCH	thutcore{3.2.3} [ThutCore] (thutcore-1.9.4-3.2.3.jar) 
+	UCH	thuttech{3.0.9} [Thut's Tech] (thuttech-3.0.9.jar) 
+	UCH	topaddons{1.10.2-0.6.0} [TOP Addons] (topaddons-1.10.2-0.6.0.jar) 
+	UCH	Torcherino{4.2s} [Torcherino] (Torcherino-4.2s.jar) 
+	UCH	totemic{1.9.4-0.7.8} [Totemic] (Totemic-1.9.4-0.7.8.jar) 
+	UCH	ToughAsNails{1.0.11} [Tough As Nails] (ToughAsNails-1.9.4-1.0.11.jar) 
+	UCH	valkyrienwarfare{0.7s} [Valkyrien Warfare] (Valkyrien Warfare .8d.jar) 
+	UCH	valkyrienwarfarecombat{0.1} [Valkyrien Warfare Combat] (Valkyrien Warfare .8d.jar) 
+	UCH	valkyrienwarfarecontrol{0.3b} [Valkyrien Warfare Control] (Valkyrien Warfare .8d.jar) 
+	UCH	vampirism{1.0.0-Alpha+09-01-15-49} [Vampirism] (Vampirism-1.10.2-1.0.0-Alpha+09-01-15-49.jar) 
+	UCH	teamlapen-lib{1.0.0-Alpha+09-01-15-49} [TeamLapen Library] (Vampirism-1.10.2-1.0.0-Alpha+09-01-15-49.jar) 
+	UCH	vending{1.3.4} [vending] (vending-1.9.4-1.3.4.jar) 
+	UCH	wtfcore{1.10_BetaX} [wtfcore] (WTF-Expedition_1.10.2_Beta11.3.jar) 
+	UCH	fluidity{6.0.1.3} [Fluidity] (Fluidity-Forge-6.0.1.3.jar) 
+	UCH	zml{GRADLE:VERSION.GRADLE:BUILD} [Zen Mod Loader] (ModelMaker-r1.4.jar) 
+	UCH	UniDict{1.10.2-1.8c} [UniDict] (UniDict-1.10.2-1.8c.jar) 
+	Loaded coremods (and transformers): 
+Crafting Harmonics Core (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar)
+  org.winterblade.minecraft.harmony.asm.PotionRemovedHookTransformer
+ValkyrienWarfareBase CoreMod (Valkyrien Warfare .8d.jar)
+  ValkyrienWarfareBase.CoreMod.ValkyrienWarfareTransformer
+TANLoadingPlugin (ToughAsNails-1.9.4-1.0.11.jar)
+  toughasnails.asm.transformer.BlockCropsTransformer
+  toughasnails.asm.transformer.EntityRendererTransformer
+  toughasnails.asm.transformer.WorldTransformer
+LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  lumien.resourceloader.asm.ClassTransformer
+LoadingHook (Mekanism-1.10.2-9.2.0.292.jar)
+  
+EnderCorePlugin (EnderCore-1.10.2-0.4.1.54-beta.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+MalisisCorePlugin (malisiscore-1.9.4-4.1.1.jar)
+  net.malisis.core.util.chunkcollision.ChunkCollisionTransformer
+  net.malisis.core.util.chunkblock.ChunkBlockTransformer
+  net.malisis.core.renderer.transformer.MalisisRendererTransformer
+  net.malisis.core.renderer.icon.asm.TextureMapTransformer
+  net.malisis.core.util.clientnotif.ClientNotifTransformer
+DepLoader (BrandonsCore-1.10.2-2.1.0.40-universal.jar)
+  
+LoadingPlugin (Bloodmoon-MC1.9.4-1.4.1.jar)
+  lumien.bloodmoon.asm.ClassTransformer
+Chiseled Me ASM (Chiseled-Me-1.0.jar)
+  necauqua.mods.cm.asm.Plugin
+llibrary (llibrary-1.5.1-1.10.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+ProgressionTransformer (Progression-1.10.2-0.6.8.jar)
+  joshie.progression.asm.ProgressionTransformer
+AppleCore (AppleCore-mc1.10.2-2.0.1.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+LoadingPlugin (Quark-r1.0-55.jar)
+  vazkii.quark.base.asm.ClassTransformer
+FMLPlugin (InventoryTweaks-1.61-58.jar)
+  invtweaks.forge.asm.ContainerTransformer
+SHLoadingPlugin (ScalingHealth-1.9.4-0.2.3-21.jar)
+  net.silentchaos512.scalinghealth.asm.SHClassTransformer
+TransformerLoader (OpenComputers-MC1.10.2-1.6.0.3-rc.1.jar)
+  li.cil.oc.common.asm.ClassTransformer
+ValkyrienWarfareBase Mod Compatibility Hack (VW Mod Compatibility Hack.jar)
+  ValkyrienWarfareBase.CoreMod.CompiledHack.ValkyrienWarfareTransformerHack
+CCLCorePlugin (CodeChickenLib-1.10.2-2.2.3.73-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.RenderHookTransformer
+dsurroundcore_unofficial (DynamicSurroundingsUnofficial-1.10.2-3.0.6.1BETA.jar)
+  org.blockartistry.mod.DynSurround.asm.Transformer
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.2.46' Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerTools (Enabled/Not Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- TinkerMaterials (Enabled/Forced)
+
+	EnderIO: No known problems detected.
+	Detailed RF API diagnostics:
+                  * RF API class 'EnergyStorage' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/EnergyStorage.class
+                  * RF API class 'IEnergyConnection' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyConnection.class
+                  * RF API class 'IEnergyContainerItem' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyContainerItem.class
+                  * RF API class 'IEnergyHandler' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyHandler.class
+                  * RF API class 'IEnergyProvider' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyProvider.class
+                  * RF API class 'IEnergyReceiver' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyReceiver.class
+                  * RF API class 'IEnergyStorage' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/IEnergyStorage.class
+                  * RF API class 'ItemEnergyContainer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/ItemEnergyContainer.class
+                  * RF API class 'TileEnergyHandler' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/TileEnergyHandler.class
+                  * RF API class 'TileEnergyHandler' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.0.40-universal.jar!/cofh/api/energy/TileEnergyHandler.class
