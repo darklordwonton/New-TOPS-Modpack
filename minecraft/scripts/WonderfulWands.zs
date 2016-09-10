@@ -114,7 +114,7 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 
 	//Death
 	recipes.removeShaped(<wonderfulwands:wand_death>);
-	recipes.addShaped(<wonderfulwands:wand_death:64>, [[<evilcraft:garmonbozia>,pureAmethyst,<evilcraft:garmonbozia>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakenedCore>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_death:64>, [[<evilcraft:garmonbozia>,pureAmethyst,<evilcraft:garmonbozia>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakened_core>,null]]);
 	recipes.addShapeless(<wonderfulwands:wand_death>, [<wonderfulwands:wand_death>.anyDamage().marked("wand"), deathOrb, deathOrb], function(output, inputs, crafting) {
   return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 });
@@ -186,7 +186,7 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 
 	//Healing
 	recipes.removeShaped(<wonderfulwands:wand_healing>);
-	recipes.addShaped(<wonderfulwands:wand_healing:64>, [[<botania:manaResource:14>,pureEmerald,<botania:manaResource:14>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakenedCore>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_healing:64>, [[<botania:manaResource:14>,pureEmerald,<botania:manaResource:14>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakened_core>,null]]);
 	recipes.addShapeless(<wonderfulwands:wand_healing>, [<wonderfulwands:wand_healing>.anyDamage().marked("wand"), lifeOrb, lifeOrb], function(output, inputs, crafting) {
   return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 });
@@ -253,7 +253,7 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 
 	//Teleportation
 	recipes.removeShaped(<wonderfulwands:wand_teleportation>);
-	recipes.addShaped(<wonderfulwands:wand_teleportation:64>, [[<botania:enderEyeBlock>,pureCitrine,<botania:enderEyeBlock>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakenedCore>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_teleportation:64>, [[<botania:enderEyeBlock>,pureCitrine,<botania:enderEyeBlock>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakened_core>,null]]);
 	recipes.addShapeless(<wonderfulwands:wand_teleportation>, [<wonderfulwands:wand_teleportation>.anyDamage().marked("wand"), airOrb, airOrb], function(output, inputs, crafting) {
   return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 });
@@ -364,8 +364,8 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 
 	//Bridging
 	recipes.removeShaped(<wonderfulwands:wand_bridge>);
-	recipes.addShaped(<wonderfulwands:wand_bridge:64>, [[<botania:rune:0>,flawlessAgate,<botania:rune:1>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:wyvernCore>,null]]);
-	recipes.addShaped(<wonderfulwands:wand_bridge:64>, [[<bloodmagic:ItemComponent:0>,flawlessAgate,<bloodmagic:ItemComponent:1>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:wyvernCore>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_bridge:64>, [[<botania:rune:0>,flawlessAgate,<botania:rune:1>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:wyvern_core>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_bridge:64>, [[<bloodmagic:ItemComponent:0>,flawlessAgate,<bloodmagic:ItemComponent:1>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:wyvern_core>,null]]);
 	recipes.addShapeless(<wonderfulwands:wand_bridge>, [<wonderfulwands:wand_bridge>.anyDamage().marked("wand"), earthOrb, earthOrb], function(output, inputs, crafting) {
   return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 });
@@ -476,7 +476,7 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 		
 	//Tunneling
 		recipes.removeShaped(<wonderfulwands:wand_tunneling>);
-		recipes.addShaped(<wonderfulwands:wand_tunneling:64>, [[<draconicevolution:draconicPick>,pureSerendibite,<draconicevolution:draconicPick>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakenedCore>,null]]);
+		recipes.addShaped(<wonderfulwands:wand_tunneling:64>, [[<draconicevolution:draconic_pick>,pureSerendibite,<draconicevolution:draconic_pick>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakened_core>,null]]);
 		recipes.addShapeless(<wonderfulwands:wand_tunneling>, [<wonderfulwands:wand_tunneling>.anyDamage().marked("wand"), darkOrb, darkOrb], function(output, inputs, crafting) {
 	  return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 	});

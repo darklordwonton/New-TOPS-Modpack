@@ -55,6 +55,14 @@
                     output: "elementsofpower:magicOrb:7:8",
                 },
                 {
+                    type: "addAlchemyArray",
+                    output: "godweapons:dark_steel",
+                    with: "godweapons:demon_crystal",
+                    catalyst: "basemetals:mithril_ingot",
+                    circle: "godweapons:textures/items/demon_crystal.png",
+                    time: 100
+                },
+                {
                     type: "Botania.addManaInfusion",
                     output: "basemetals:mithril_ingot",
                     with: "basemetals:mithril_blend",
