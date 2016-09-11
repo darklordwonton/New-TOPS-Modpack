@@ -98,17 +98,18 @@ key_enchiridion.key.library:38
 key_enderio.keybind.glidertoggle:34
 key_enderio.keybind.soundlocator:38
 key_enderio.keybind.nightvision:25
+key_enderio.keybind.gogglesofrevealing:0
 key_enderio.keybind.stepassist:0
 key_enderio.keybind.speed:0
 key_enderio.keybind.jump:0
+key_enderio.keybind.top:0
 key_enderio.keybind.yetawrenchmode:21
 key_enderio.keybind.magnet:0
-key_enderio.keybind.top:0
+key_enderio.keybind.fovreset:0
 key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-key_enderio.keybind.fovreset:0
 key_Mount Ability:45
 key_Mount Inventory:0
 key_Lycanites Mobs Main Menu:34
@@ -134,6 +135,7 @@ key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
+key_key.jei.toggleCheatMode:0
 key_Baubles Inventory:48
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:0
@@ -167,7 +169,6 @@ key_key.shieldwield:200
 key_key.restoreHotbar1:203
 key_key.restoreHotbar2:208
 key_key.restoreHotbar3:205
-key_cyberware.keybinds.zoom:44
 key_cyberware.keybinds.menu:19
 key_key.materialCosts:56
 key_key.clipboardPaste:210
