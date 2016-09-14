@@ -81,7 +81,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -92,6 +91,7 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
+key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.openSigilHolding:35
 key_cos.key.openCosArmorInventory:52
 key_enchiridion.key.library:38
@@ -125,10 +125,6 @@ key_key.photoptics.zoomin:13
 key_key.photoptics.zoomout:12
 key_key.photoptics.observe:45:SHIFT
 key_Stop Possessing:144
-key_Flying Vehicle Up:34
-key_Flying Vehicle Down:46
-key_Flying Vehicle Down Slow:47
-key_Flying Vehicle Up Fast:48
 key_keys.vampirism.action:49
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:51
