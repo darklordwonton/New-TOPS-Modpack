@@ -1,0 +1,2 @@
+recipes.removeShaped(<toughasnails:thermometer>);
+recipes.addShaped(<toughasnails:thermometer>,[[<ore:gemQuartz>,<ore:gemDiamond>,<ore:gemQuartz>],[<ore:gemDiamond>,<techreborn:dynamicCell>.withTag({Fluid: {FluidName: "mercury", Amount: 1000}}),<ore:gemDiamond>],[<ore:gemQuartz>,<ore:gemDiamond>,<ore:gemQuartz>]]);
