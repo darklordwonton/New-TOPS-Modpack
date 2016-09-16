@@ -1,0 +1,2 @@
+recipes.removeShaped(<immersiveengineering:stoneDecoration:1>);
+recipes.addShaped(<immersiveengineering:stoneDecoration:1>,[[<ore:ingotLumium>,<ore:ingotBrick>,<ore:plateBrass>],[<ore:ingotBrickNether>,<ore:dustBlaze>,<ore:ingotBrickNether>],[<ore:plateBrass>,<ore:ingotBrick>,<ore:ingotLumium>]]);

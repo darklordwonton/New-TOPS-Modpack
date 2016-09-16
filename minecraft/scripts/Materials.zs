@@ -62,9 +62,15 @@
 	var flawlessDiamond = <elementsofpower:gemstone:8>.withTag({quality:3}).onlyWithTag({quality:3});
 	var pureDiamond = <elementsofpower:gemstone:8>.withTag({quality:4}).onlyWithTag({quality:4});
 
+//Immersive Engineering
+mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mithril_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:6>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<ore:slimeballBlue>,<ore:gemSerendibite>], "Alloying");
+
 //Miscelaneous
 recipes.removeShaped(<substratum:mortar>);
-recipes.addShaped(<substratum:mortar>, [[null,null,<ore:ingotMithril>],[null,smoothDiamond,null],[null,<ore:blockMithril>,null]]);
+recipes.removeShaped(<runesofwizardry:pestle>);
+recipes.addShaped(<runesofwizardry:pestle>, [[null,null,<ore:ingotMithril>],[null,smoothDiamond,null],[null,<ore:blockMithril>,null]]);
 
 //Fixing Iridium Alloy Ingot Recipe
 recipes.removeShaped(<techreborn:ingot:22>);
@@ -108,6 +114,7 @@ recipes.remove(<modernmetals:tungsten_plate>);
 recipes.remove(<modernmetals:uranium_plate>);
 recipes.remove(<modernmetals:zirconium_plate>);
 recipes.remove(<substratum:plate:*>);
+recipes.addShapeless(<substratum:plate:1>,[<immersiveengineering:tool:0>,<ore:blockGold>]);
 
 //Dusts
 recipes.removeShapeless(<modernmetals:galvanizedsteel_blend>);
@@ -140,64 +147,64 @@ recipes.addShaped(<godweapons:demon_crystal>,[[<evilcraft:darkPowerGem>,<bloodma
 
 //Gems To Spelldust
 	//Ruby
-	recipes.addShapeless(<elementsofpower:spelldust:0>,[roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:0>,[commonRuby, commonRuby,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:0>,[smoothRuby,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:0> * 8,[flawlessRuby,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:0> * 64,[pureRuby,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:0>,[roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,roughRuby,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:0>,[commonRuby, commonRuby,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:0>,[smoothRuby,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:0> * 8,[flawlessRuby,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:0> * 64,[pureRuby,<runesofwizardry:pestle>]);
 	
 	//Sapphire
-	recipes.addShapeless(<elementsofpower:spelldust:1>,[roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:1>,[commonSapphire, commonSapphire,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:1>,[smoothSapphire,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:1> * 8,[flawlessSapphire,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:1> * 64,[pureSapphire,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:1>,[roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,roughSapphire,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:1>,[commonSapphire, commonSapphire,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:1>,[smoothSapphire,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:1> * 8,[flawlessSapphire,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:1> * 64,[pureSapphire,<runesofwizardry:pestle>]);
 	
 	//Citrine
-	recipes.addShapeless(<elementsofpower:spelldust:2>,[roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:2>,[commonCitrine, commonCitrine,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:2>,[smoothCitrine,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:2> * 8,[flawlessCitrine,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:2> * 64,[pureCitrine,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:2>,[roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,roughCitrine,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:2>,[commonCitrine, commonCitrine,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:2>,[smoothCitrine,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:2> * 8,[flawlessCitrine,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:2> * 64,[pureCitrine,<runesofwizardry:pestle>]);
 	
 	//Agate
-	recipes.addShapeless(<elementsofpower:spelldust:3>,[roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:3>,[commonAgate, commonAgate,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:3>,[smoothAgate,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:3> * 8,[flawlessAgate,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:3> * 64,[pureAgate,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:3>,[roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,roughAgate,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:3>,[commonAgate, commonAgate,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:3>,[smoothAgate,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:3> * 8,[flawlessAgate,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:3> * 64,[pureAgate,<runesofwizardry:pestle>]);
 	
 	//Quartz
-	recipes.addShapeless(<elementsofpower:spelldust:4>,[roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:4>,[commonQuartz, commonQuartz,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:4>,[smoothQuartz,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:4> * 8,[flawlessQuartz,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:4> * 64,[pureQuartz,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:4>,[roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,roughQuartz,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:4>,[commonQuartz, commonQuartz,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:4>,[smoothQuartz,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:4> * 8,[flawlessQuartz,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:4> * 64,[pureQuartz,<runesofwizardry:pestle>]);
 	
 	//Serendibite
-	recipes.addShapeless(<elementsofpower:spelldust:5>,[roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:5>,[commonSerendibite, commonSerendibite,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:5>,[smoothSerendibite,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:5> * 8,[flawlessSerendibite,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:5> * 64,[pureSerendibite,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:5>,[roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,roughSerendibite,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:5>,[commonSerendibite, commonSerendibite,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:5>,[smoothSerendibite,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:5> * 8,[flawlessSerendibite,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:5> * 64,[pureSerendibite,<runesofwizardry:pestle>]);
 	
 	//Emerald
-	recipes.addShapeless(<elementsofpower:spelldust:6>,[roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:6>,[commonEmerald, commonEmerald,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:6>,[smoothEmerald,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:6> * 8,[flawlessEmerald,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:6> * 64,[pureEmerald,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:6>,[roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,roughEmerald,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:6>,[commonEmerald, commonEmerald,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:6>,[smoothEmerald,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:6> * 8,[flawlessEmerald,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:6> * 64,[pureEmerald,<runesofwizardry:pestle>]);
 	
 	//Amethyst
-	recipes.addShapeless(<elementsofpower:spelldust:7>,[roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:7>,[commonAmethyst, commonAmethyst,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:7>,[smoothAmethyst,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:7> * 8,[flawlessAmethyst,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:7> * 64,[pureAmethyst,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:7>,[roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,roughAmethyst,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:7>,[commonAmethyst, commonAmethyst,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:7>,[smoothAmethyst,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:7> * 8,[flawlessAmethyst,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:7> * 64,[pureAmethyst,<runesofwizardry:pestle>]);
 	
 	//Diamond
-	recipes.addShapeless(<elementsofpower:spelldust:8>,[roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:8>,[commonDiamond, commonDiamond,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:8>,[smoothDiamond,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:8> * 8,[flawlessDiamond,<substratum:mortar>]);
-	recipes.addShapeless(<elementsofpower:spelldust:8> * 64,[pureDiamond,<substratum:mortar>]);
+	recipes.addShapeless(<elementsofpower:spelldust:8>,[roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,roughDiamond,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:8>,[commonDiamond, commonDiamond,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:8>,[smoothDiamond,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:8> * 8,[flawlessDiamond,<runesofwizardry:pestle>]);
+	recipes.addShapeless(<elementsofpower:spelldust:8> * 64,[pureDiamond,<runesofwizardry:pestle>]);
