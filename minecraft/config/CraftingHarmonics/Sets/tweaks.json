@@ -24,6 +24,15 @@
                     drainRate: 50,
                 },
                 {
+					type: "addBloodAltarRecipe",
+					output: "evilcraft:darkGem",
+					with: ["elementsofpower:gemstone:7"],
+                    minTier: 3,
+                    lpCost: 5000,
+                    consumeRate: 15,
+                    drainRate: 10,
+                },
+                {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:0",
                     output: "elementsofpower:magicOrb:0:2",
