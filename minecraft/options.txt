@@ -183,8 +183,6 @@ key_Mekanism Armor Mode Switch:40
 key_Mekanism Voice:22
 key_key.dialerModeChange.name:50
 key_keys.techreborn.config:25
-key_key.toggleLiquids:27
-key_key.toggleVisible:47
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
