@@ -23,8 +23,33 @@ recipes.addShaped(<advancedcables:super_cable> * 3,[[<ore:ingotArdite>,<ore:ingo
 //Covered Cables
 recipes.addShapeless(<advancedcables:covered_tin_cable>, [<advancedcables:tin_cable>, <ore:materialRubber>]);
 recipes.addShapeless(<advancedcables:covered_copper_cable>, [<advancedcables:copper_cable>, <ore:materialRubber>]);
-recipes.addShapeless(<advancedcables:covered_silver_cable>, [<advancedcables:silver_cable>, <ore:materialRubber>, <ore:materialRubber>]);
-recipes.addShapeless(<advancedcables:covered_gold_cable>, [<advancedcables:gold_cable>, <ore:materialRubber>, <ore:materialRubber>]);
-recipes.addShapeless(<advancedcables:covered_pink_cable>, [<advancedcables:pink_cable>, <mekanism:PlasticBlock:9>,<mekanism:PlasticBlock:9>]);
-recipes.addShapeless(<advancedcables:covered_ender_cable>, [<advancedcables:ender_cable>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>]);
-recipes.addShapeless(<advancedcables:covered_super_cable>, [<advancedcables:super_cable>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>]);
+recipes.addShapeless(<advancedcables:covered_silver_cable>, [<advancedcables:silver_cable>, <ore:materialRubber>]);
+recipes.addShapeless(<advancedcables:covered_gold_cable>, [<advancedcables:gold_cable>, <ore:materialRubber>]);
+recipes.addShapeless(<advancedcables:covered_pink_cable>, [<advancedcables:pink_cable>, <mekanism:PlasticBlock:6>]);
+recipes.addShapeless(<advancedcables:covered_ender_cable>, [<advancedcables:ender_cable>, <ore:materialRubber>, <ore:materialRubber>]);
+recipes.addShapeless(<advancedcables:covered_super_cable>, [<advancedcables:super_cable>, <ore:materialRubber>, <ore:materialRubber>, <ore:materialRubber>]);
+
+//Removing Other Cables
+recipes.remove(<techreborn:cables:*>);
+recipes.remove(<immersiveengineering:wirecoil:0>);
+recipes.remove(<immersiveengineering:wirecoil:1>);
+recipes.remove(<immersiveengineering:wirecoil:2>);
+recipes.remove(<immersiveengineering:connector:0>);
+recipes.remove(<immersiveengineering:connector:1>);
+recipes.remove(<immersiveengineering:connector:2>);
+recipes.remove(<immersiveengineering:connector:3>);
+recipes.remove(<immersiveengineering:connector:4>);
+recipes.remove(<immersiveengineering:connector:5>);
+recipes.remove(<immersiveengineering:material:20>);
+recipes.remove(<immersiveengineering:material:21>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:20>);
+mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:21>);
+recipes.remove(<enderio:itemPowerConduit:*>);
+recipes.remove(<mekanism:MultipartTransmitter:0>);
+recipes.remove(<mekanism:MultipartTransmitter:1>);
+recipes.remove(<mekanism:MultipartTransmitter:2>);
+recipes.remove(<mekanism:MultipartTransmitter:3>);
+
+//Disabling Unbalanced Transmition Methods
+recipes.remove(<mekanism:MachineBlock3>);
+recipes.remove(<enderio:blockTransceiver>);
