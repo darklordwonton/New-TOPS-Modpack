@@ -35,42 +35,42 @@
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:0",
-                    output: "elementsofpower:magicOrb:0:2",
+                    output: "elementsofpower:magicOrb:0:4",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:1",
-                    output: "elementsofpower:magicOrb:1:2",
+                    output: "elementsofpower:magicOrb:1:4",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:2",
-                    output: "elementsofpower:magicOrb:2:2",
+                    output: "elementsofpower:magicOrb:2:4",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:3",
-                    output: "elementsofpower:magicOrb:3:2",
+                    output: "elementsofpower:magicOrb:3:4",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:4",
-                    output: "elementsofpower:magicOrb:4:1",
+                    output: "elementsofpower:magicOrb:4:2",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:5",
-                    output: "elementsofpower:magicOrb:5:4",
+                    output: "elementsofpower:magicOrb:5:8",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:6",
-                    output: "elementsofpower:magicOrb:6:1",
+                    output: "elementsofpower:magicOrb:6:2",
                 },
                 {
                     type: "AbyssalCraft.addTransmutation",
                     with: "elementsofpower:spelldust:7",
-                    output: "elementsofpower:magicOrb:7:8",
+                    output: "elementsofpower:magicOrb:7:16",
                 },
                 {
                     type: "addAlchemyArray",
