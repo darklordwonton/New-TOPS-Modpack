@@ -118,19 +118,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:invar_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 20,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:coldiron_axe",
                     "weight": 3,
                     "functions": [
@@ -237,19 +224,6 @@
                         }
                     ]
                 },
-                {
-                    "type": "item",
-                    "name": "basemetals:coldiron_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 20,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
                 {
                     "type": "item",
                     "name": "basemetals:mithril_axe",
@@ -360,19 +334,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:mithril_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 20,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:aquarium_axe",
                     "weight": 3,
                     "functions": [
@@ -481,70 +442,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:aquarium_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 20,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_axe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_boots",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_chestplate",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_helmet",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_hoe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_leggings",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_pickaxe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_shovel",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_sword",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:starsteel_axe",
                     "weight": 3
                 },
@@ -588,11 +485,6 @@
                     "name": "basemetals:starsteel_sword",
                     "weight": 3
                 },
-                {
-                    "type": "item",
-                    "name": "basemetals:starsteel_crackhammer",
-                    "weight": 3
-                }
             ]
         },
         {
@@ -655,20 +547,6 @@
                             "count": {
                                 "min": 1,
                                 "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_ingot",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
                             }
                         }
                     ]

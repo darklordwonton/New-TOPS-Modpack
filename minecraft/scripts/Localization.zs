@@ -1,3 +1,5 @@
+game.setLocalization("en_US","item.netherquartz.name","Quartz");
+game.setLocalization("en_US","tile.netherquartz.name","Quartz Ore");
 game.setLocalization("en_US","item.dark_steel.name","Black Steel");
 game.setLocalization("en_US","item.wonderfulwands_wand_fire.name","Wand of Meteors");
 game.setLocalization("en_US","item.elementsofpower.creative.name","Rainbow Diamond");

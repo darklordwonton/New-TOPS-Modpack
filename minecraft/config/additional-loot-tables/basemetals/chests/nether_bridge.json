@@ -118,19 +118,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:iron_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:bronze_axe",
                     "weight": 3,
                     "functions": [
@@ -239,140 +226,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:bronze_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_axe",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_boots",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_chestplate",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_helmet",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_hoe",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_leggings",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_pickaxe",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_shovel",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_sword",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_crackhammer",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": 10,
-                            "treasure": true
-                        }
-                    ]
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:invar_axe",
                     "weight": 3
                 },
@@ -418,12 +271,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:invar_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:coldiron_axe",
                     "weight": 3
                 },
@@ -467,63 +314,6 @@
                     "name": "basemetals:coldiron_sword",
                     "weight": 3
                 },
-                {
-                    "type": "item",
-                    "name": "basemetals:coldiron_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_axe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_boots",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_chestplate",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_helmet",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_hoe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_leggings",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_pickaxe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_shovel",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_sword",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:mithril_crackhammer",
-                    "weight": 3
-                },
-                
                 {
                     "type": "item",
                     "name": "basemetals:aquarium_axe",
@@ -614,20 +404,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:mithril_ingot",
-                    "weight": 20,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
                     "name": "basemetals:platinum_ingot",
                     "weight": 10,
                     "functions": [
@@ -636,34 +412,6 @@
                             "count": {
                                 "min": 1,
                                 "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:adamantine_ingot",
-                    "weight": 10,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:starsteel_ingot",
-                    "weight": 5,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 4
                             }
                         }
                     ]

@@ -55,12 +55,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:iron_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:tin_axe",
                     "weight": 3
                 },
@@ -104,12 +98,6 @@
                     "name": "basemetals:tin_sword",
                     "weight": 3
                 },
-                {
-                    "type": "item",
-                    "name": "basemetals:tin_crackhammer",
-                    "weight": 3
-                },
-                
                 {
                     "type": "item",
                     "name": "basemetals:copper_axe",
@@ -157,12 +145,6 @@
                 },
                 {
                     "type": "item",
-                    "name": "basemetals:copper_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
                     "name": "basemetals:bronze_axe",
                     "weight": 3
                 },
@@ -204,62 +186,6 @@
                 {
                     "type": "item",
                     "name": "basemetals:bronze_sword",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:bronze_crackhammer",
-                    "weight": 3
-                },
-                
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_axe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_boots",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_chestplate",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_helmet",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_hoe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_leggings",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_pickaxe",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_shovel",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_sword",
-                    "weight": 3
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:steel_crackhammer",
                     "weight": 3
                 }
             ]
@@ -335,34 +261,6 @@
                 {
                     "type": "item",
                     "name": "basemetals:copper_ingot",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:brass_ingot",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 6
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "basemetals:bronze_ingot",
                     "weight": 3,
                     "functions": [
                         {
