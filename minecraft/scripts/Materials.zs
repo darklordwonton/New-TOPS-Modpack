@@ -66,7 +66,7 @@
 //Immersive Engineering
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mithril_ingot>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:6>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<ore:slimeballBlue>,<ore:gemSerendibite>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<godweapons:dark_steel_ore>,<ore:gemSerendibite>], "Alloying");
 
 //Miscelaneous
 recipes.removeShaped(<substratum:mortar>);
@@ -115,6 +115,8 @@ recipes.remove(<modernmetals:tungsten_plate>);
 recipes.remove(<modernmetals:uranium_plate>);
 recipes.remove(<modernmetals:zirconium_plate>);
 recipes.remove(<substratum:plate:*>);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:adamantine_plate>);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:iridium_plate>);
 recipes.addShapeless(<substratum:plate:1>,[<immersiveengineering:tool:0>,<ore:blockGold>]);
 
 //Dusts
@@ -125,8 +127,12 @@ recipes.removeShapeless(<basemetals:steel_blend>);
 recipes.removeShapeless(<basemetals:mercury_ingot>);
 recipes.removeShapeless(<basemetals:mithril_blend>);
 recipes.addShaped(<basemetals:mithril_blend> * 2, [[<elementsofpower:magicOrb:0>,<elementsofpower:magicOrb:1>,<elementsofpower:magicOrb:2>],[<elementsofpower:magicOrb:3>,<ore:ingotElectrum>,<elementsofpower:magicOrb:4>],[<elementsofpower:magicOrb:5>,<elementsofpower:magicOrb:6>,<elementsofpower:magicOrb:7>]]);
+recipes.addShapeless(<basemetals:adamantine_powder>,[<ore:dustTitanium>,<ore:dustStarsteel>,<ore:dustMercury>,<elementsofpower:spelldust:8>,<godweapons:soul_crystal>,<ore:dustDraconium>,<ore:dustIridium>,<ore:dustAquarium>,<ore:dustEnderium>]);
 
 //Metals That Require Special Processing
+mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:adamantine_ingot>);
+furnace.remove(<basemetals:adamantine_ingot>);
+furnace.remove(<basemetals:adamantine_nugget>);
 furnace.remove(<modernmetals:titanium_ingot>);
 furnace.remove(<modernmetals:tungsten_ingot>);
 furnace.remove(<basemetals:mercury_ingot>);
@@ -135,16 +141,24 @@ furnace.remove(<basemetals:mithril_ingot>, <basemetals:mithril_blend>);
 furnace.remove(<bigreactors:ingotMetals:0>);
 furnace.remove(<bigreactors:ingotMetals:1>);
 furnace.remove(<bigreactors:ingotMetals:3>);
-recipes.removeShaped(<bigreactors:ingotMetals:0>);
-recipes.removeShapeless(<bigreactors:ingotMetals:1>);
-recipes.removeShaped(<bigreactors:ingotMetals:3>);
+recipes.remove(<basemetals:adamantine_block>);
+recipes.remove(<basemetals:adamantine_ingot>);
+recipes.remove(<basemetals:adamantine_nugget>);
+recipes.remove(<bigreactors:ingotMetals:0>);
+recipes.remove(<bigreactors:ingotMetals:1>);
+recipes.remove(<bigreactors:ingotMetals:3>);
 recipes.addShaped(<modernmetals:uranium_horsearmor>, [[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
 recipes.addShaped(<techreborn:part:21>,[[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
 recipes.addShaped(<techreborn:part:22>,[[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>]]);
 
 //Miscellanious Magic Items
+recipes.remove(<evilcraft:promise:2>);
+recipes.addShapeless(<evilcraft:promise:2>,[<ore:materialBowlOfPromises2>,<evilcraft:promiseAcceptor:2>,<abyssalcraft:abyssalnomicon>.reuse()]);
 recipes.removeShaped(<godweapons:demon_crystal>);
 recipes.addShaped(<godweapons:demon_crystal>,[[<evilcraft:darkPowerGem>,<bloodmagic:ItemDemonCrystal:1>,<evilcraft:darkPowerGem>],[<bloodmagic:ItemDemonCrystal:2>,<bloodmagic:BlockDemonCrystal:0>,<bloodmagic:ItemDemonCrystal:3>],[<evilcraft:darkPowerGem>,<bloodmagic:ItemDemonCrystal:4>,<evilcraft:darkPowerGem>]]);
+recipes.remove(<godweapons:soul_crystal>);
+recipes.addShaped(<godweapons:soul_crystal>,[[<godweapons:soul>,<ore:netherStar>,<godweapons:soul>],[<elementsofpower:spelldust:6>,<godweapons:crystal>,<elementsofpower:spelldust:7>],[<godweapons:soul>,<ore:eternalLifeEssence>,<godweapons:soul>]]);
+recipes.addShaped(<godweapons:soul_crystal>,[[<godweapons:soul>,<ore:netherStar>,<godweapons:soul>],[<elementsofpower:spelldust:6>,<godweapons:crystal>,<elementsofpower:spelldust:7>],[<godweapons:soul>,<evilcraft:garmonbozia>,<godweapons:soul>]]);
 
 //Gems To Spelldust
 	//Ruby

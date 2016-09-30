@@ -151,6 +151,31 @@
                 	euPerTick: 30
 				},
 				{
+					type: "TechReborn.addImplosionCompressor",
+               		what: ["basemetals:adamantine_ingot:0:1"],
+               	 	with: ["basemetals:adamantine_powder:0:4","techreborn:nuke:0:1"],
+               	 	ticks: 80,
+                	euPerTick: 256
+				},
+				{
+					type: "TechReborn.addImplosionCompressor",
+               		what: ["basemetals:adamantine_plate:0:1"],
+               	 	with: ["basemetals:adamantine_ingot:0:8","techreborn:nuke:0:8"],
+               	 	ticks: 320,
+                	euPerTick: 256
+				},
+				{
+					type: "TechReborn.addImplosionCompressor",
+               		what: ["basemetals:adamantine_block:0:1"],
+               	 	with: ["basemetals:adamantine_plate:0:32","techreborn:nuke:0:64"],
+               	 	ticks: 1280,
+                	euPerTick: 256
+				},
+                {
+                    type: "removeSmelteryTableCast",
+                    what: "modernmetals:iridium_plate"
+                },
+				{
                     type: "show",
                     what: "bigreactors:ingotMetals:0"
 				}

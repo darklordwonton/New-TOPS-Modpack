@@ -81,7 +81,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -92,6 +91,7 @@ key_quark.emote.point:44
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
+key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.openSigilHolding:35
 key_cos.key.openCosArmorInventory:52
 key_key.cannongui:27
