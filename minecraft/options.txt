@@ -87,17 +87,17 @@ key_quark.emote.yes:0
 key_quark.emote.no:0
 key_quark.emote.cheer:0
 key_quark.emote.clap:0
-key_quark.emote.point:44
+key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
 key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.openSigilHolding:35
-key_cos.key.openCosArmorInventory:52
-key_key.cannongui:27
-key_enchiridion.key.library:38
+key_cos.key.openCosArmorInventory:51
+key_key.cannongui:26
+key_enchiridion.key.library:0
 key_enderio.keybind.glidertoggle:34
-key_enderio.keybind.soundlocator:38
+key_enderio.keybind.soundlocator:0
 key_enderio.keybind.nightvision:25
 key_enderio.keybind.gogglesofrevealing:0
 key_enderio.keybind.stepassist:0
@@ -111,6 +111,8 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
+key_Open Backpack:0
+key_Equip/Unequip Backpack:47
 key_Mount Ability:45
 key_Mount Inventory:0
 key_Lycanites Mobs Main Menu:34
@@ -125,11 +127,11 @@ key_key.stellarapi.focusgui.description:22
 key_key.photoptics.zoomin:13
 key_key.photoptics.zoomout:12
 key_key.photoptics.observe:45:SHIFT
-key_Stop Possessing:144
-key_keys.vampirism.action:49
+key_Stop Possessing:46
+key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
-key_keys.vampirism.select_skills:51
-key_keys.vampirism.vision:23
+key_keys.vampirism.select_skills:25
+key_keys.vampirism.vision:49
 key_keys.vampirism.blood_potion_crafting:48:CONTROL
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -139,8 +141,8 @@ key_key.jei.recipeBack:14
 key_key.jei.toggleCheatMode:0
 key_Baubles Inventory:48
 key_bbw.key.mode:50
-key_bbw.key.fluidmode:37
-key_key.charset.backpackOpen:46
+key_bbw.key.fluidmode:33
+key_key.charset.backpackOpen:38
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -166,25 +168,25 @@ key_mod.chiselsandbits.other.pickbit:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_key.shieldwield:200
-key_key.restoreHotbar1:203
-key_key.restoreHotbar2:208
-key_key.restoreHotbar3:205
+key_key.shieldwield:14
+key_key.restoreHotbar1:71
+key_key.restoreHotbar2:72
+key_key.restoreHotbar3:73
 key_cyberware.keybinds.menu:19
 key_key.materialCosts:56
 key_key.clipboardPaste:210
 key_key.placeItem:25
-key_key.toolConfig:26
+key_key.toolConfig:27
 key_key.toolProfileChange:43
-key_Toggle Farting:25
-key_Open Exalted Crafter:46
+key_Toggle Farting:0
+key_Open Exalted Crafter:0
 key_invtweaks.key.sort:19
-key_Mekanism Item Mode Switch:39
-key_Mekanism Armor Mode Switch:40
+key_Mekanism Item Mode Switch:50
+key_Mekanism Armor Mode Switch:33
 key_Mekanism Voice:22
 key_keys.techreborn.config:25
 key_key.dialerModeChange.name:50
-key_key.toggleLiquids:38
+key_key.toggleLiquids:0
 key_key.toggleVisible:0
 soundCategory_master:1.0
 soundCategory_music:0.0
