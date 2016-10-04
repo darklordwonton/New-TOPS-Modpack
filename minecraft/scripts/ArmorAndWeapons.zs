@@ -8,18 +8,39 @@ recipes.remove(<possessed:possessive_helmet>);
 mods.abyssalcraft.InfusionRitual.addRitual("ac.ritual.possession", 4, -1, 50000, true, <possessed:possessive_helmet>, <wonderfulwands:hat_witch>, [<modernmetals:tantalum_horsearmor>,<godweapons:fire_soul>,<godweapons:ice_soul>,<bloodmagic:ItemBloodShard:1>,<godweapons:demon_crystal>]);
 
 //Adamantine
+recipes.removeShaped(<fluidity:adamantine_helmet_probe>);
 recipes.removeShaped(<basemetals:adamantine_helmet>);
 recipes.removeShaped(<basemetals:adamantine_chestplate>);
 recipes.removeShaped(<basemetals:adamantine_leggings>);
 recipes.removeShaped(<basemetals:adamantine_boots>);
-val adamantHelm = <basemetals:adamantine_helmet>.withTag({ench:[{id:0,lvl:5},{id:4,lvl:10}],Unbreakable:1});
-val adamantChest = <basemetals:adamantine_chestplate>.withTag({ench:[{id:0,lvl:5},{id:3,lvl:10}],Unbreakable:1});
-val adamantLeg = <basemetals:adamantine_leggings>.withTag({ench:[{id:0,lvl:5},{id:1,lvl:10}],Unbreakable:1});
-val adamantBoot = <basemetals:adamantine_boots>.withTag({ench:[{id:0,lvl:5},{id:2,lvl:10}],Unbreakable:1});
+val adamantProbeHelm = <fluidity:adamantine_helmet_probe>.withTag({ench:[{id:0,lvl:5},{id:4,lvl:10}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:0.25,Operation:0,UUIDLeast:430097,UUIDMost:415564,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:158162,UUIDMost:841205,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUIDLeast:294640,UUIDMost:273050,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:20,Operation:0,UUIDLeast:787520,UUIDMost:401885,Slot:"head"}]});
+val adamantHelm = <basemetals:adamantine_helmet>.withTag({ench:[{id:0,lvl:5},{id:4,lvl:10}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:0.25,Operation:0,UUIDLeast:430097,UUIDMost:415564,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:158162,UUIDMost:841205,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:5,Operation:0,UUIDLeast:294640,UUIDMost:273050,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:20,Operation:0,UUIDLeast:787520,UUIDMost:401885,Slot:"head"}]});
+val adamantChest = <basemetals:adamantine_chestplate>.withTag({ench:[{id:0,lvl:5},{id:3,lvl:10}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:0.25,Operation:0,UUIDLeast:430097,UUIDMost:415564,Slot:"chest"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:158162,UUIDMost:841205,Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:12,Operation:0,UUIDLeast:294640,UUIDMost:273050,Slot:"chest"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:20,Operation:0,UUIDLeast:787520,UUIDMost:401885,Slot:"chest"}]});
+val adamantLeg = <basemetals:adamantine_leggings>.withTag({ench:[{id:0,lvl:5},{id:1,lvl:10}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:0.25,Operation:0,UUIDLeast:430097,UUIDMost:415564,Slot:"legs"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:158162,UUIDMost:841205,Slot:"legs"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:9,Operation:0,UUIDLeast:294640,UUIDMost:273050,Slot:"legs"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:20,Operation:0,UUIDLeast:787520,UUIDMost:401885,Slot:"legs"}]});
+val adamantBoot = <basemetals:adamantine_boots>.withTag({ench:[{id:0,lvl:5},{id:2,lvl:10}],Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:0.25,Operation:0,UUIDLeast:430097,UUIDMost:415564,Slot:"feet"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:-0.2,Operation:1,UUIDLeast:158162,UUIDMost:841205,Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUIDLeast:294640,UUIDMost:273050,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:20,Operation:0,UUIDLeast:787520,UUIDMost:401885,Slot:"feet"}]});
 recipes.addShaped(adamantHelm, [[<ore:plateAdamantine>,<ore:plateAdamantine>,<ore:plateAdamantine>],[<ore:plateAdamantine>,null,<ore:plateAdamantine>]]);
 recipes.addShaped(adamantChest, [[<ore:plateAdamantine>,null,<ore:plateAdamantine>],[<ore:plateAdamantine>,<ore:plateAdamantine>,<ore:plateAdamantine>],[<ore:plateAdamantine>,<ore:plateAdamantine>,<ore:plateAdamantine>]]);
 recipes.addShaped(adamantLeg, [[<ore:plateAdamantine>,<ore:plateAdamantine>,<ore:plateAdamantine>],[<ore:plateAdamantine>,null,<ore:plateAdamantine>],[<ore:plateAdamantine>,null,<ore:plateAdamantine>]]);
 recipes.addShaped(adamantBoot, [[<ore:plateAdamantine>,null,<ore:plateAdamantine>],[<ore:plateAdamantine>,null,<ore:plateAdamantine>]]);
+recipes.addShapeless(adamantProbeHelm,[adamantHelm,<theoneprobe:probe>]);
+
+//Star Steel
+recipes.removeShaped(<basemetals:starsteel_helmet>);
+recipes.removeShaped(<fluidity:starsteel_helmet_probe>);
+recipes.removeShaped(<basemetals:starsteel_chestplate>);
+recipes.removeShaped(<basemetals:starsteel_leggings>);
+recipes.removeShaped(<basemetals:starsteel_boots>);
+val starProbeHelm = <fluidity:starsteel_helmet_probe>.withTag({AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-0.2,Operation:1,UUIDLeast:517936,UUIDMost:727820,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.75,Operation:1,UUIDLeast:6625,UUIDMost:6729,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUIDLeast:789933,UUIDMost:777807,Slot:"head"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:0.25,Operation:1,UUIDLeast:730941,UUIDMost:995503,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:2,Operation:0,UUIDLeast:539412,UUIDMost:656419,Slot:"head"}],Unbreakable:1});
+val starHelm = <basemetals:starsteel_helmet>.withTag({AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-0.2,Operation:1,UUIDLeast:517936,UUIDMost:727820,Slot:"head"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.75,Operation:1,UUIDLeast:6625,UUIDMost:6729,Slot:"head"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUIDLeast:789933,UUIDMost:777807,Slot:"head"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:0.25,Operation:1,UUIDLeast:730941,UUIDMost:995503,Slot:"head"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:2,Operation:0,UUIDLeast:539412,UUIDMost:656419,Slot:"head"}],Unbreakable:1});
+val starChest = <basemetals:starsteel_chestplate>.withTag({AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-0.2,Operation:1,UUIDLeast:517936,UUIDMost:727820,Slot:"chest"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.75,Operation:1,UUIDLeast:6625,UUIDMost:6729,Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:8,Operation:0,UUIDLeast:789933,UUIDMost:777807,Slot:"chest"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:0.25,Operation:1,UUIDLeast:730941,UUIDMost:995503,Slot:"chest"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:2,Operation:0,UUIDLeast:539412,UUIDMost:656419,Slot:"chest"}],Unbreakable:1});
+val starLeg = <basemetals:starsteel_leggings>.withTag({AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-0.2,Operation:1,UUIDLeast:517936,UUIDMost:727820,Slot:"legs"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.75,Operation:1,UUIDLeast:6625,UUIDMost:6729,Slot:"legs"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:6,Operation:0,UUIDLeast:789933,UUIDMost:777807,Slot:"legs"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:0.25,Operation:1,UUIDLeast:730941,UUIDMost:995503,Slot:"legs"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:2,Operation:0,UUIDLeast:539412,UUIDMost:656419,Slot:"legs"}],Unbreakable:1});
+val starBoot = <basemetals:starsteel_boots>.withTag({AttributeModifiers:[{AttributeName:"generic.knockbackResistance",Name:"generic.knockbackResistance",Amount:-0.2,Operation:1,UUIDLeast:517936,UUIDMost:727820,Slot:"feet"},{AttributeName:"generic.movementSpeed",Name:"generic.movementSpeed",Amount:0.75,Operation:1,UUIDLeast:6625,UUIDMost:6729,Slot:"feet"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUIDLeast:789933,UUIDMost:777807,Slot:"feet"},{AttributeName:"generic.attackSpeed",Name:"generic.attackSpeed",Amount:0.25,Operation:1,UUIDLeast:730941,UUIDMost:995503,Slot:"feet"},{AttributeName:"generic.armorToughness",Name:"generic.armorToughness",Amount:2,Operation:0,UUIDLeast:539412,UUIDMost:656419,Slot:"feet"}],Unbreakable:1});
+recipes.addShaped(starHelm, [[<ore:plateStarsteel>,<ore:plateStarsteel>,<ore:plateStarsteel>],[<ore:plateStarsteel>,null,<ore:plateStarsteel>]]);
+recipes.addShaped(starChest, [[<ore:plateStarsteel>,null,<ore:plateStarsteel>],[<ore:plateStarsteel>,<ore:plateStarsteel>,<ore:plateStarsteel>],[<ore:plateStarsteel>,<ore:plateStarsteel>,<ore:plateStarsteel>]]);
+recipes.addShaped(starLeg, [[<ore:plateStarsteel>,<ore:plateStarsteel>,<ore:plateStarsteel>],[<ore:plateStarsteel>,null,<ore:plateStarsteel>],[<ore:plateStarsteel>,null,<ore:plateStarsteel>]]);
+recipes.addShaped(starBoot, [[<ore:plateStarsteel>,null,<ore:plateStarsteel>],[<ore:plateStarsteel>,null,<ore:plateStarsteel>]]);
+recipes.addShapeless(starProbeHelm,[starHelm,<theoneprobe:probe>]);
+
 
 //Iron
 recipes.removeShaped(<minecraft:iron_helmet>);
@@ -64,12 +85,6 @@ recipes.removeShaped(<techreborn:peridotHelmet>);
 recipes.removeShaped(<techreborn:peridotChestplate>);
 recipes.removeShaped(<techreborn:peridotLeggings>);
 recipes.removeShaped(<techreborn:peridotBoots>);
-
-//Chain Armor
-recipes.addShaped(<minecraft:chainmail_helmet>,[[<ore:bars>,<ore:ingotAluminum>,<ore:bars>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
-recipes.addShaped(<minecraft:chainmail_chestplate>,[[<ore:bars>,null,<ore:bars>],[<ore:ingotIron>,<ore:ingotAluminum>,<ore:ingotIron>],[<ore:bars>,<ore:ingotIron>,<ore:bars>]]);
-recipes.addShaped(<minecraft:chainmail_leggings>,[[<ore:bars>,<ore:ingotAluminum>,<ore:bars>],[<ore:ingotIron>,null,<ore:ingotIron>],[<ore:bars>,null,<ore:bars>]]);
-recipes.addShaped(<minecraft:chainmail_boots>,[[<ore:bars>,null,<ore:bars>],[<ore:ingotIron>,null,<ore:ingotIron>]]);
 
 //Copper
 recipes.removeShaped(<basemetals:copper_helmet>);
