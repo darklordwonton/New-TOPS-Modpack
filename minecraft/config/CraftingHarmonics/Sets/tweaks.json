@@ -7,7 +7,7 @@
             operations: [
                 {
 					type: "addBloodAltarRecipe",
-					output: "basemetals:mithril_ingot",
+					output: "base:ingot:18",
 					with: ["basemetals:mithril_blend"],
                     minTier: 1,
                     lpCost: 200,
@@ -82,7 +82,7 @@
                 },
                 {
                     type: "Botania.addManaInfusion",
-                    output: "basemetals:mithril_ingot",
+                    output: "base:ingot:18",
                     with: "basemetals:mithril_blend",
                     mana: 2000,
                 },
@@ -115,7 +115,7 @@
                 },
 				{
 					type: "TechReborn.addCentrifuge",
-                    what: ["modernmetals:uranium_crossbow:0:4","modernmetals:uranium_bolt:0:1","substratum:dustSmall:13:1"],
+                    what: ["modernmetals:uranium_crossbow:0:4","modernmetals:uranium_bolt:0:1"],
                     with: ["modernmetals:uranium_powder"],
                     ticks: 200,
                     euPerTick: 30,
@@ -130,7 +130,7 @@
 				},
 				{
                     type: "TechReborn.addIndustrialElectrolyzer",
-                    what: ["modernmetals:uranium_crossbow:0:3","modernmetals:plutonium_horsearmor:0:1","substratum:dustSmall:13:1","techreborn:dynamicCell:0:1"],
+                    what: ["modernmetals:uranium_crossbow:0:3","modernmetals:plutonium_horsearmor:0:1","techreborn:dynamicCell:0:1"],
                     with: ["bigreactors:ingotMetals:1:1"],
                     ticks: 100,
                     euPerTick: 120,

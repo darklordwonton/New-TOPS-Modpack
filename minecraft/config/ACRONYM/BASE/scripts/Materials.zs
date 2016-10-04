@@ -1,0 +1,9 @@
+mods.base.Materials.add("Platinum", 16, 15463415, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Nickel", 17, 11908789, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Mithril", 18, 16777215, true, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Steel", 19, 11584734, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Bronze", 20, 13467442, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Brass", 21, 13155394, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Lumium", 22, 16515028, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Signalum", 23, 16734464, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
+mods.base.Materials.add("Enderium", 24, 51584, false, ["NUGGET", "INGOT", "BLOCK", "DUST", "GEAR", "PLATE"]);
