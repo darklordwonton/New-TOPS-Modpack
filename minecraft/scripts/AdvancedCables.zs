@@ -11,7 +11,7 @@ recipes.addShaped(<advancedcables:copper_cable> * 6,[[<ore:ingotCopper>,<ore:ing
 recipes.addShaped(<advancedcables:silver_cable> * 6,[[<ore:ingotSilver>,<ore:ingotSilver>,<ore:ingotSilver>]]);
 recipes.addShaped(<advancedcables:gold_cable> * 6,[[<ore:ingotGold>,<ore:ingotGold>,<ore:ingotGold>]]);
 recipes.addShaped(<advancedcables:pink_cable> *6,[[<ore:dyePink>,<ore:dyePink>,<ore:dyePink>],[<ore:ingotNickel>,<ore:ingotNickel>,<ore:ingotNickel>],[<ore:dyePink>,<ore:dyePink>,<ore:dyePink>]]);
-recipes.addShaped(<advancedcables:ender_cable> * 1,[[<ore:ingotEnderium>,<ore:ingotEnderium>,<ore:ingotEnderium>]]);
+recipes.addShaped(<advancedcables:ender_cable> * 1,[[<ore:ingotVibrantAlloy>,<ore:ingotVibrantAlloy>,<ore:ingotVibrantAlloy>]]);
 recipes.addShaped(<advancedcables:optic_cable> * 1,[[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>],[<mekanism:CompressedDiamond>,roughRuby,<mekanism:CompressedDiamond>],[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>]]);
 recipes.addShaped(<advancedcables:optic_cable> * 2,[[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>],[<mekanism:CompressedDiamond>,commonRuby,<mekanism:CompressedDiamond>],[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>]]);
 recipes.addShaped(<advancedcables:optic_cable> * 4,[[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>],[<mekanism:CompressedDiamond>,smoothRuby,<mekanism:CompressedDiamond>],[<ore:blockGlassHardened>,<ore:blockGlassHardened>,<ore:blockGlassHardened>]]);

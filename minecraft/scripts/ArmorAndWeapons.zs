@@ -258,6 +258,7 @@ recipes.addShaped(<basemetals:cupronickel_boots>,[[<ore:plateCupronickel>,null,<
 recipes.removeShaped(<modernmetals:galvanizedsteel_helmet>);
 recipes.removeShaped(<modernmetals:galvanizedsteel_chestplate>);
 recipes.removeShaped(<modernmetals:galvanizedsteel_leggings>);
+recipes.removeShaped(<modernmetals:galvanizedsteel_boots>);
 recipes.addShaped(<modernmetals:galvanizedsteel_helmet>,[[<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>],[<ore:plateGalvanizedsteel>,null,<ore:plateGalvanizedsteel>]]);
 recipes.addShaped(<modernmetals:galvanizedsteel_chestplate>,[[<ore:plateGalvanizedsteel>,null,<ore:plateGalvanizedsteel>],[<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>],[<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>]]);
 recipes.addShaped(<modernmetals:galvanizedsteel_leggings>,[[<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>,<ore:plateGalvanizedsteel>],[<ore:plateGalvanizedsteel>,null,<ore:plateGalvanizedsteel>],[<ore:plateGalvanizedsteel>,null,<ore:plateGalvanizedsteel>]]);
@@ -457,3 +458,23 @@ recipes.remove(<mekanismtools:StonePaxel>);
 recipes.remove(<mekanismtools:IronPaxel>);
 recipes.remove(<mekanismtools:DiamondPaxel>);
 recipes.remove(<mekanismtools:GoldPaxel>);
+
+//Remove Crack Hammers
+recipes.remove(<modernmetals:aluminum_crackhammer>);
+recipes.remove(<modernmetals:aluminumbrass_crackhammer>);
+recipes.remove(<modernmetals:cadmium_crackhammer>);
+recipes.remove(<modernmetals:chromium_crackhammer>);
+recipes.remove(<modernmetals:galvanizedsteel_crackhammer>);
+recipes.remove(<modernmetals:iridium_crackhammer>);
+recipes.remove(<modernmetals:magnesium_crackhammer>);
+recipes.remove(<modernmetals:manganese_crackhammer>);
+recipes.remove(<modernmetals:nichrome_crackhammer>);
+recipes.remove(<modernmetals:osmium_crackhammer>);
+recipes.remove(<modernmetals:plutonium_crackhammer>);
+recipes.remove(<modernmetals:rutile_crackhammer>);
+recipes.remove(<modernmetals:stainlesssteel_crackhammer>);
+recipes.remove(<modernmetals:tantalum_crackhammer>);
+recipes.remove(<modernmetals:titanium_crackhammer>);
+recipes.remove(<modernmetals:tungsten_crackhammer>);
+recipes.remove(<modernmetals:uranium_crackhammer>);
+recipes.remove(<modernmetals:zirconium_crackhammer>);

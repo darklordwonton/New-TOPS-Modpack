@@ -7,7 +7,7 @@
             operations: [
                 {
 					type: "addBloodAltarRecipe",
-					output: "base:ingot:18",
+					output: "basemetals:mithril_ingot",
 					with: ["basemetals:mithril_blend"],
                     minTier: 1,
                     lpCost: 200,
@@ -82,7 +82,7 @@
                 },
                 {
                     type: "Botania.addManaInfusion",
-                    output: "base:ingot:18",
+                    output: "basemetals:mithril_ingot",
                     with: "basemetals:mithril_blend",
                     mana: 2000,
                 },

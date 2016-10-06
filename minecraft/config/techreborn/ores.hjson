@@ -170,36 +170,6 @@
       maxYHeight: 250
       shouldSpawn: true
     }
-    {
-      blockName: tile.techreborn.ore
-      blockNiceName: Pyrite
-      meta: 5
-      veinSize: 6
-      veinsPerChunk: 3
-      minYHeight: 10
-      maxYHeight: 250
-      shouldSpawn: true
-    }
-    {
-      blockName: tile.techreborn.ore
-      blockNiceName: Cinnabar
-      meta: 6
-      veinSize: 6
-      veinsPerChunk: 3
-      minYHeight: 10
-      maxYHeight: 250
-      shouldSpawn: true
-    }
-    {
-      blockName: tile.techreborn.ore
-      blockNiceName: Sphalerite
-      meta: 7
-      veinSize: 6
-      veinsPerChunk: 3
-      minYHeight: 10
-      maxYHeight: 250
-      shouldSpawn: true
-    }
   ]
   rubberTreeConfig:
   {

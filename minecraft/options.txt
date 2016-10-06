@@ -127,7 +127,7 @@ key_key.photoptics.observe:45:SHIFT
 key_Stop Possessing:46
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
-key_keys.vampirism.select_skills:25
+key_keys.vampirism.select_skills:52
 key_keys.vampirism.vision:49
 key_keys.vampirism.blood_potion_crafting:48:CONTROL
 key_key.jei.toggleOverlay:24:CONTROL
