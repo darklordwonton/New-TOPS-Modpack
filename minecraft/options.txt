@@ -92,7 +92,6 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
-key_BloodMagic.keybind.openSigilHolding:35
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
 key_enchiridion.key.library:0
@@ -186,6 +185,9 @@ key_keys.techreborn.config:25
 key_key.dialerModeChange.name:50
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
+key_BloodMagic.keybind.open_holding:35
+key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
+key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
