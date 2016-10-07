@@ -62,6 +62,9 @@
 	val smoothDiamond = <elementsofpower:gemstone:8>.withTag({quality:2}).onlyWithTag({quality:2});
 	val flawlessDiamond = <elementsofpower:gemstone:8>.withTag({quality:3}).onlyWithTag({quality:3});
 	val pureDiamond = <elementsofpower:gemstone:8>.withTag({quality:4}).onlyWithTag({quality:4}); 
+	
+	//Silent Gems
+	recipes.remove(<silentgems:Gem:*>);
 
 //Immersive Engineering
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mithril_ingot>);

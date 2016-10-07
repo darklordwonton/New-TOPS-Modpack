@@ -6,6 +6,15 @@
 <ore:ammoBolt>.remove(<modernmetals:uranium_bolt>);
 <ore:ingotPlutonium>.remove(<bigreactors:ingotMetals:3>);
 <ore:ingotUranium>.remove(<bigreactors:ingotMetals>);
+<ore:gemHeliodor>.add(<elementsofpower:gemstone:2>);
+<ore:gemTopaz>.add(<elementsofpower:gemstone:3>);
+<ore:gemOpal>.add(<minecraft:quartz>);
+<ore:gemOpal>.add(<elementsofpower:gemstone:4>);
+<ore:gemOnyx>.add(<elementsofpower:gemstone:5>);
+<ore:gemBeryl>.add(<minecraft:emerald>);
+<ore:gemBeryl>.add(<elementsofpower:gemstone:6>);
+<ore:gemAquamarine>.add(<minecraft:diamond>);
+<ore:gemAquamarine>.add(<elementsofpower:gemstone:8>);
 recipes.removeShaped(<techreborn:ingot:3>);
 recipes.removeShapeless(<techreborn:ingot:3>);
 recipes.removeShaped(<techreborn:techreborn.storage:3>);

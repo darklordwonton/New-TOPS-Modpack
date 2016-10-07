@@ -1,3 +1,9 @@
+//Silent Gems
+recipes.remove(<silentgems:Helmet:*>);
+recipes.remove(<silentgems:Chestplate:*>);
+recipes.remove(<silentgems:Leggings:*>);
+recipes.remove(<silentgems:Boots:*>);
+
 //Explosives
 recipes.addShaped(<techreborn:nuke>, [[<ore:plateLead>,<techreborn:part:22>,<ore:plateLead>],[<techreborn:part:22>,<mekanism:ObsidianTNT> ,<techreborn:part:22>],[<ore:plateLead>,<techreborn:part:22>,<ore:plateLead>]]);
 

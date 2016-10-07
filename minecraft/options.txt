@@ -124,7 +124,9 @@ key_key.stellarapi.focusgui.description:22
 key_key.photoptics.zoomin:13
 key_key.photoptics.zoomout:12
 key_key.photoptics.observe:45:SHIFT
-key_Stop Possessing:46
+key_Stop Possessing:144
+key_Open Possess Experience:25
+key_Toggle Special:46:SHIFT
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:52
@@ -185,6 +187,11 @@ key_keys.techreborn.config:25
 key_key.dialerModeChange.name:50
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
+key_keybind.railcraft.loco.reverse:53:ALT
+key_keybind.railcraft.loco.faster:52:ALT
+key_keybind.railcraft.loco.slower:51:ALT
+key_keybind.railcraft.loco.mode:50:ALT
+key_keybind.railcraft.loco.whistle:49:ALT
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
