@@ -81,7 +81,6 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -92,6 +91,7 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
+key_quark.keybind.toggleAutojump:0
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
 key_enchiridion.key.library:0
@@ -120,10 +120,6 @@ key_Familiar Manager:0
 key_Minion Manager:0
 key_Minion Selection:19
 key_key.interact:46
-key_key.stellarapi.focusgui.description:22
-key_key.photoptics.zoomin:13
-key_key.photoptics.zoomout:12
-key_key.photoptics.observe:45:SHIFT
 key_Stop Possessing:144
 key_Open Possess Experience:25
 key_Toggle Special:46:SHIFT

@@ -65,6 +65,19 @@
 	
 	//Silent Gems
 	recipes.remove(<silentgems:Gem:*>);
+	recipes.remove(<silentgems:GemBlock:*>);
+	recipes.remove(<silentgems:GemBlockSuper:*>);
+	recipes.remove(<silentgems:GemBlockDark:*>);
+	recipes.remove(<silentgems:GemBlockSuperDark:*>);
+	recipes.addShapeless(<silentgems:GemBlock:0>,[<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>,<elementsofpower:spelldust:0>]);
+	recipes.addShapeless(<silentgems:GemBlock:9>,[<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>,<elementsofpower:spelldust:1>]);
+	recipes.addShapeless(<silentgems:GemBlock:4>,[<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>,<elementsofpower:spelldust:2>]);
+	recipes.addShapeless(<silentgems:GemBlock:2>,[<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>,<elementsofpower:spelldust:3>]);
+	recipes.addShapeless(<silentgems:GemBlock:15>,[<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>,<elementsofpower:spelldust:4>]);
+	recipes.addShapeless(<silentgems:GemBlock:14>,[<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>,<elementsofpower:spelldust:5>]);
+	recipes.addShapeless(<silentgems:GemBlock:6>,[<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>,<elementsofpower:spelldust:6>]);
+	recipes.addShapeless(<silentgems:GemBlock:11>,[<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>]);
+	recipes.addShapeless(<silentgems:GemBlockDark:8>,[<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>]);
 
 //Immersive Engineering
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mithril_ingot>);
@@ -162,6 +175,23 @@ recipes.addShaped(<godweapons:demon_crystal>,[[<evilcraft:darkPowerGem>,<bloodma
 recipes.remove(<godweapons:soul_crystal>);
 recipes.addShaped(<godweapons:soul_crystal>,[[<godweapons:soul>,<ore:netherStar>,<godweapons:soul>],[<elementsofpower:spelldust:6>,<godweapons:crystal>,<elementsofpower:spelldust:7>],[<godweapons:soul>,<ore:eternalLifeEssence>,<godweapons:soul>]]);
 recipes.addShaped(<godweapons:soul_crystal>,[[<godweapons:soul>,<ore:netherStar>,<godweapons:soul>],[<elementsofpower:spelldust:6>,<godweapons:crystal>,<elementsofpower:spelldust:7>],[<godweapons:soul>,<evilcraft:garmonbozia>,<godweapons:soul>]]);
+recipes.remove(<godweapons:fire_essence>);
+recipes.addShapeless(<godweapons:fire_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureRuby]);
+recipes.remove(<godweapons:water_essence>);
+recipes.addShapeless(<godweapons:water_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureSapphire]);
+recipes.remove(<godweapons:air_essence>);
+recipes.addShapeless(<godweapons:air_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureCitrine]);
+recipes.remove(<godweapons:speed_essence>);
+recipes.addShapeless(<godweapons:speed_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureAgate]);
+recipes.remove(<godweapons:light_essence>);
+recipes.addShapeless(<godweapons:light_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureQuartz]);
+recipes.remove(<godweapons:dark_essence>);
+recipes.addShapeless(<godweapons:dark_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureSerendibite]);
+recipes.remove(<godweapons:defense_essence>);
+recipes.addShapeless(<godweapons:defense_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureEmerald]);
+recipes.remove(<godweapons:power_essence>);
+recipes.addShapeless(<godweapons:power_essence>,[<minecraft:potion>,<godweapons:soul_crystal>,<silentgems:MiscBlock:2>,pureAmethyst]);
+
 
 //Gems To Spelldust
 	//Ruby

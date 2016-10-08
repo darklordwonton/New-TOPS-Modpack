@@ -19,6 +19,15 @@ game.setLocalization("en_US","item.modernmetals:plutonium_bolt.name","Small Pile
 game.setLocalization("en_US","item.modernmetals:plutonium_crossbow.name","Small Pile of Reactor-Grade Plutonium 239");
 game.setLocalization("en_US","item.techreborn.part.plutoniumCell.name","Raw MOX Fuel");
 game.setLocalization("en_US","item.techreborn.part.doublePlutoniumCell.name","Pile of Weapons-Grade Plutonium");
+game.setLocalization("en_US","tile.silentgems:GemBlock0.name","Solid Mass of Ruby Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock9.name","Solid Mass of Sapphire Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock4.name","Solid Mass of Citrine Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock2.name","Solid Mass of Agate Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock15.name","Solid Mass of Quartz Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock14.name","Solid Mass of Serendibite Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock6.name","Solid Mass of Emerald Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlock11.name","Solid Mass of Amethyst Spell Dust");
+game.setLocalization("en_US","tile.silentgems:GemBlockDark8.name","Solid Mass of Diamond Spell Dust");
 
 game.setLocalization("en_US","enchantment.level.11","XI");
 game.setLocalization("en_US","enchantment.level.12","XII");

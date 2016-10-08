@@ -13,8 +13,9 @@
 <ore:gemOnyx>.add(<elementsofpower:gemstone:5>);
 <ore:gemBeryl>.add(<minecraft:emerald>);
 <ore:gemBeryl>.add(<elementsofpower:gemstone:6>);
-<ore:gemAquamarine>.add(<minecraft:diamond>);
-<ore:gemAquamarine>.add(<elementsofpower:gemstone:8>);
+<ore:gemMoonstone>.add(<minecraft:diamond>);
+<ore:gemMoonstone>.add(<elementsofpower:gemstone:8>);
+<ore:blockAmethyst>.remove(<silentgems:GemBlock:11>);
 recipes.removeShaped(<techreborn:ingot:3>);
 recipes.removeShapeless(<techreborn:ingot:3>);
 recipes.removeShaped(<techreborn:techreborn.storage:3>);
