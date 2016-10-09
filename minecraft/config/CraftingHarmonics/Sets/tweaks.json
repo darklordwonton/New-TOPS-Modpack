@@ -26,7 +26,7 @@
                 {
 					type: "addBloodAltarRecipe",
 					output: "evilcraft:darkGem",
-					with: ["elementsofpower:gemstone:7"],
+					with: ["elementsofpower:gemstone:6"],
                     minTier: 3,
                     lpCost: 5000,
                     consumeRate: 15,
