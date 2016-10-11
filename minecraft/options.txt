@@ -81,6 +81,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -91,7 +92,6 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
-key_quark.keybind.toggleAutojump:0
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
 key_enchiridion.key.library:0
@@ -123,6 +123,19 @@ key_key.interact:46
 key_Stop Possessing:144
 key_Open Possess Experience:25
 key_Toggle Special:46:SHIFT
+key_Activate  FINGER 0:0
+key_Activate  FINGER 1:0
+key_Activate  WRIST 0:0
+key_Activate  WRIST 1:0
+key_Activate  ANKLE 0:0
+key_Activate  ANKLE 1:0
+key_Activate  NECK:0
+key_Activate  BACK:48
+key_Activate  WAIST:0
+key_Activate  EAR 0:0
+key_Activate  EAR 1:0
+key_Activate  EYE:0
+key_Activate  HAT:0
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:52
