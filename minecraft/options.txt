@@ -123,19 +123,6 @@ key_key.interact:46
 key_Stop Possessing:144
 key_Open Possess Experience:25
 key_Toggle Special:46:SHIFT
-key_Activate  FINGER 0:0
-key_Activate  FINGER 1:0
-key_Activate  WRIST 0:0
-key_Activate  WRIST 1:0
-key_Activate  ANKLE 0:0
-key_Activate  ANKLE 1:0
-key_Activate  NECK:0
-key_Activate  BACK:48
-key_Activate  WAIST:0
-key_Activate  EAR 0:0
-key_Activate  EAR 1:0
-key_Activate  EYE:0
-key_Activate  HAT:0
 key_keys.vampirism.action:19
 key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:52
@@ -202,8 +189,6 @@ key_keybind.railcraft.loco.slower:51:ALT
 key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
 key_BloodMagic.keybind.open_holding:35
-key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
-key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
