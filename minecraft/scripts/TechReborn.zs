@@ -28,3 +28,7 @@ recipes.addShaped(<techreborn:lithiumBattery>,[[null,<advancedcables:covered_gol
 //Recipes With HV Cables
 recipes.remove(<techreborn:hvt>);
 recipes.addShaped(<techreborn:hvt>,[[null,<advancedcables:covered_pink_cable>,null],[null,<techreborn:mvt>,null],[null,<advancedcables:covered_gold_cable>,null]]);
+
+//Materials and Components
+recipes.remove(<techreborn:part:2>);
+recipes.addShaped(<techreborn:part:2>*4,[[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>],[<ore:gemEmerald>,<mekanism:Polyethene:3>,<ore:gemEmerald>],[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>]]);
