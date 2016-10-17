@@ -23,7 +23,7 @@ recipes.addShaped(<techreborn:mfe>,[[<advancedcables:covered_gold_cable>,<ore:en
 recipes.remove(<techreborn:upgrades:1>);
 recipes.addShaped(<techreborn:upgrades:1>,[[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<advancedcables:covered_gold_cable>,<techreborn:mvt>,<advancedcables:covered_gold_cable>],[<ore:blockGlass>,<ore:circuitAdvanced>,<ore:blockGlass>]]);
 recipes.removeShaped(<techreborn:lithiumBattery>);
-recipes.addShaped(<techreborn:lithiumBattery>,[[null,<advancedcables:covered_gold_cable>,null],[<ore:plateAluminum>,<techreborn:dynamicCell>.withTag({Fluid: {FluidName: "lithium", Amount: 1000}}),<ore:plateAluminum>],[<ore:plateAluminum>,<techreborn:dynamicCell>.withTag({Fluid: {FluidName: "lithium", Amount: 1000}}),<ore:plateAluminum>]]);
+recipes.addShaped(<techreborn:lithiumBattery>,[[null,<advancedcables:covered_gold_cable>,null],[<ore:plateAluminum>,<techreborn:dynamicCell>.withTag({Fluid: {FluidName: "lithium", Amount: 1000}}).onlyWithTag({Fluid: {FluidName: "lithium", Amount: 1000}}),<ore:plateAluminum>],[<ore:plateAluminum>,<techreborn:dynamicCell>.withTag({Fluid: {FluidName: "lithium", Amount: 1000}}),<ore:plateAluminum>]]);
 
 //Recipes With HV Cables
 recipes.remove(<techreborn:hvt>);
