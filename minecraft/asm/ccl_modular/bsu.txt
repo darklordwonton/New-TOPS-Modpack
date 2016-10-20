@@ -400,11 +400,11 @@ public class bsu implements bxe  {
     LINENUMBER 145 L7
     INVOKESTATIC bob.D ()V
     ALOAD 2
-    INSTANCEOF codechicken/lib/render/IItemRenderer
+    INSTANCEOF codechicken/lib/render/item/IItemRenderer
     IFEQ L8
     ALOAD 2
     ALOAD 1
-    INVOKEINTERFACE codechicken/lib/render/IItemRenderer.renderItem (Lnet/minecraft/item/ItemStack;)V
+    INVOKEINTERFACE codechicken/lib/render/item/IItemRenderer.renderItem (Lnet/minecraft/item/ItemStack;)V
     GOTO L9
    L8
     LINENUMBER 146 L8

@@ -1,3 +1,7 @@
+//Vals
+val perfectCrystal = <deepresonance:resonating_crystal>.withTag({BlockEntityTag: {efficiency: 100.0, strength: 100.0, glowing: 1, purity: 100.0, infused: 0, power: 100.0}}).onlyWithTag({BlockEntityTag: {efficiency: 100.0, strength: 100.0, glowing: 1, purity: 100.0, infused: 0, power: 100.0}});
+
+
 //Materials & Components
 recipes.remove(<mekanism:ControlCircuit:*>);
 recipes.addShaped(<mekanism:ControlCircuit:3>,[[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>],[<ore:craftingSuperconductor>,<techreborn:lapotronicOrb>,<ore:craftingSuperconductor>],[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>]]);
@@ -29,21 +33,30 @@ recipes.addShapeless(<mekanism:Polyethene:1>,[<mekanism:PlasticBlock:*>,<mekanis
 //Machines
 recipes.remove(<mekanism:Robit>);
 recipes.addShaped(<mekanism:Robit>,[[<opencomputers:component:8>,<opencomputers:card:1>,<opencomputers:component:8>],[<mekanism:EnergyTablet>,<opencomputers:case2>,<mekanism:EnergyTablet>],[<ore:alloyUltimate>,<simpleartillerymod:Carriage:3>,<ore:alloyUltimate>]]);
-recipes.remove(<mekanism:MachineBlock:0>);
+recipes.remove(<mekanism:MachineBlock:*>);
 recipes.addShaped(<mekanism:MachineBlock:0>,[[<ore:ingotEnergeticAlloy>,<ore:circuitAdvanced>,<ore:ingotEnergeticAlloy>],[<ore:ic2Macerator>,<mekanism:BasicBlock:8>,<ore:ic2Macerator>],[<ore:ingotEnergeticAlloy>,<ore:circuitAdvanced>,<ore:ingotEnergeticAlloy>]]);
-recipes.remove(<mekanism:MachineBlock:1>);
 recipes.addShaped(<mekanism:MachineBlock:1>,[[<ore:alloyAdvanced>,<ore:circuitAdvanced>,<ore:alloyAdvanced>],[<techreborn:techreborn.compressor>,<mekanism:BasicBlock:8>,<techreborn:techreborn.compressor>],[<ore:alloyAdvanced>,<ore:circuitAdvanced>,<ore:alloyAdvanced>]]);
-recipes.remove(<mekanism:MachineBlock:2>);
-recipes.remove(<mekanism:MachineBlock:3>);
 recipes.addShaped(<mekanism:MachineBlock:3>,[[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>],[<techreborn:grinder>,<ore:machineBlockElite>,<techreborn:grinder>],[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>]]);
-recipes.remove(<mekanism:MachineBlock:4>);
 recipes.addShaped(<mekanism:MachineBlock:4>,[[<ore:alloyUltimate>,<mekanism:Robit>,<ore:alloyUltimate>],[<mekanism:TeleportationCore>,<mekanism:BasicBlock:8>,<mekanism:MachineBlock:15>],[<ore:blockRefinedObsidian>,<techreborn:advanceddrill>,<ore:blockRefinedObsidian>]]);
 
-recipes.remove(<mekanism:MachineBlock:8>);
 recipes.addShaped(<mekanism:MachineBlock:8>,[[<mekanism:CompressedDiamond>,<ore:circuitAdvanced>,<mekanism:CompressedDiamond>],[<techreborn:alloySmelter>,<mekanism:BasicBlock:8>,<techreborn:alloySmelter>],[<mekanism:CompressedDiamond>,<ore:circuitAdvanced>,<mekanism:CompressedDiamond>]]);
+recipes.addShaped(<mekanism:MachineBlock:9>,[[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>],[<deepresonance:purifier>,<ore:machineBlockElite>,<deepresonance:purifier>],[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>]]);
+recipes.addShaped(<mekanism:MachineBlock:10>,[[<ore:ingotRefinedObsidian>,<ore:circuitAdvanced>,<ore:ingotRefinedObsidian>],[<techreborn:techreborn.electricfurnace>,<mekanism:BasicBlock:8>,<techreborn:techreborn.electricfurnace>],[<ore:ingotRefinedObsidian>,<ore:circuitAdvanced>,<ore:ingotRefinedObsidian>]]);
+recipes.addShaped(<mekanism:MachineBlock:12>,[[<ore:circuitAdvanced>,<mekanism:MultipartTransmitter:5>,<ore:circuitAdvanced>],[<ore:plateOsmium>,<mekanism:BasicBlock:8>,<ore:plateOsmium>],[<ore:plateOsmium>,<immersiveengineering:metalDevice0:5>,<ore:plateOsmium>]]);
+recipes.addShaped(<mekanism:MachineBlock:13>,[[<ore:circuitAdvanced>,<opencomputers:screen2>,<ore:circuitAdvanced>],[<ore:plateOsmium>,<techreborn:techreborn.digitalChest>,<ore:plateOsmium>],[<ore:plateOsmium>,<mekanism:BasicBlock:8>,<ore:plateOsmium>]]);
 
 //Items
+recipes.remove(<mekanism:TierInstaller:*>);
+recipes.addShaped(<mekanism:TierInstaller:0>,[[<mekanism:Polyethene:2>,<ore:circuitAdvanced>,<mekanism:Polyethene:2>],[<ore:plateLead>,<ore:plankWood>,<ore:plateLead>],[<mekanism:Polyethene:2>,<ore:circuitAdvanced>,<mekanism:Polyethene:2>]]);
+recipes.addShaped(<mekanism:TierInstaller:1>,[[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>],[<ore:plateGalvanizedsteel>,<ore:plankWood>,<ore:plateGalvanizedsteel>],[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>]]);
+recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>],[<ore:plateIridium>,<ore:plankWood>,<ore:plateIridium>],[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>]]);
+
+//Tools and Weapons
 recipes.remove(<mekanism:EnergyTablet>);
-recipes.addShaped(<mekanism:EnergyTablet>,[[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>],[<ore:ingotGold>,<techreborn:lithiumBattery>,<ore:ingotGold>],[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>]]);
+recipes.addShaped(<mekanism:EnergyTablet>,[[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>],[<ore:ingotGold>,<ore:energyCrystal>,<ore:ingotGold>],[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>]]);
+recipes.remove(<mekanism:AtomicDisassembler>);
+recipes.addShaped(<mekanism:AtomicDisassembler>,[[<techreborn:advanceddrill>,<techreborn:advancedchainsaw>,<techreborn:advancedchainsaw>],[<ore:circuitUltimate>,<techreborn:lapotronPack>,<ore:circuitUltimate>],[<ore:alloyUltimate>,<mekanism:Polyethene:3>,<ore:alloyUltimate>]]);
+recipes.remove(<mekanism:Jetpack>);
+recipes.remove(<mekanism:ArmoredJetpack>);
 
 //Transport
