@@ -51,12 +51,20 @@ recipes.addShaped(<mekanism:TierInstaller:0>,[[<mekanism:Polyethene:2>,<ore:circ
 recipes.addShaped(<mekanism:TierInstaller:1>,[[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>],[<ore:plateGalvanizedsteel>,<ore:plankWood>,<ore:plateGalvanizedsteel>],[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>]]);
 recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>],[<ore:plateIridium>,<ore:plankWood>,<ore:plateIridium>],[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>]]);
 
-//Tools and Weapons
+//Tools, Armor, and Weapons
 recipes.remove(<mekanism:EnergyTablet>);
 recipes.addShaped(<mekanism:EnergyTablet>,[[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>],[<ore:ingotGold>,<ore:energyCrystal>,<ore:ingotGold>],[<ore:ingotRedstoneAlloy>,<ore:alloyElite>,<ore:ingotRedstoneAlloy>]]);
 recipes.remove(<mekanism:AtomicDisassembler>);
 recipes.addShaped(<mekanism:AtomicDisassembler>,[[<techreborn:advanceddrill>,<techreborn:advancedchainsaw>,<techreborn:advancedchainsaw>],[<ore:circuitUltimate>,<techreborn:lapotronPack>,<ore:circuitUltimate>],[<ore:alloyUltimate>,<mekanism:Polyethene:3>,<ore:alloyUltimate>]]);
 recipes.remove(<mekanism:Jetpack>);
 recipes.remove(<mekanism:ArmoredJetpack>);
+recipes.remove(<mekanism:ScubaTank>);
+recipes.addShaped(<mekanism:ScubaTank>,[[<ore:ingotSteel>,<ore:ingotSteel>,<ore:ingotSteel>],[<ore:circuitAdvanced>,<mekanism:GasTank>,<ore:circuitAdvanced>],[<ore:ingotAquarium>,<ore:ingotAquarium>,<ore:ingotAquarium>]]);
+recipes.remove(<mekanism:PortableTeleporter>);
+
 
 //Transport
+
+//Generators
+recipes.remove(<mekanismgenerators:Generator:5>);
+recipes.addShaped(<mekanismgenerators:Generator:5>,[[<mekanismgenerators:Generator:1>,<mekanismgenerators:Generator:1>,<mekanismgenerators:Generator:1>],[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>],[<mekanismgenerators:Generator:1>,<mekanismgenerators:Generator:1>,<mekanismgenerators:Generator:1>]]);
