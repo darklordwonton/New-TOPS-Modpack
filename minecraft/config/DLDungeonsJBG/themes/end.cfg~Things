@@ -3,23 +3,24 @@
 # (BEACH is consider the same as WATER here.)
 #
 # Biomes types where it should be used
-biomes: FOREST, PLAINS, MOUNTAIN, HILLS, SWAMP, WATER, DESERT, FROZEN, JUNGLE, WASTELAND, MUSHROOM, MAGICAL
-# (BEACH is consider the same as WATER here.)
+biomes: END
 # Biome types where it should never appear, even if the biome also fit one of the above types
-NotInBiomes: NETHER, END
+NotInBiomes: NETHER, FOREST, PLAINS, MOUNTAINS, HILLS, SWAMP, WATER, DESERT, FROZEN, JUNGLE, WASTELAND, MUSHROOM, MAGICAL
 
 #
 # Altitude ranges
 #
 # Lowest level a floor can be at
-minY: 200
+minY: 20
 # Highest level a floor can be at
-maxY: 240
+maxY: 230
+
+buildFoundation: true
 
 #
 # Size ranges: This should contain 5 numbers, at least one of which must not be 0.
 # These are relative probabilities for a tiny, small, medium, large, and huge dungeon (in that oreder)
-sizes: 0, 0, 0, 1, 2
+sizes: 1, 1, 1, 1, 20
 
 #
 # Style elements: These must each contain 6 numbers
@@ -27,29 +28,29 @@ sizes: 0, 0, 0, 1, 2
 # They are relative probabilites, as before
 #
 # Roofless, wall-less rooms; mostly for surface dungeons
-outside: 25,  0,  25,  0,  0,  25
+outside: 25,  0,  0,  25,  0,  25
 # Amount of liquid blocks (pools) on the floor
-liquids: 0, 0, 0, 50, 40, 10
+liquids: 1,  30, 50, 20, 10,  0
 # Number of extra doors which may lead to rooms off the main route
-subrooms: 5, 20, 50, 45,  10,  5
+subrooms: 5, 20, 50, 45,  5,  0
 # Frequency of trying to place a mini-room inside a larger room
-islands: 0,  50, 10, 50, 20,  10
+islands: 5,  50, 10, 50, 20,  0
 # How many pillars to use
-pillars: 0,  30, 60, 40, 20,  30
+pillars: 5,  30, 60, 40, 20,  100000
 # Not used, but will be the number of fences around outdoor rooms
 fences: 5,  15, 30, 75, 25,  0
 # How generally semetric and organized roosm appear
-symmetry: 20, 75, 5, 0,  0, 5
+symmetry: 100000,  75, 30, 27, 25,  0
 # How much variability in the blocks to be used
 variability: 5,  10, 25, 75, 50, 25
 # Idea borrowed from Greymerk's Roguelike dungeons; chance of not building over airblocks
-degeneracy: 0,  5, 5, 15, 50,  50
+degeneracy: 50,  5, 15, 50, 10,  0
 # How many feature to add to rooms
-complexity: 5,  10, 25, 75, 15,  0
+complexity: 5,  10, 25, 75, 15,  100000
 # How much variation in the Y should be found
-verticle: 0, 0, 5, 55, 15, 0
+verticle: 5,  10, 25, 20, 10,  10000
 # How many entrances to place
-entrances: 5,  25, 50, 15, 0,  0
+entrances: 2,   5, 25, 50, 15,  3
 
 #
 # Block elements
@@ -60,17 +61,17 @@ entrances: 5,  25, 50, 15, 0,  0
 # Each of these must contain at least one block, but can contain as many as you like
 #
 # The main block for building walls
-walls: stone, stonebrick, glass
+walls: endstone, obsidian
 # The main block for building floors
-floors: glass, glass, glass, glass, glass, dirt
+floors: endstone, obsidian
 # The main block for lining ceilings
-ceilings: glass, stone
+ceilings: endstone, obsidian, glass
 # Blocks to be used as outdoor fences (not yet used)
-fencing: dirt
+fencing: endstone, obsidian
 # Block to represent liquids; fill pools
 liquid: lava
 # Block from which to build pillars
-pillarBlock: obsidian, stone, glass, stonebrick
+pillarBlock: obsidian, endstone, glass
 
 #
 # Mob fields
@@ -78,9 +79,9 @@ pillarBlock: obsidian, stone, glass, stonebrick
 # These are lists of mobs, and most be in their officialm, in code names
 #
 # Weak, basic mobs; by default
-commonMobs: Zombie, Creeper
+commonMobs: Enderman, shadowmobs.grue
 # Tougher mobs everyday mobs
-hardMobs: plainsmobs.ventoraptor, plainsmobs.roc, junglemobs.uvaraptor
+hardMobs: WitherBoss
 # Really tough mobs, Minefantasy brutes, mid-level Dungeons Mobs, and many of Lycanite's mobs go here
 bruteMobs: 
 # The baddest of the bad, Minefantasy dragon, Dungeon Mobs rakshasa, and all bosses go here; empty by default in the overworld
