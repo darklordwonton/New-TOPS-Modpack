@@ -81,6 +81,11 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_key.am2.bridge:23
+key_key.am2.teleport:49
+key_key.am2.aura_customization:48
+key_key.am2.shape_groups:46
+key_key.am2.dark_vision:38
 key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0

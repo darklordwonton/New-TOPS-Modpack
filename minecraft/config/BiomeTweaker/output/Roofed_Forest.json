@@ -63,6 +63,12 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "am2.entity.EntityDryad",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "crazypants.enderzoo.entity.EntityOwl",
       "Weight": 5,
       "Min Group Count": 1,
@@ -99,6 +105,36 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
+    },
+    {
+      "Entity Class": "am2.entity.EntityManaElemental",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "am2.entity.EntityHecate",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "am2.entity.EntityManaCreeper",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "am2.entity.EntityLightMage",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "am2.entity.EntityDarkMage",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "vazkii.quark.world.entity.EntityDweller",
@@ -229,6 +265,12 @@
       "Weight": 10,
       "Min Group Count": 8,
       "Max Group Count": 8
+    },
+    {
+      "Entity Class": "am2.entity.EntityFlicker",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     }
   ],
   "Spawn Biome": false,
