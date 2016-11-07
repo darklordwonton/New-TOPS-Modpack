@@ -114,7 +114,7 @@ var deathOrb = <elementsofpower:magicOrb:7>;
 
 	//Death
 	recipes.removeShaped(<wonderfulwands:wand_death>);
-	recipes.addShaped(<wonderfulwands:wand_death:64>, [[<evilcraft:garmonbozia>,pureAmethyst,<evilcraft:garmonbozia>],[null,<elementsofpower:magicStaff>,null],[null,<draconicevolution:awakened_core>,null]]);
+	recipes.addShaped(<wonderfulwands:wand_death:64>, [[<evilcraft:garmonbozia>,pureAmethyst,<evilcraft:garmonbozia>],[null,<elementsofpower:magicStaff>,null],[null,<godweapons:power_essence>,null]]);
 	recipes.addShapeless(<wonderfulwands:wand_death>, [<wonderfulwands:wand_death>.anyDamage().marked("wand"), deathOrb, deathOrb], function(output, inputs, crafting) {
   return inputs.wand.withDamage(max(0, inputs.wand.damage - 1));
 });

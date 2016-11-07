@@ -88,6 +88,12 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "net.minecraft.entity.monster.EntityGuardian",
+      "Weight": 15,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",
       "Weight": 15,
       "Min Group Count": 1,
@@ -99,12 +105,6 @@
       "Entity Class": "net.minecraft.entity.passive.EntitySquid",
       "Weight": 10,
       "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityGuardian",
-      "Weight": 15,
-      "Min Group Count": 2,
       "Max Group Count": 4
     }
   ],
