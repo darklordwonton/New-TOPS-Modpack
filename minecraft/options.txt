@@ -97,6 +97,8 @@ key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
+key_key.reloadEffectsList:38:CONTROL
+key_key.debugReloadList:82:ALT
 key_enchiridion.key.library:0
 key_enderio.keybind.glidertoggle:34
 key_enderio.keybind.soundlocator:0

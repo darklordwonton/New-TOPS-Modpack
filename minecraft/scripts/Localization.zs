@@ -3,7 +3,7 @@ game.setLocalization("en_US","tile.netherquartz.name","Quartz Ore");
 game.setLocalization("en_US","item.dark_steel.name","Black Steel");
 game.setLocalization("en_US","item.wonderfulwands_wand_fire.name","Wand of Meteors");
 game.setLocalization("en_US","item.elementsofpower.creative.name","Rainbow Diamond");
-game.setLocalization("en_US","item.runesofwizardry_pestle.name","Magic Mortar");
+game.setLocalization("en_US","item.botania:mortarAndPestle.name","Magic Mortar");
 game.setLocalization("en_US","item.modernmetals:uranium_crossbow.name","Small Pile of Uranium 238");
 game.setLocalization("en_US","item.modernmetals:uranium_bolt.name","Small Pile of Uranium 235");
 game.setLocalization("en_US","item.modernmetals:uranium_horsearmor.name","Raw Enriched Uranium");
