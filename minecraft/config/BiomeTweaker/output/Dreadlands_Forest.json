@@ -6,7 +6,7 @@
   "Root Height": 0.1,
   "Height Variation": 0.2,
   "Top Block": "abyssalcraft:dreadgrass",
-  "Filler Block": "minecraft:dirt",
+  "Filler Block": "abyssalcraft:dreadlandsdirt",
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "16777215",

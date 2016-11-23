@@ -1,0 +1,61 @@
+{
+  "tabs": [
+    {
+      "uuid": "9776d39d-9544-4410-9f5a-25e283531e17",
+      "displayName": "New Tab",
+      "sortIndex": -10,
+      "isVisible": false,
+      "stack": "minecraft:book",
+      "criteria": []
+    },
+    {
+      "uuid": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "timestamp": 0,
+          "uuid": "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25",
+          "displayName": "Become Good Wizard",
+          "displayStack": "minecraft:stone 0",
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 126,
+          "y": 64,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        },
+        {
+          "timestamp": 0,
+          "uuid": "82527994-a811-4e45-ba93-264b4e41ba36",
+          "displayName": "New Criteria",
+          "displayStack": "minecraft:stone 0",
+          "prereqs": [
+            "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 266,
+          "y": 64,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanDoAnything": false,
+  "craftAnythingCreative": false
+}

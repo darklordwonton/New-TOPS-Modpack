@@ -1,0 +1,87 @@
+{
+  "tabs": [
+    {
+      "uuid": "9776d39d-9544-4410-9f5a-25e283531e17",
+      "displayName": "New Tab",
+      "sortIndex": -10,
+      "isVisible": false,
+      "stack": "minecraft:book",
+      "criteria": []
+    },
+    {
+      "uuid": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+      "displayName": "Default",
+      "sortIndex": 0,
+      "isVisible": true,
+      "stack": "minecraft:book",
+      "criteria": [
+        {
+          "timestamp": 0,
+          "uuid": "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25",
+          "displayName": "Become Good Wizard",
+          "displayStack": "minecraft:stone 0",
+          "rewards": [
+            {
+              "uuid": "3bd69d50-afa3-4b7a-904e-9a6cf24fd100",
+              "type": "reward.crafting",
+              "data": {
+                "mustClaim": true,
+                "actionfilters": [
+                  {
+                    "type": "filter.crafting.exact",
+                    "data": {}
+                  }
+                ],
+                "filters": [
+                  {
+                    "type": "filter.item.itemStack",
+                    "data": {
+                      "stack": "botania:terraPlate"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "conflicts": [
+            "533dc458-acaf-4ba6-b901-6f543552417d"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 126,
+          "y": 64,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        },
+        {
+          "timestamp": 0,
+          "uuid": "533dc458-acaf-4ba6-b901-6f543552417d",
+          "displayName": "Become Evil Wizard",
+          "displayStack": "minecraft:stone 0",
+          "conflicts": [
+            "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 128,
+          "y": 114,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        }
+      ]
+    }
+  ],
+  "defaultTabID": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+  "disableCraftingUntilRewardAdded": false,
+  "disableUsageUntilRewardAdded": false,
+  "unclaimedTileCanDoAnything": false,
+  "craftAnythingCreative": false
+}
