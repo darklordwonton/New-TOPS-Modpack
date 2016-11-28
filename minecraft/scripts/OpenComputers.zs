@@ -2,7 +2,7 @@
 recipes.remove(<opencomputers:capacitor>);
 recipes.addShaped(<opencomputers:capacitor>,[[<ore:ingotLead>,<opencomputers:material:7>,<ore:ingotLead>],[<enderio:itemBasicCapacitor:1>,<techreborn:lithiumBattery>,<enderio:itemBasicCapacitor:1>],[<ore:ingotLead>,<opencomputers:material:5>,<ore:ingotLead>]]);
 recipes.remove(<opencomputers:hologram1>);
-recipes.addShaped(<opencomputers:hologram1>,[[<opencomputers:material:9>,<ore:fusedQuartz>,<opencomputers:material:9>],[<opencomputers:component:4>,<deepresonance:resonating_crystal>,<opencomputers:component:4>],[<ore:blockDarkSteel>,<mekanism:MachineBlock2:13>,<ore:blockDarkSteel>]]);
+recipes.addShaped(<opencomputers:hologram1>,[[<opencomputers:material:9>,<ore:fusedQuartz>,<opencomputers:material:9>],[<opencomputers:component:4>,<deepresonance:resonating_crystal>,<opencomputers:component:4>],[<ore:blockDarkSteel>,<refraction:laser>,<ore:blockDarkSteel>]]);
 recipes.remove(<opencomputers:hologram2>);
 recipes.addShaped(<opencomputers:hologram2>,[[<opencomputers:material:10>,<mekanismgenerators:ReactorGlass>,<opencomputers:material:10>],[<opencomputers:component:5>,<mekanism:MachineBlock2:14>,<opencomputers:component:5>],[<ore:blockTungstensteel>,<mekanism:MachineBlock2:13>,<ore:blockTungstensteel>]]);
 recipes.remove(<opencomputers:case1>);

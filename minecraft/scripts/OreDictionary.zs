@@ -29,9 +29,9 @@
 <ore:circuitAdvanced>.remove(<mekanism:ControlCircuit:1>);
 <ore:circuitElite>.remove(<mekanism:ControlCircuit:2>);
 
-recipes.removeShaped(<techreborn:ingot:3>);
-recipes.removeShapeless(<techreborn:ingot:3>);
-recipes.removeShaped(<techreborn:techreborn.storage:3>);
-recipes.removeShapeless(<techreborn:techreborn.storage:3>);
-recipes.removeShaped(<techreborn:nuggets:3>);
-recipes.removeShapeless(<techreborn:nuggets:3>);
+recipes.remove(<techreborn:ingot:3>);
+recipes.remove(<techreborn:ingot:3>);
+recipes.remove(<techreborn:techreborn.storage:3>);
+recipes.remove(<techreborn:techreborn.storage:3>);
+recipes.remove(<techreborn:nuggets:3>);
+recipes.remove(<techreborn:nuggets:3>);
