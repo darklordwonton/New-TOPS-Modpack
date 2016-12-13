@@ -27,5 +27,48 @@
 -->
 
 <AlloySmelterRecipes>
-
+    <recipeGroup name="EnderIO" > <!-- Required for EnderIO to function correctly. -->
+      <recipe name="Electrical Steel" energyCost="10000" >
+        <input>
+          <itemStack oreDictionary="ingotSteel" />
+          <itemStack oreDictionary="dustCoal" />
+          <itemStack oreDictionary="itemSilicon" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="0" exp="0.5" />
+        </output>
+      </recipe>
+      <recipe name="Energetic Alloy" energyCost="10000" >
+        <input>
+          <itemStack oreDictionary="ingotElectrum" />
+          <itemStack modID="minecraft" itemName="redstone" />
+          <itemStack modID="minecraft" itemName="glowstone_dust" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" exp="0.7" />
+        </output>
+      </recipe>
+      <recipe name="Vibrant Alloy" energyCost="10000" >
+        <input>
+          <itemStack oreDictionary="ingotEnderiumBase" /> <!-- Energetic Alloy -->
+          <itemStack modID="minecraft" itemName="ender_pearl" />
+		  <itemStack modID="minecraft" itemName="blaze_powder" />
+        </input>
+        <output>
+          <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1" />
+        </output>
+      </recipe>
+      <recipe name="Dark Steel" energyCost="20000" >
+        <input>
+        </input>
+        <output>
+        </output>
+      </recipe>
+      <recipe name="Soularium" energyCost="10000" >
+        <input>
+        </input>
+        <output>
+        </output>
+      </recipe>
+  </recipeGroup>
 </AlloySmelterRecipes>

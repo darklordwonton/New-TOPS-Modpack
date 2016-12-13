@@ -58,7 +58,7 @@ recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitU
 
 //Reactor and lasers
 recipes.remove(<mekanismgenerators:Reactor:1>);
-recipes.addShaped(<mekanismgenerators:Reactor:1>,[[<ore:plateTungstensteel>,<bigreactors:reactorCasing>,<ore:plateTungstensteel>],[<bigreactors:reactorCasing>,<ore:plateIridium>,<bigreactors:reactorCasing>],[<ore:plateTungstensteel>,<bigreactors:reactorCasing>,<ore:plateTungstensteel>]]);
+recipes.addShaped(<mekanismgenerators:Reactor:1>,[[<ore:ingotMercury>,<bigreactors:reactorCasing>,<ore:ingotMercury>],[<bigreactors:reactorCasing>,<ore:plateIridium>,<bigreactors:reactorCasing>],[<ore:ingotMercury>,<bigreactors:reactorCasing>,<ore:ingotMercury>]]);
 recipes.remove(<mekanismgenerators:ReactorGlass:1>);
 recipes.addShaped(<mekanismgenerators:ReactorGlass:1>,[[<techreborn:part:8>,<refraction:reflection_chamber>,<techreborn:part:8>],[<refraction:reflection_chamber>,<ore:blockRedstone>,<refraction:reflection_chamber>],[<techreborn:part:8>,<refraction:reflection_chamber>,<techreborn:part:8>]]);
 

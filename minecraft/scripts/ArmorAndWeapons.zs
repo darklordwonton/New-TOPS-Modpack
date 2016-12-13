@@ -13,6 +13,16 @@ recipes.remove(<wonderfulwands:hat_witch>);
 recipes.remove(<possessed:possessive_helmet>);
 mods.abyssalcraft.InfusionRitual.addRitual("ac.ritual.possession", 4, -1, 50000, true, <possessed:possessive_helmet>, <wonderfulwands:hat_witch>, [<modernmetals:tantalum_horsearmor>,<godweapons:fire_soul>,<godweapons:ice_soul>,<bloodmagic:ItemBloodShard:1>,<godweapons:demon_crystal>]);
 
+//Dark Steel
+recipes.remove(<enderio:darkSteel_helmet>);
+recipes.remove(<enderio:darkSteel_chestplate>);
+recipes.remove(<enderio:darkSteel_leggings>);
+recipes.remove(<enderio:darkSteel_boots>);
+recipes.addShaped(<enderio:darkSteel_helmet>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<ore:fusedQuartz>,<techreborn:plates:8>]]);
+recipes.addShaped(<enderio:darkSteel_chestplate>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<stevescarts:ModuleComponents:46>,<techreborn:plates:8>],[<techreborn:plates:8>,<techreborn:plates:8>,<techreborn:plates:8>]]);
+recipes.addShaped(<enderio:darkSteel_leggings>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<mekanism:FreeRunners>,<techreborn:plates:8>],[<techreborn:plates:8>,null,<techreborn:plates:8>]]);
+recipes.addShaped(<enderio:darkSteel_boots>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<tconstruct:slime_boots>,<techreborn:plates:8>]]);
+
 //Adamantine
 recipes.remove(<fluidity:adamantine_helmet_probe>);
 recipes.remove(<basemetals:adamantine_helmet>);

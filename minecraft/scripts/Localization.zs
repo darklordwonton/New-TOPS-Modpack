@@ -10,6 +10,11 @@ game.setLocalization("en_US","item.modernmetals:uranium_horsearmor.name","Raw En
 game.setLocalization("en_US","item.bigreactors:ingotMetals.yellorium.name","Enriched Uranium Fuel Pellet");
 game.setLocalization("en_US","item.bigreactors:ingotMetals.cyanite.name","Spent Nuclear Fuel");
 game.setLocalization("en_US","item.bigreactors:ingotMetals.blutonium.name","MOX Fuel Pellet");
+game.setLocalization("en_US","block.bigreactors:blockMetals.yellorium.name","Condensed Enriched Uranium Fuel Pellets");
+game.setLocalization("en_US","block.bigreactors:blockMetals.cyanite.name","Condensed Spent Nuclear Fuel");
+game.setLocalization("en_US","block.bigreactors:blockMetals.blutonium.name","Condensed MOX Fuel Pellets");
+game.setLocalization("en_US","item.basemetals:mercury_powder.name","Cold Mercury Powder");
+game.setLocalization("en_US","item.basemetals:mercury_ingot.name","Cold Mercury Ingot");
 game.setLocalization("en_US","item.modernmetals:plutonium_horsearmor.name","Plutonium Powder");
 game.setLocalization("en_US","item.modernmetals:plutonium_smallpowder.name","Small Pile of Plutonium 238");
 game.setLocalization("en_US","item.modernmetals:plutonium_powder.name","Pile of Plutonium 238");
@@ -19,6 +24,7 @@ game.setLocalization("en_US","item.modernmetals:plutonium_bolt.name","Small Pile
 game.setLocalization("en_US","item.modernmetals:plutonium_crossbow.name","Small Pile of Reactor-Grade Plutonium 239");
 game.setLocalization("en_US","item.techreborn.part.plutoniumCell.name","Raw MOX Fuel");
 game.setLocalization("en_US","item.techreborn.part.doublePlutoniumCell.name","Pile of Weapons-Grade Plutonium");
+game.setLocalization("en_US","item.techreborn.plate.coal.name","Dark Plate");
 game.setLocalization("en_US","tile.silentgems:GemBlock0.name","Solid Mass of Ruby Spell Dust");
 game.setLocalization("en_US","tile.silentgems:GemBlock9.name","Solid Mass of Sapphire Spell Dust");
 game.setLocalization("en_US","tile.silentgems:GemBlock4.name","Solid Mass of Citrine Spell Dust");

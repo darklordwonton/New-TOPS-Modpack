@@ -81,6 +81,7 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -91,7 +92,6 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
-key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
@@ -138,7 +138,7 @@ key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.toggleCheatMode:0
-key_Baubles Inventory:48
+key_keybind.baublesinventory:48
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
 key_key.charset.backpackOpen:38

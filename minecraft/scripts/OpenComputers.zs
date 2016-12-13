@@ -10,7 +10,7 @@ recipes.addShaped(<opencomputers:case1>,[[<ore:blockSteel>,<opencomputers:materi
 recipes.remove(<opencomputers:case2>);
 recipes.addShaped(<opencomputers:case2>,[[<ore:blockDarkSteel>,<opencomputers:material:9>,<ore:blockDarkSteel>],[<ore:blockDarkSteel>,<techreborn:techreborn.digitalChest>,<ore:blockDarkSteel>],[<ore:blockDarkSteel>,<enderio:itemBasicCapacitor:2>,<ore:blockDarkSteel>]]);
 recipes.remove(<opencomputers:case3>);
-recipes.addShaped(<opencomputers:case3>,[[<ore:blockTungstensteel>,<opencomputers:material:10>,<ore:blockTungstensteel>],[<ore:blockTungstensteel>,<techreborn:techreborn.digitalChest>,<ore:blockTungstensteel>],[<ore:blockTungstensteel>,<ore:circuitUltimate>,<ore:blockTungstensteel>]]);
+recipes.addShaped(<opencomputers:case3>,[[<ore:blockTungstensteel>,<opencomputers:material:10>,<ore:blockTungstensteel>],[<ore:blockTungstensteel>,<techreborn:techreborn.quantumChest>,<ore:blockTungstensteel>],[<ore:blockTungstensteel>,<ore:circuitUltimate>,<ore:blockTungstensteel>]]);
 recipes.remove(<opencomputers:screen1>);
 recipes.addShaped(<opencomputers:screen1>,[[<ore:ingotSteel>,<ore:ingotRedstoneAlloy>,<ore:ingotSteel>],[<ore:glowstone>,<opencomputers:material:8>,<ore:blockGlass>],[<ore:ingotSteel>,<ore:ingotRedstoneAlloy>,<ore:ingotSteel>]]);
 recipes.remove(<opencomputers:screen2>);

@@ -79,14 +79,29 @@
 	recipes.addShapeless(<silentgems:GemBlock:11>,[<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>,<elementsofpower:spelldust:7>]);
 	recipes.addShapeless(<silentgems:GemBlockDark:8>,[<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>,<elementsofpower:spelldust:8>]);
 
-//Immersive Engineering
+//Arc Furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mithril_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:0>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:0>, <ore:ingotSteel>, null, 100, 512, [<ore:itemSilicon>,<ore:dustCoal>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:0>, <ore:dustSteel>, null, 100, 512, [<ore:itemSilicon>,<ore:dustCoal>], "Alloying");
+mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:1>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:1>, <ore:ingotElectrum>, null, 100, 512, [<ore:dustRedstone>,<ore:dustGlowstone>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:1>, <ore:dustElectrum>, null, 100, 512, [<ore:dustRedstone>,<ore:dustGlowstone>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:2>, <ore:ingotEnderiumBase>, null, 100, 512, [<ore:enderpearl>,<ore:powderBlaze>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:3>, <ore:itemSilicon>, null, 100, 512, [<ore:dustRedstone>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:5>, <ore:ingotIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:5>, <ore:dustIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:6>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<godweapons:dark_steel_ore>,<ore:gemSerendibite>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<godweapons:dark_steel_ore>,<ore:slimeballBlue>], "Alloying");
+mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:7>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemPowderIngot:6>, <ore:ingotPlatinum>, null, 100, 512, [<ore:dustTin>,<ore:dustTin>,<ore:dustSilver>], "Alloying");
+mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mercury_ingot>);
 
 //Miscelaneous
 recipes.remove(<botania:pestleAndMortar>);
 recipes.addShaped(<botania:pestleAndMortar>, [[null,null,<ore:ingotMithril>],[null,smoothDiamond,null],[null,<ore:blockMithril>,null]]);
+//make this a rolling machine recipe
+recipes.addShaped(<techreborn:plates:8> * 2,[[<ore:ingotDarkSteel>,<ore:alloyAdvanced>,<ore:ingotDarkSteel>],[<ore:ingotEnergeticAlloy>,<ore:alloyElite>,<ore:ingotEnergeticAlloy>],[<ore:ingotDarkSteel>,<ore:alloyAdvanced>,<ore:ingotDarkSteel>]]);
 
 //Fixing Iridium Alloy Ingot Recipe
 recipes.remove(<techreborn:ingot:22>);
@@ -145,6 +160,7 @@ recipes.remove(<basemetals:mithril_blend>);
 recipes.addShaped(<basemetals:mithril_blend> * 2, [[<elementsofpower:magicOrb:0>,<elementsofpower:magicOrb:1>,<elementsofpower:magicOrb:2>],[<elementsofpower:magicOrb:3>,<ore:ingotElectrum>,<elementsofpower:magicOrb:4>],[<elementsofpower:magicOrb:5>,<elementsofpower:magicOrb:6>,<elementsofpower:magicOrb:7>]]);
 recipes.addShapeless(<basemetals:adamantine_powder>,[<ore:dustTitanium>,<ore:blockAgate>,<ore:dustMercury>,<elementsofpower:spelldust:8>,<godweapons:soul_crystal>,<ore:dustDraconium>,<ore:dustIridium>,<ore:dustAquarium>,<ore:dustEnderium>]);
 recipes.addShapeless(<basemetals:starsteel_powder>,[<ore:dustTitanium>,<ore:blockCitrine>,<ore:dustMercury>,<elementsofpower:spelldust:8>,<godweapons:soul_crystal>,<ore:dustDraconium>,<ore:dustIridium>,<ore:dustAquarium>,<ore:dustEnderium>]);
+recipes.addShapeless(<basemetals:mercury_powder> * 2,[<forge:bucketFilled>.withTag({FluidName: "mercury", Amount: 1000}).onlyWithTag({FluidName: "mercury", Amount: 1000}),<toughasnails:freeze_powder>,<toughasnails:freeze_powder>,<ore:dustColdiron>,<techreborn:part:10>]);
 
 //Metals That Require Special Processing
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:adamantine_ingot>);
