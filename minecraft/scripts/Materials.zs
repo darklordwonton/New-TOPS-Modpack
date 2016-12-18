@@ -96,18 +96,18 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingot
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:7>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemPowderIngot:6>, <ore:ingotPlatinum>, null, 100, 512, [<ore:dustTin>,<ore:dustTin>,<ore:dustSilver>], "Alloying");
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mercury_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotMetals:0>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotMetals:3>);
 
 //Miscelaneous
 recipes.remove(<botania:pestleAndMortar>);
 recipes.addShaped(<botania:pestleAndMortar>, [[null,null,<ore:ingotMithril>],[null,smoothDiamond,null],[null,<ore:blockMithril>,null]]);
-//make this a rolling machine recipe
-recipes.addShaped(<techreborn:plates:8> * 2,[[<ore:ingotDarkSteel>,<ore:alloyAdvanced>,<ore:ingotDarkSteel>],[<ore:ingotEnergeticAlloy>,<ore:alloyElite>,<ore:ingotEnergeticAlloy>],[<ore:ingotDarkSteel>,<ore:alloyAdvanced>,<ore:ingotDarkSteel>]]);
 
 //Fixing Iridium Alloy Ingot Recipe
 recipes.remove(<techreborn:ingot:22>);
 recipes.addShaped(<techreborn:ingot:22>,[[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>],[<techreborn:ingot:20>,<modernmetals:plutonium_ingot>,<techreborn:ingot:20>],[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>]]);
 
-//Plates
+//Plates And Gears
 recipes.remove(<basemetals:iron_plate>);
 recipes.remove(<basemetals:gold_plate>);
 recipes.remove(<basemetals:copper_plate>);
@@ -146,6 +146,30 @@ recipes.remove(<modernmetals:tungsten_plate>);
 recipes.remove(<modernmetals:uranium_plate>);
 recipes.remove(<modernmetals:zirconium_plate>);
 recipes.remove(<immersiveengineering:metal:36>);
+recipes.remove(<modernmetals:aluminum_gear>);
+recipes.remove(<modernmetals:aluminumbrass_gear>);
+recipes.remove(<modernmetals:cadmium_gear>);
+recipes.remove(<modernmetals:galvanizedsteel_gear>);
+recipes.remove(<modernmetals:iridium_gear>);
+recipes.remove(<modernmetals:magnesium_gear>);
+recipes.remove(<modernmetals:manganese_gear>);
+recipes.remove(<modernmetals:nichrome_gear>);
+recipes.remove(<modernmetals:osmium_gear>);
+recipes.remove(<modernmetals:plutonium_gear>);
+recipes.remove(<modernmetals:rutile_gear>);
+recipes.remove(<modernmetals:stainlesssteel_gear>);
+recipes.remove(<modernmetals:tantalum_gear>);
+recipes.remove(<modernmetals:titanium_gear>);
+recipes.remove(<modernmetals:tungsten_gear>);
+recipes.remove(<modernmetals:uranium_gear>);
+recipes.remove(<modernmetals:zirconium_gear>);
+recipes.remove(<basemetals:iron_gear>);
+recipes.remove(<basemetals:bronze_gear>);
+recipes.remove(<basemetals:cupronickel_gear>);
+recipes.remove(<basemetals:steel_gear>);
+recipes.remove(<basemetals:invar_gear>);
+recipes.remove(<basemetals:starsteel_gear>);
+recipes.remove(<basemetals:mithril_gear>);
 mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:adamantine_plate>);
 mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:iridium_plate>);
 recipes.addShapeless(<basemetals:gold_plate>,[<immersiveengineering:tool:0>,<ore:blockGold>]);
@@ -179,8 +203,8 @@ recipes.remove(<basemetals:adamantine_nugget>);
 recipes.remove(<bigreactors:ingotMetals:0>);
 recipes.remove(<bigreactors:ingotMetals:1>);
 recipes.remove(<bigreactors:ingotMetals:3>);
-recipes.addShaped(<modernmetals:uranium_horsearmor>, [[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
-recipes.addShaped(<techreborn:part:21>,[[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
+recipes.addShaped(<bigreactors:dustMetals:0>, [[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
+recipes.addShaped(<bigreactors:dustMetals:3>,[[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
 recipes.addShaped(<techreborn:part:22>,[[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>]]);
 
 //Miscellanious Magic Items

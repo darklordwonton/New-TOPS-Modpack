@@ -18,10 +18,10 @@ recipes.remove(<enderio:darkSteel_helmet>);
 recipes.remove(<enderio:darkSteel_chestplate>);
 recipes.remove(<enderio:darkSteel_leggings>);
 recipes.remove(<enderio:darkSteel_boots>);
-recipes.addShaped(<enderio:darkSteel_helmet>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<ore:fusedQuartz>,<techreborn:plates:8>]]);
-recipes.addShaped(<enderio:darkSteel_chestplate>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<stevescarts:ModuleComponents:46>,<techreborn:plates:8>],[<techreborn:plates:8>,<techreborn:plates:8>,<techreborn:plates:8>]]);
-recipes.addShaped(<enderio:darkSteel_leggings>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<mekanism:FreeRunners>,<techreborn:plates:8>],[<techreborn:plates:8>,null,<techreborn:plates:8>]]);
-recipes.addShaped(<enderio:darkSteel_boots>,[[<techreborn:plates:8>,<mekanism:EnergyTablet>,<techreborn:plates:8>],[<techreborn:plates:8>,<tconstruct:slime_boots>,<techreborn:plates:8>]]);
+recipes.addShaped(<enderio:darkSteel_helmet>,[[<techreborn:plates:9>,<mekanism:EnergyTablet>,<techreborn:plates:9>],[<techreborn:plates:9>,<ore:fusedQuartz>,<techreborn:plates:9>]]);
+recipes.addShaped(<enderio:darkSteel_chestplate>,[[<techreborn:plates:9>,<mekanism:EnergyTablet>,<techreborn:plates:9>],[<techreborn:plates:9>,<stevescarts:ModuleComponents:46>,<techreborn:plates:9>],[<techreborn:plates:9>,<techreborn:plates:9>,<techreborn:plates:9>]]);
+recipes.addShaped(<enderio:darkSteel_leggings>,[[<techreborn:plates:9>,<mekanism:EnergyTablet>,<techreborn:plates:9>],[<techreborn:plates:9>,<mekanism:FreeRunners>,<techreborn:plates:9>],[<techreborn:plates:9>,null,<techreborn:plates:9>]]);
+recipes.addShaped(<enderio:darkSteel_boots>,[[<techreborn:plates:9>,<mekanism:EnergyTablet>,<techreborn:plates:9>],[<techreborn:plates:9>,<tconstruct:slime_boots>,<techreborn:plates:9>]]);
 
 //Adamantine
 recipes.remove(<fluidity:adamantine_helmet_probe>);

@@ -124,7 +124,7 @@
 				{
 					type: "TechReborn.addImplosionCompressor",
                		what: ["bigreactors:ingotMetals:0:1"],
-               	 	with: ["modernmetals:uranium_horsearmor:0:1","minecraft:tnt:0:4"],
+               	 	with: ["bigreactors:dustMetals:0:1","minecraft:tnt:0:4"],
                	 	ticks: 20,
                 	euPerTick: 30
 				},
@@ -146,7 +146,7 @@
 				{
 					type: "TechReborn.addImplosionCompressor",
                		what: ["bigreactors:ingotMetals:3:1"],
-               	 	with: ["techreborn:part:21:1","minecraft:tnt:0:8"],
+               	 	with: ["bigreactors:dustMetals:3:1","minecraft:tnt:0:8"],
                	 	ticks: 20,
                 	euPerTick: 30
 				},
@@ -180,8 +180,8 @@
 				},
                 {
                     type: "TechReborn.addShapedRollingMachine",
-                    output: "techreborn:plates:8:1",
-                    with: ["ore:ingotDarkSteel","ore:alloyAdvanced","ore:ingotDarkSteel","ore:ingotEnergeticAlloy","ore:alloyElite","ore:ingotEnergeticAlloy","ore:ingotDarkSteel","ore:alloyAdvanced","ore:ingotDarkSteel"]
+                    output: "techreborn:plates:9:1",
+                    with: ["enderio:itemAlloy:6","mekanism:ReinforcedAlloy","enderio:itemAlloy:6","mekanism:Ingot:0","techreborn:plates:5","mekanism:Ingot:0","enderio:itemAlloy:6","mekanism:ReinforcedAlloy","enderio:itemAlloy:6"]
                 },
                 {
                     type: "removeSmelteryTableCast",

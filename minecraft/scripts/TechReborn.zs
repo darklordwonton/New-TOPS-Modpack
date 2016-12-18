@@ -32,3 +32,5 @@ recipes.addShaped(<techreborn:hvt>,[[null,<advancedcables:covered_pink_cable>,nu
 //Materials and Components
 recipes.remove(<techreborn:part:2>);
 recipes.addShaped(<techreborn:part:2>*4,[[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>],[<ore:gemEmerald>,<mekanism:Polyethene:3>,<ore:gemEmerald>],[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>]]);
+recipes.remove(<techreborn:part:30>);
+recipes.addShaped(<techreborn:part:30>,[[<ore:ingotEnergeticAlloy>,<ore:nuggetVibrantAlloy>,<ore:ingotEnergeticAlloy>],[<ore:ingotDarkSteel>,<ore:circuitBasic>,<ore:ingotDarkSteel>],[<ore:ingotEnergeticAlloy>,<ore:nuggetVibrantAlloy>,<ore:ingotEnergeticAlloy>]]);
