@@ -171,6 +171,18 @@
                	 	ticks: 1280,
                 	euPerTick: 256
 				},
+				{
+					type: "TechReborn.addCompressor",
+               		what: ["basemetals:mercury_ingot:0:1"],
+               	 	with: ["basemetals:mercury_powder:0:1"],
+               	 	ticks: 400,
+                	euPerTick: 20
+				},
+                {
+                    type: "TechReborn.addShapedRollingMachine",
+                    output: "techreborn:plates:8:1",
+                    with: ["ore:ingotDarkSteel","ore:alloyAdvanced","ore:ingotDarkSteel","ore:ingotEnergeticAlloy","ore:alloyElite","ore:ingotEnergeticAlloy","ore:ingotDarkSteel","ore:alloyAdvanced","ore:ingotDarkSteel"]
+                },
                 {
                     type: "removeSmelteryTableCast",
                     what: "modernmetals:iridium_plate"

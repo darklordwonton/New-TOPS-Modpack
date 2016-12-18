@@ -13,8 +13,8 @@ game.setLocalization("en_US","item.bigreactors:ingotMetals.blutonium.name","MOX 
 game.setLocalization("en_US","block.bigreactors:blockMetals.yellorium.name","Condensed Enriched Uranium Fuel Pellets");
 game.setLocalization("en_US","block.bigreactors:blockMetals.cyanite.name","Condensed Spent Nuclear Fuel");
 game.setLocalization("en_US","block.bigreactors:blockMetals.blutonium.name","Condensed MOX Fuel Pellets");
-game.setLocalization("en_US","item.basemetals:mercury_powder.name","Cold Mercury Powder");
-game.setLocalization("en_US","item.basemetals:mercury_ingot.name","Cold Mercury Ingot");
+game.setLocalization("en_US","item.basemetals.mercury_powder.name","Cold Mercury Powder");
+game.setLocalization("en_US","item.basemetals.mercury_ingot.name","Cold Mercury Ingot");
 game.setLocalization("en_US","item.modernmetals:plutonium_horsearmor.name","Plutonium Powder");
 game.setLocalization("en_US","item.modernmetals:plutonium_smallpowder.name","Small Pile of Plutonium 238");
 game.setLocalization("en_US","item.modernmetals:plutonium_powder.name","Pile of Plutonium 238");
@@ -33,7 +33,15 @@ game.setLocalization("en_US","tile.silentgems:GemBlock15.name","Solid Mass of Qu
 game.setLocalization("en_US","tile.silentgems:GemBlock14.name","Solid Mass of Serendibite Spell Dust");
 game.setLocalization("en_US","tile.silentgems:GemBlock6.name","Solid Mass of Emerald Spell Dust");
 game.setLocalization("en_US","tile.silentgems:GemBlock11.name","Solid Mass of Amethyst Spell Dust");
-game.setLocalization("en_US","tile.silentgems:GemBlockDark8.name","Solid Mass of Diamond Spell Dust");
+game.setLocalization("en_US","item.silentgems:Gem32.name","Supercharged Ruby");
+game.setLocalization("en_US","item.silentgems:Gem41.name","Supercharged Sapphire");
+game.setLocalization("en_US","item.silentgems:Gem36.name","Supercharged Citrine");
+game.setLocalization("en_US","item.silentgems:Gem34.name","Supercharged Agate");
+game.setLocalization("en_US","item.silentgems:Gem47.name","Supercharged Quartz");
+game.setLocalization("en_US","item.silentgems:Gem46.name","Supercharged Serendibite");
+game.setLocalization("en_US","item.silentgems:Gem38.name","Supercharged Emerald");
+game.setLocalization("en_US","item.silentgems:Gem43.name","Supercharged Amethyst");
+game.setLocalization("en_US","item.silentgems:Gem56.name","Supercharged Diamond");
 
 game.setLocalization("en_US","enchantment.level.11","XI");
 game.setLocalization("en_US","enchantment.level.12","XII");
