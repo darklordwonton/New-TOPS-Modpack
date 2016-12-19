@@ -73,12 +73,6 @@
       "Max Group Count": 3
     },
     {
-      "Entity Class": "crazypants.enderzoo.entity.EntityOwl",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
       "Entity Class": "lycanite.lycanitesmobs.forestmobs.entity.EntityArisaur",
       "Weight": 10,
       "Min Group Count": 1,

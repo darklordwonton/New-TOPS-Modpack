@@ -190,7 +190,27 @@
 				{
                     type: "show",
                     what: "bigreactors:ingotMetals:0"
-				}
+				},
+				{
+                	type: "addEntityEvent",
+                	what: ["net.minecraft.entity.player.EntityPlayerMP"],
+                	events: [
+						{
+							type: "runPlayerCommand",
+							command: "/fill -2 106 -2 2 110 2 minecraft:glass",
+							maxStat: { name: "stat.playOneMinute", value: 100},
+						},
+						{
+							type: "runPlayerCommand",
+							command: "/fill -2 111 -2 2 115 2 minecraft:air",
+							maxStat: { name: "stat.playOneMinute", value: 100},
+						}
+					]
+				},
+                {
+                    type: "addStarterItem",
+                    what: ["minecraft:dirt:0:64","minecraft:pumpkin_pie:0:4","minecraft:torch:0:4"]
+                }
             ]
         }
     ]

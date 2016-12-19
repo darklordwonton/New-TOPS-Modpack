@@ -19,14 +19,7 @@
     "RIVER"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [
-    {
-      "Entity Class": "crazypants.enderzoo.entity.EntityOwl",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    }
-  ],
+  "Spawnable Creatures": [],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",

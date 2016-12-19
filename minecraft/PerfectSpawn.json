@@ -1,9 +1,9 @@
 {
    "spawnDimension": 0,
    "spawnX": 0,
-   "spawnY": 150,
+   "spawnY": 115,
    "spawnZ": 0,
-   "exactSpawn": false,
+   "exactSpawn": true,
    "forceBed": true,
    "spawnProtection": false
 }
