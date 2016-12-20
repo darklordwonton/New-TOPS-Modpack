@@ -132,6 +132,13 @@ key_keys.vampirism.suck:47
 key_keys.vampirism.select_skills:52
 key_keys.vampirism.vision:49
 key_keys.vampirism.blood_potion_crafting:48:CONTROL
+key_vc.key.moveForward:17
+key_vc.key.moveBack:31
+key_vc.key.moveLeft:30
+key_vc.key.moveRight:32
+key_vc.key.moveUp:57
+key_vc.key.moveDown:45
+key_vc.key.openInventory:19
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19

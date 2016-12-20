@@ -43,6 +43,7 @@ game.setLocalization("en_US","item.silentgems:Gem46.name","Supercharged Serendib
 game.setLocalization("en_US","item.silentgems:Gem38.name","Supercharged Emerald");
 game.setLocalization("en_US","item.silentgems:Gem43.name","Supercharged Amethyst");
 game.setLocalization("en_US","item.silentgems:Gem56.name","Supercharged Diamond");
+game.setLocalization("en_US","item.runesofwizardry_pestle.name","Magic Pestle And Mortar");
 
 game.setLocalization("en_US","enchantment.level.11","XI");
 game.setLocalization("en_US","enchantment.level.12","XII");
