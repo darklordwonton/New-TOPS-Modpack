@@ -197,7 +197,7 @@
                 	events: [
 						{
 							type: "runPlayerCommand",
-							command: "/fill -2 106 -2 2 110 2 minecraft:glass",
+							command: "/fill -2 109 -2 2 110 2 minecraft:glass",
 							maxStat: { name: "stat.playOneMinute", value: 5},
 						},
 						{

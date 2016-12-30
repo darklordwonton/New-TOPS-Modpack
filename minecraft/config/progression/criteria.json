@@ -1,45 +1,133 @@
 {
   "tabs": [
     {
-      "uuid": "9776d39d-9544-4410-9f5a-25e283531e17",
-      "displayName": "New Tab",
-      "sortIndex": -10,
-      "isVisible": false,
-      "stack": "minecraft:book",
-      "criteria": []
-    },
-    {
       "uuid": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
       "displayName": "Default",
       "sortIndex": 0,
       "isVisible": true,
-      "stack": "minecraft:book",
+      "stack": "minecraft:banner 1 {BlockEntityTag:{Base:1}}",
       "criteria": [
         {
           "timestamp": 0,
-          "uuid": "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25",
-          "displayName": "Become Good Wizard",
-          "displayStack": "minecraft:stone 0",
+          "uuid": "4d2f4bdd-0565-4671-8cc9-e34a00922aa1",
+          "displayName": "Your Destiny",
+          "displayStack": "minecraft:iron_sword 0",
           "triggers": [
             {
-              "uuid": "cbf71a6d-1f75-4e41-826e-39fe180fd905",
-              "type": "trigger.attack",
+              "uuid": "ff0374a8-7c6d-4fe7-bc1f-f2624332de8d",
+              "type": "trigger.tick",
               "data": {
-                "entities": [
-                  {
-                    "type": "filter.entity.entityName",
-                    "data": {}
-                  }
-                ]
+                "isVisible": false
               }
             }
           ],
           "rewards": [
             {
-              "uuid": "3bd69d50-afa3-4b7a-904e-9a6cf24fd100",
-              "type": "reward.crafting",
+              "uuid": "b2deb737-8236-4185-baa1-ae7236427819",
+              "type": "reward.criteria",
               "data": {
                 "mustClaim": true,
+                "remove": false,
+                "displayName": "Evil Wizard",
+                "description": "Choose the dark path"
+              }
+            },
+            {
+              "uuid": "e678fdda-d9fd-45d0-9f62-7c2c9cb16bf5",
+              "type": "reward.criteria",
+              "data": {
+                "mustClaim": true,
+                "remove": false,
+                "displayName": "Good Wizard",
+                "description": "Choose the light path"
+              }
+            }
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 98,
+          "y": 85,
+          "isVisible": true,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": false
+        },
+        {
+          "timestamp": 0,
+          "uuid": "fb556641-873f-4085-b590-517c8f3eee9d",
+          "displayName": "Evil Wizard",
+          "displayStack": "minecraft:iron_helmet 0",
+          "rewards": [
+            {
+              "uuid": "6a9bd178-5237-4293-bc6b-596ee0a3c710",
+              "type": "reward.crafting",
+              "data": {
+                "actionfilters": [
+                  {
+                    "type": "filter.crafting.exact",
+                    "data": {}
+                  }
+                ],
+                "filters": [
+                  {
+                    "type": "filter.item.itemStack",
+                    "data": {
+                      "stack": "bloodmagic:BlockSoulForge"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "uuid": "6130f3f5-7a3e-4782-8022-23a37e69139c",
+              "type": "reward.crafting",
+              "data": {
+                "actionfilters": [
+                  {
+                    "type": "filter.crafting.exact",
+                    "data": {}
+                  }
+                ],
+                "filters": [
+                  {
+                    "type": "filter.item.itemStack",
+                    "data": {
+                      "stack": "bloodmagic:BlockBloodRune 0"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "prereqs": [
+            "4d2f4bdd-0565-4671-8cc9-e34a00922aa1"
+          ],
+          "conflicts": [
+            "f375fe44-48bc-458e-831a-8a2e664f46e0"
+          ],
+          "repeatable": 1,
+          "infinite": false,
+          "tasksRequired": 1,
+          "allTasks": true,
+          "x": 274,
+          "y": 65,
+          "isVisible": false,
+          "displayAchievement": true,
+          "rewardsGiven": 1,
+          "allRewards": true
+        },
+        {
+          "timestamp": 0,
+          "uuid": "f375fe44-48bc-458e-831a-8a2e664f46e0",
+          "displayName": "Good Wizard",
+          "displayStack": "minecraft:skull 2",
+          "rewards": [
+            {
+              "uuid": "8deeafbe-ef00-4b35-be37-8f95f9dc3c03",
+              "type": "reward.crafting",
+              "data": {
                 "actionfilters": [
                   {
                     "type": "filter.crafting.exact",
@@ -55,36 +143,81 @@
                   }
                 ]
               }
+            },
+            {
+              "uuid": "7b9ef5dc-9645-4b83-9fe3-a6ac61c1f0f9",
+              "type": "reward.crafting",
+              "data": {
+                "actionfilters": [
+                  {
+                    "type": "filter.crafting.exact",
+                    "data": {}
+                  }
+                ],
+                "filters": [
+                  {
+                    "type": "filter.item.itemStack",
+                    "data": {
+                      "stack": "botania:runeAltar"
+                    }
+                  }
+                ]
+              }
             }
           ],
+          "prereqs": [
+            "4d2f4bdd-0565-4671-8cc9-e34a00922aa1"
+          ],
           "conflicts": [
-            "533dc458-acaf-4ba6-b901-6f543552417d"
+            "fb556641-873f-4085-b590-517c8f3eee9d"
           ],
           "repeatable": 1,
           "infinite": false,
           "tasksRequired": 1,
           "allTasks": true,
-          "x": 126,
-          "y": 64,
-          "isVisible": true,
+          "x": 275,
+          "y": 98,
+          "isVisible": false,
           "displayAchievement": true,
           "rewardsGiven": 1,
           "allRewards": true
         },
         {
           "timestamp": 0,
-          "uuid": "533dc458-acaf-4ba6-b901-6f543552417d",
-          "displayName": "Become Evil Wizard",
+          "uuid": "55cc28c2-07db-48fc-9bb6-186640309e0f",
+          "displayName": "New Criteria",
           "displayStack": "minecraft:stone 0",
-          "conflicts": [
-            "a8bf2aa5-b36f-4ff5-bfdd-6800f2431b25"
+          "triggers": [
+            {
+              "uuid": "ec8c5153-6e79-419c-afa7-f42e6d08f194",
+              "type": "trigger.crafting",
+              "data": {
+                "filters": [
+                  {
+                    "type": "filter.item.itemStack",
+                    "data": {
+                      "stack": "runesofwizardry:pestle 0"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "rewards": [
+            {
+              "uuid": "8fc868cf-70c4-4725-bc10-336fa2c86e34",
+              "type": "reward.open.book",
+              "data": {
+                "bookid": "Destiny"
+              }
+            }
           ],
           "repeatable": 1,
           "infinite": false,
           "tasksRequired": 1,
           "allTasks": true,
-          "x": 128,
-          "y": 114,
+          "x": 443,
+          "y": 142,
           "isVisible": true,
           "displayAchievement": true,
           "rewardsGiven": 1,

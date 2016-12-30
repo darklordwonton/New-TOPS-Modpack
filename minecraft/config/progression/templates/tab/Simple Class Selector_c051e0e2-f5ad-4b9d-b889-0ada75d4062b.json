@@ -1,0 +1,453 @@
+{
+  "uuid": "c051e0e2-f5ad-4b9d-b889-0ada75d4062b",
+  "displayName": "Simple Class Selector",
+  "sortIndex": 0,
+  "isVisible": true,
+  "stack": "minecraft:banner 1 {BlockEntityTag:{Base:1}}",
+  "criteria": [
+    {
+      "timestamp": 0,
+      "uuid": "4d2f4bdd-0565-4671-8cc9-e34a00922aa1",
+      "displayName": "Class Selector",
+      "displayStack": "minecraft:iron_sword 0",
+      "triggers": [
+        {
+          "uuid": "ff0374a8-7c6d-4fe7-bc1f-f2624332de8d",
+          "type": "trigger.tick",
+          "data": {
+            "isVisible": false
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "uuid": "b2deb737-8236-4185-baa1-ae7236427819",
+          "type": "reward.criteria",
+          "data": {
+            "mustClaim": true,
+            "remove": false,
+            "displayName": "Knight",
+            "description": "Knight\nGain Strength after killing monsters!"
+          }
+        },
+        {
+          "uuid": "e678fdda-d9fd-45d0-9f62-7c2c9cb16bf5",
+          "type": "reward.criteria",
+          "data": {
+            "mustClaim": true,
+            "remove": false,
+            "displayName": "Necromancer",
+            "description": "Necromancer\nCan summon Zombies!"
+          }
+        },
+        {
+          "uuid": "68393326-80f5-433d-8d29-ca503ebe9160",
+          "type": "reward.criteria",
+          "data": {
+            "mustClaim": true,
+            "remove": false,
+            "displayName": "Endertroll",
+            "description": "Ender Troll\nCan Teleport up to 64 Blocks"
+          }
+        }
+      ],
+      "repeatable": 1,
+      "infinite": false,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 98,
+      "y": 85,
+      "isVisible": true,
+      "displayAchievement": true,
+      "rewardsGiven": 1,
+      "allRewards": false
+    },
+    {
+      "timestamp": 0,
+      "uuid": "fb556641-873f-4085-b590-517c8f3eee9d",
+      "displayName": "Knight",
+      "displayStack": "minecraft:iron_helmet 0",
+      "rewards": [
+        {
+          "uuid": "b42a611e-dc1b-4f79-a9b5-0dd6ba4ed9d9",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "iron_sword"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "595b3b97-176c-40fe-b27d-2a51f970f5f6",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "chainmail_helmet"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "85519e53-fcee-4790-b696-e09bb5ecb6cd",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "chainmail_chestplate"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "45394104-9ed1-4595-8cad-18c20bfea170",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "chainmail_leggings"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "2b656714-eec5-43fb-acc8-8917e7d12319",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "chainmail_boots"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "4d2f4bdd-0565-4671-8cc9-e34a00922aa1"
+      ],
+      "conflicts": [
+        "f375fe44-48bc-458e-831a-8a2e664f46e0",
+        "b5cc3097-511a-41df-a670-91b80f086152"
+      ],
+      "repeatable": 1,
+      "infinite": false,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 200,
+      "y": 54,
+      "isVisible": false,
+      "displayAchievement": true,
+      "rewardsGiven": 1,
+      "allRewards": true
+    },
+    {
+      "timestamp": 0,
+      "uuid": "f375fe44-48bc-458e-831a-8a2e664f46e0",
+      "displayName": "Necromancer",
+      "displayStack": "minecraft:skull 2",
+      "rewards": [
+        {
+          "uuid": "be450559-fea6-4a43-822e-0d1c5f58eab6",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "stick"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "ec71015e-9080-437b-af98-836730a8f8a2",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemStack",
+                "data": {
+                  "stack": "minecraft:leather_helmet 0 {display:{color:1644825}}"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "4d2f4bdd-0565-4671-8cc9-e34a00922aa1"
+      ],
+      "conflicts": [
+        "fb556641-873f-4085-b590-517c8f3eee9d",
+        "b5cc3097-511a-41df-a670-91b80f086152"
+      ],
+      "repeatable": 1,
+      "infinite": false,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 199,
+      "y": 85,
+      "isVisible": false,
+      "displayAchievement": true,
+      "rewardsGiven": 1,
+      "allRewards": true
+    },
+    {
+      "timestamp": 0,
+      "uuid": "b5cc3097-511a-41df-a670-91b80f086152",
+      "displayName": "Endertroll",
+      "displayStack": "minecraft:ender_chest",
+      "rewards": [
+        {
+          "uuid": "3be80615-13ca-4bba-9ce3-6724da784395",
+          "type": "reward.item",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "ender_pearl"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "d4d78b05-ac6b-459d-814a-1917cc10806a",
+          "type": "reward.item",
+          "data": {
+            "stackSize": 8,
+            "filters": [
+              {
+                "type": "filter.item.itemOnly",
+                "data": {
+                  "item:path": "rotten_flesh"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "4d2f4bdd-0565-4671-8cc9-e34a00922aa1"
+      ],
+      "conflicts": [
+        "f375fe44-48bc-458e-831a-8a2e664f46e0",
+        "fb556641-873f-4085-b590-517c8f3eee9d"
+      ],
+      "repeatable": 1,
+      "infinite": false,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 201,
+      "y": 117,
+      "isVisible": false,
+      "displayAchievement": true,
+      "rewardsGiven": 1,
+      "allRewards": true
+    },
+    {
+      "timestamp": 0,
+      "uuid": "f10a5582-82ec-4028-9d2e-95eac3aabb48",
+      "displayName": "Knightly Gains!",
+      "displayStack": "minecraft:potion 8265",
+      "triggers": [
+        {
+          "uuid": "60a4d996-6673-4f0b-8d5d-c452fd112e25",
+          "type": "trigger.kill",
+          "data": {
+            "entities": [
+              {
+                "type": "filter.entity.entityName",
+                "data": {
+                  "entityName": "*"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "uuid": "b474d8cc-b95f-4ddb-9e7e-15021f7f13d6",
+          "type": "reward.potioneffect",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.potioneffect.potionitem",
+                "data": {
+                  "stack": "minecraft:potion 8265"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "fb556641-873f-4085-b590-517c8f3eee9d"
+      ],
+      "repeatable": 1,
+      "infinite": true,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 286,
+      "y": 54,
+      "isVisible": false,
+      "displayAchievement": false,
+      "rewardsGiven": 1,
+      "allRewards": true
+    },
+    {
+      "timestamp": 0,
+      "uuid": "bba0f7e1-e2ac-4fa6-af94-99b87ce96b30",
+      "displayName": "Zombie Summoning",
+      "displayStack": "minecraft:rotten_flesh",
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "uuid": "2a5f2395-bbbc-45b4-8aab-05ccf04912a9",
+              "type": "condition.isSneaking",
+              "data": {}
+            }
+          ],
+          "uuid": "9a50e3d3-668b-42e3-8117-46bfcffb6cd7",
+          "type": "trigger.clickBlock",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.block.blockMod",
+                "data": {
+                  "modid": "*"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "uuid": "d2e43380-8eb4-4f92-8d18-bd9595d0e39d",
+          "type": "reward.entity",
+          "data": {
+            "locations": [
+              {
+                "type": "filter.location.playerLook",
+                "data": {
+                  "reachDistance": false
+                }
+              }
+            ],
+            "entities": [
+              {
+                "type": "filter.entity.entityName",
+                "data": {
+                  "entityName": "Zombie"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "f375fe44-48bc-458e-831a-8a2e664f46e0"
+      ],
+      "repeatable": 1,
+      "infinite": true,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 286,
+      "y": 85,
+      "isVisible": false,
+      "displayAchievement": false,
+      "rewardsGiven": 1,
+      "allRewards": true
+    },
+    {
+      "timestamp": 0,
+      "uuid": "aab8e848-fc8b-44a1-847f-a93561ad0452",
+      "displayName": "Enderposition",
+      "displayStack": "minecraft:ender_pearl",
+      "triggers": [
+        {
+          "conditions": [
+            {
+              "uuid": "9368a998-95f2-412f-bb35-40f5725cfca7",
+              "type": "condition.ininventory",
+              "data": {
+                "enum:slotType": "HOTBAR",
+                "filters": [
+                  {
+                    "type": "filter.item.itemOnly",
+                    "data": {
+                      "item:path": "ender_pearl"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "uuid": "e84da7d4-e46d-4003-afbc-ce24f28f2d0d",
+          "type": "trigger.onEaten",
+          "data": {
+            "filters": [
+              {
+                "type": "filter.item.modid",
+                "data": {
+                  "modid": "*"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "rewards": [
+        {
+          "uuid": "ddd8a364-0ab1-4c8e-93ce-05098e85f11a",
+          "type": "reward.teleport",
+          "data": {
+            "locations": [
+              {
+                "type": "filter.location.playerLook",
+                "data": {
+                  "reachDistance": false
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "prereqs": [
+        "b5cc3097-511a-41df-a670-91b80f086152"
+      ],
+      "repeatable": 1,
+      "infinite": true,
+      "tasksRequired": 1,
+      "allTasks": true,
+      "x": 286,
+      "y": 117,
+      "isVisible": false,
+      "displayAchievement": false,
+      "rewardsGiven": 1,
+      "allRewards": true
+    }
+  ]
+}
