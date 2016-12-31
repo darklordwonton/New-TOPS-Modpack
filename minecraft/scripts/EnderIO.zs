@@ -1,29 +1,34 @@
-//Basic Capacitor
-recipes.remove(<enderio:itemBasicCapacitor:0>);
-recipes.addShaped(<enderio:itemBasicCapacitor:0>, [[null,<minecraft:redstone> *  2,<minecraft:gold_nugget>],[<minecraft:redstone> *  2,<ore:ingotSilver>,<minecraft:redstone> *  2],[<minecraft:gold_nugget>,<minecraft:redstone> *  2, null]]);
+//Capacitors
+recipes.remove(<enderio:itemBasicCapacitor:*>);
+recipes.addShaped(<enderio:itemBasicCapacitor:0>, [[null,<ore:dustRedstone>,<ore:nuggetElectrum>],[<ore:dustRedstone>,<ore:ingotZinc>,<ore:dustRedstone>],[<ore:nuggetElectrum>,<ore:dustRedstone>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null,<ore:ingotArdite>,null],[<enderio:itemBasicCapacitor:0>,<ore:dustHOPGraphite>,<enderio:itemBasicCapacitor:0>],[null,<ore:ingotCobalt>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null,<enderio:itemAlloy:2>,null],[<enderio:itemBasicCapacitor:1>,<ore:ingotDarkSteel>,<enderio:itemBasicCapacitor:1>],[null,<enderio:itemAlloy:2>, null]]);
 
-//Octadic Capacitor
-recipes.remove(<enderio:itemBasicCapacitor:2>);
-recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null,<enderio:itemAlloy:2>,null],[<enderio:itemBasicCapacitor:1>,<basemetals:electrum_ingot>,<enderio:itemBasicCapacitor:2>],[null,<enderio:itemAlloy:2>, null]]);
+//Chasis
+recipes.remove(<enderio:itemMachinePart:0>);
+recipes.addShaped(<enderio:itemMachinePart:0>,[[<ore:barsBronze>,<ore:ingotSteel>,<ore:barsBronze>],[<ore:ingotSteel>,<enderio:itemBasicCapacitor:0>,<ore:ingotSteel>],[<ore:barsBronze>,<ore:ingotSteel>,<ore:barsBronze>]]);
 
 //Alloy Smelter
 recipes.remove(<enderio:blockAlloySmelter>);
-recipes.addShaped(<enderio:blockAlloySmelter>, [[<modernmetals:osmium_ingot>,<minecraft:furnace>,<modernmetals:osmium_ingot>],[<minecraft:furnace>,<enderio:itemMachinePart>,<minecraft:furnace>],[<modernmetals:osmium_ingot>,<minecraft:cauldron>, <modernmetals:osmium_ingot>]]);
+recipes.addShaped(<enderio:blockAlloySmelter>, [[<ore:ingotOsmium>,<minecraft:furnace>,<ore:ingotOsmium>],[<minecraft:furnace>,<enderio:itemMachinePart>,<minecraft:furnace>],[<ore:ingotOsmium>,<minecraft:cauldron>, <ore:ingotOsmium>]]);
 
-//Basic Capacitor Bank
-recipes.remove(<enderio:blockCapBank:1>);
-recipes.addShaped(<enderio:blockCapBank:1>, [[<ore:ingotSilver>,<enderio:itemBasicCapacitor:0>,<ore:ingotSilver>],[<enderio:itemBasicCapacitor:0>,<minecraft:redstone_block>,<enderio:itemBasicCapacitor:0>],[<ore:ingotSilver>,<enderio:itemBasicCapacitor:0>,<ore:ingotSilver>]]);
+//Generators
+recipes.remove(<enderio:blockStirlingGenerator>);
+recipes.remove(<enderio:blockCombustionGenerator>);
+recipes.addShaped(<enderio:blockCombustionGenerator>,[[<ore:ingotDarkSteel>,<ore:ingotDarkSteel>,<ore:ingotDarkSteel>],[<enderio:blockTank>,<enderio:itemMachinePart:0>,<enderio:blockTank>],[<ore:gearInvar>,<minecraft:piston>,<ore:gearInvar>]]);
 
-//Capacitor Bank
-recipes.removeShaped(<enderio:blockCapBank:2>, [[<enderio:itemAlloy:0>,<enderio:itemBasicCapacitor:1>,<enderio:itemAlloy:0>],[<enderio:itemBasicCapacitor:1>,<minecraft:redstone_block>,<enderio:itemBasicCapacitor:1>],[<enderio:itemAlloy:0>,<enderio:itemBasicCapacitor:1>,<enderio:itemAlloy:0>]]);
+//Capacitor Banks
+recipes.remove(<enderio:blockCapBank:*>);
+recipes.addShaped(<enderio:blockCapBank:1>, [[<ore:ingotCupronickel>,<enderio:itemBasicCapacitor:0>,<ore:ingotCupronickel>],[<enderio:itemBasicCapacitor:0>,<ore:itemPulsatingCrystal>,<enderio:itemBasicCapacitor:0>],[<ore:ingotCupronickel>,<enderio:itemBasicCapacitor:0>,<ore:ingotCupronickel>]]);
+recipes.addShaped(<enderio:blockCapBank:2>, [[<ore:ingotVibrantAlloy>,<enderio:itemBasicCapacitor:1>,<ore:ingotVibrantAlloy>],[<enderio:blockCapBank:1>,<ore:circuitAdvanced>,<enderio:blockCapBank:1>],[<ore:ingotVibrantAlloy>,<enderio:itemBasicCapacitor:1>,<ore:ingotVibrantAlloy>]]);
+recipes.addShaped(<enderio:blockCapBank:3>, [[<ore:ingotTungstensteel>,<enderio:itemBasicCapacitor:2>,<ore:ingotTungstensteel>],[<enderio:blockCapBank:2>,<ore:circuitElite>,<enderio:blockCapBank:2>],[<ore:ingotTungstensteel>,<enderio:itemBasicCapacitor:2>,<ore:ingotTungstensteel>]]);
 
-
-//Vibrant Capacitor Bank
-recipes.removeShaped(<enderio:blockCapBank:3>, [[<enderio:itemAlloy:0>,<enderio:itemBasicCapacitor:2>,<enderio:itemAlloy:0>],[<enderio:itemBasicCapacitor:2>,<enderio:itemMaterial:6>,<enderio:itemBasicCapacitor:2>],[<enderio:itemAlloy:0>,<enderio:itemBasicCapacitor:2>,<enderio:itemAlloy:0>]]);
+//Resevoir
+recipes.remove(<enderio:blockResevoir>);
 
 //Painting Machine
 recipes.remove(<enderio:blockPainter>);
-recipes.addShaped(<enderio:blockPainter>, [[<minecraft:diamond>,<ore:gemQuartz>,<minecraft:diamond>],[<enderio:itemAlloy:0>,<enderio:itemMachinePart>,<enderio:itemAlloy:0>],[<enderio:itemAlloy:0>,<enderio:itemAlloy:0>,<enderio:itemAlloy:0>]]);
+recipes.addShaped(<enderio:blockPainter>, [[<ore:gemDiamond>,<ore:gemQuartz>,<ore:gemDiamond>],[<enderio:itemAlloy:0>,<enderio:itemMachinePart>,<enderio:itemAlloy:0>],[<enderio:itemAlloy:0>,<enderio:itemAlloy:0>,<enderio:itemAlloy:0>]]);
 
 //Crafter
 recipes.remove(<enderio:blockCrafter>);
@@ -75,7 +80,7 @@ recipes.addShaped(<enderio:blockPoweredSpawner>, [[<ore:ingotSilver>,<minecraft:
 
 //Enchanter
 recipes.remove(<enderio:blockEnchanter>);
-recipes.addShaped(<enderio:blockEnchanter>, [[<minecraft:diamond>,<minecraft:book>,<minecraft:diamond>],[<enderio:itemAlloy:6>,<enderio:itemMaterial:6>,<enderio:itemAlloy:6>],[null,<enderio:itemAlloy:6>,null]]);
+recipes.addShaped(<enderio:blockEnchanter>, [[<ore:gemDiamond>,<minecraft:book>,<ore:gemDiamond>],[<enderio:itemAlloy:6>,<enderio:itemMaterial:6>,<enderio:itemAlloy:6>],[null,<enderio:itemAlloy:6>,null]]);
 
 //Dark Steel Ladder
 recipes.remove(<enderio:blockDarkSteelLadder> * 12);
