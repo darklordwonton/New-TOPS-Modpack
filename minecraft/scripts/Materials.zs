@@ -107,7 +107,7 @@ recipes.addShaped(<runesofwizardry:pestle>, [[null,null,<ore:ingotMithril>],[<or
 recipes.remove(<techreborn:ingot:22>);
 recipes.addShaped(<techreborn:ingot:22>,[[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>],[<techreborn:ingot:20>,<modernmetals:plutonium_ingot>,<techreborn:ingot:20>],[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>]]);
 
-//Plates And Gears
+//Plates
 recipes.remove(<basemetals:iron_plate>);
 recipes.remove(<basemetals:gold_plate>);
 recipes.remove(<basemetals:copper_plate>);
@@ -131,6 +131,7 @@ recipes.remove(<basemetals:brass_plate>);
 recipes.remove(<modernmetals:aluminum_plate>);
 recipes.remove(<modernmetals:aluminumbrass_plate>);
 recipes.remove(<modernmetals:cadmium_plate>);
+recipes.remove(<modernmetals:chromium_plate>);
 recipes.remove(<modernmetals:galvanizedsteel_plate>);
 recipes.remove(<modernmetals:iridium_plate>);
 recipes.remove(<modernmetals:magnesium_plate>);
@@ -146,9 +147,15 @@ recipes.remove(<modernmetals:tungsten_plate>);
 recipes.remove(<modernmetals:uranium_plate>);
 recipes.remove(<modernmetals:zirconium_plate>);
 recipes.remove(<immersiveengineering:metal:36>);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:adamantine_plate>);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:iridium_plate>);
+recipes.addShapeless(<basemetals:gold_plate>,[<immersiveengineering:tool:0>,<ore:blockGold>]);
+
+//Gears
 recipes.remove(<modernmetals:aluminum_gear>);
 recipes.remove(<modernmetals:aluminumbrass_gear>);
 recipes.remove(<modernmetals:cadmium_gear>);
+recipes.remove(<modernmetals:chromium_gear>);
 recipes.remove(<modernmetals:galvanizedsteel_gear>);
 recipes.remove(<modernmetals:iridium_gear>);
 recipes.remove(<modernmetals:magnesium_gear>);
@@ -170,9 +177,39 @@ recipes.remove(<basemetals:steel_gear>);
 recipes.remove(<basemetals:invar_gear>);
 recipes.remove(<basemetals:starsteel_gear>);
 recipes.remove(<basemetals:mithril_gear>);
-mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:adamantine_plate>);
-mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:iridium_plate>);
-recipes.addShapeless(<basemetals:gold_plate>,[<immersiveengineering:tool:0>,<ore:blockGold>]);
+recipes.remove(<basemetals:adamantine_gear>);
+recipes.remove(<basemetals:coldiron_gear>);
+recipes.remove(<basemetals:mithril_gear>);
+recipes.remove(<forestry:gearCopper>);
+recipes.remove(<forestry:gearTin>);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:bronze_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<basemetals:bronze_gear>,<basemetals:bronze_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:cupronickel_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<basemetals:cupronickel_gear>,<basemetals:cupronickel_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:invar_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<basemetals:invar_gear>,<basemetals:invar_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:iron_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<basemetals:iron_gear>,<minecraft:iron_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<basemetals:steel_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<basemetals:steel_gear>,<basemetals:steel_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gearCopper>);
+mods.immersiveengineering.MetalPress.addRecipe(<forestry:gearCopper>,<basemetals:copper_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<forestry:gearTin>);
+mods.immersiveengineering.MetalPress.addRecipe(<forestry:gearTin>,<basemetals:tin_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:aluminum_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:aluminum_gear>,<modernmetals:aluminum_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:chromium_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:chromium_gear>,<modernmetals:chromium_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:iridium_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:iridium_gear>,<modernmetals:iridium_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:osmium_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:osmium_gear>,<modernmetals:osmium_ingot> * 4,<immersiveengineering:mold:1>,500);
+mods.immersiveengineering.MetalPress.removeRecipe(<modernmetals:uranium_gear>);
+mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:uranium_gear>,<modernmetals:uranium_ingot> * 4,<immersiveengineering:mold:1>,500);
+
+//Smeltery
+mods.tconstruct.Smeltery.removeAlloy(<liquid:galvanizedsteel>);
+mods.tconstruct.Casting.addTableRecipe(<modernmetals:galvanizedsteel_plate>, <liquid:zinc> * 288, <basemetals:steel_plate>, true, 200);
 
 //Dusts
 recipes.remove(<modernmetals:galvanizedsteel_blend>);

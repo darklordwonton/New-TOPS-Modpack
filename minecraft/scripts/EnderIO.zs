@@ -12,10 +12,18 @@ recipes.addShaped(<enderio:itemMachinePart:0>,[[<ore:barsBronze>,<ore:ingotSteel
 recipes.remove(<enderio:blockAlloySmelter>);
 recipes.addShaped(<enderio:blockAlloySmelter>, [[<ore:ingotOsmium>,<minecraft:furnace>,<ore:ingotOsmium>],[<minecraft:furnace>,<enderio:itemMachinePart>,<minecraft:furnace>],[<ore:ingotOsmium>,<minecraft:cauldron>, <ore:ingotOsmium>]]);
 
+//SAG Mill
+recipes.remove(<enderio:blockSagMill>);
+recipes.addShaped(<enderio:blockSagMill>,[[<ore:itemFlint>,<ore:itemFlint>,<ore:itemFlint>],[<ore:gemSapphire>,<enderio:itemMachinePart:0>,<ore:gemRuby>],[<ore:gemCitrine>,<ore:gemDiamond>,<ore:gemAgate>]]);
+
 //Generators
 recipes.remove(<enderio:blockStirlingGenerator>);
 recipes.remove(<enderio:blockCombustionGenerator>);
 recipes.addShaped(<enderio:blockCombustionGenerator>,[[<ore:ingotDarkSteel>,<ore:ingotDarkSteel>,<ore:ingotDarkSteel>],[<enderio:blockTank>,<enderio:itemMachinePart:0>,<enderio:blockTank>],[<ore:gearInvar>,<minecraft:piston>,<ore:gearInvar>]]);
+recipes.remove(<enderio:blockZombieGenerator>);
+recipes.addShaped(<enderio:blockZombieGenerator>,[[<ore:ingotDarkSteel>,<ore:ingotDarkSteel>,<ore:ingotDarkSteel>],[<ore:blockGlassHardened>,<enderio:itemFrankenSkull>,<ore:blockGlassHardened>],[<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>]]);
+recipes.remove(<enderio:blockSolarPanel:1>);
+recipes.remove(<enderio:blockSolarPanel:2>);
 
 //Capacitor Banks
 recipes.remove(<enderio:blockCapBank:*>);
@@ -24,7 +32,7 @@ recipes.addShaped(<enderio:blockCapBank:2>, [[<ore:ingotVibrantAlloy>,<enderio:i
 recipes.addShaped(<enderio:blockCapBank:3>, [[<ore:ingotTungstensteel>,<enderio:itemBasicCapacitor:2>,<ore:ingotTungstensteel>],[<enderio:blockCapBank:2>,<ore:circuitElite>,<enderio:blockCapBank:2>],[<ore:ingotTungstensteel>,<enderio:itemBasicCapacitor:2>,<ore:ingotTungstensteel>]]);
 
 //Resevoir
-recipes.remove(<enderio:blockResevoir>);
+recipes.remove(<enderio:blockReservoir>);
 
 //Painting Machine
 recipes.remove(<enderio:blockPainter>);
@@ -39,24 +47,22 @@ recipes.remove(<enderio:blockVat>);
 recipes.addShaped(<enderio:blockVat>, [[<ore:ingotSilver>,<minecraft:cauldron>,<ore:ingotSilver>],[<enderio:blockTank>,<enderio:itemMachinePart>,<enderio:blockTank>],[<ore:ingotSilver>,<minecraft:furnace>,<ore:ingotSilver>]]);
 
 //Power Monitor
-recipes.remove(<enderio:blockVat>);
-recipes.addShaped(<enderio:blockVat>, [[<ore:ingotSilver>,<jurassicraft:computer_screen>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
+recipes.remove(<enderio:blockPowerMonitor>);
+recipes.addShaped(<enderio:blockPowerMonitor>, [[<ore:ingotSilver>,<jurassicraft:computer_screen>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
 
 //Farming Station
 recipes.remove(<enderio:blockFarmStation>);
 
 //Fluid Tank
-recipes.removeShaped(<enderio:blockTank>, [[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>],[<minecraft:iron_bars>,<ore:fusedQuartz>,<minecraft:iron_bars>],[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>]]);
+recipes.remove(<enderio:blockTank:*>);
+recipes.addShaped(<enderio:blockTank>, [[<ore:plateGalvanizedsteel>,<ore:barsTin>,<ore:plateGalvanizedsteel>],[<ore:barsTin>,<ore:blockGlassHardened>,<ore:barsTin>],[<ore:plateGalvanizedsteel>,<ore:barsTin>,<ore:plateGalvanizedsteel>]]);
+recipes.addShaped(<enderio:blockTank:1>,[[<ore:ingotDarkSteel>,<ore:fusedQuartz>,<ore:ingotDarkSteel>],[<ore:fusedQuartz>,<enderio:blockTank>,<ore:fusedQuartz>],[<ore:ingotDarkSteel>,<ore:fusedQuartz>,<ore:ingotDarkSteel>]]);
 
-recipes.removeShaped(<enderio:blockTank>, [[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>],[<minecraft:iron_bars>,<evilcraft:obscuredGlass:*>,<minecraft:iron_bars>],[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>]]);
-
-recipes.removeShaped(<enderio:blockTank>, [[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>],[<minecraft:iron_bars>,<minecraft:stained_glass:*>,<minecraft:iron_bars>],[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>]]);
-
-recipes.removeShaped(<enderio:blockTank>, [[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>],[<minecraft:iron_bars>,<tconstruct:clear_stained_glass:*>,<minecraft:iron_bars>],[<ore:ingotIron>,<minecraft:iron_bars>,<ore:ingotIron>]]);
-
-//Vacuum Chest
+//Vacuum Chest & XP Vacuum
 recipes.remove(<enderio:blockVacuumChest>);
-recipes.addShaped(<enderio:blockVacuumChest>, [[<ore:ingotPlatinum>,<ore:ingotPlatinum>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<minecraft:chest:*>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<enderio:itemMaterial:5>,<ore:ingotPlatinum>]]);
+recipes.addShaped(<enderio:blockVacuumChest>, [[<ore:ingotElectrum>,<ore:ingotElectrum>,<ore:ingotElectrum>],[<ore:ingotElectrum>,<ore:chest>,<ore:ingotElectrum>],[<ore:ingotElectrum>,<enderio:itemMaterial:5>,<ore:ingotElectrum>]]);
+recipes.remove(<enderio:blockXPVacuum>);
+recipes.addShaped(<enderio:blockXPVacuum>, [[<ore:ingotPlatinum>,<ore:ingotDarkSteel>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<enderio:itemXpTransfer>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<enderio:itemMaterial:5>,<ore:ingotPlatinum>]]);
 
 //Item Buffer
 recipes.remove(<enderio:blockBuffer:0>);
@@ -72,15 +78,13 @@ recipes.addShaped(<enderio:blockInventoryPanelSensor>, [[<ore:ingotSilver>,<ende
 
 //Travel Anchor
 recipes.remove(<enderio:blockTravelAnchor>);
-recipes.addShaped(<enderio:blockTravelAnchor>, [[<ore:ingotSilver>,<enderio:itemMaterial:1>,<ore:ingotSilver>],[<enderio:itemMaterial:1>,<enderio:itemMaterial:5>,<enderio:itemMaterial:1>],[<ore:ingotSilver>,<enderio:itemMaterial:1>,<ore:ingotSilver>]]);
+recipes.addShaped(<enderio:blockTravelAnchor>, [[<ore:ingotDarkSteel>,<ore:ingotVibrantAlloy>,<ore:ingotDarkSteel>],[<ore:ingotVibrantAlloy>,<mekanism:TeleportationCore>,<ore:ingotVibrantAlloy>],[<ore:ingotDarkSteel>,<ore:ingotVibrantAlloy>,<ore:ingotDarkSteel>]]);
 
 //Powered Spawner
 recipes.remove(<enderio:blockPoweredSpawner>);
-recipes.addShaped(<enderio:blockPoweredSpawner>, [[<ore:ingotSilver>,<minecraft:skull:*>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<enderio:itemMaterial:6>,<minecraft:comparator>,<enderio:itemMaterial:6>]]);
 
 //Enchanter
 recipes.remove(<enderio:blockEnchanter>);
-recipes.addShaped(<enderio:blockEnchanter>, [[<ore:gemDiamond>,<minecraft:book>,<ore:gemDiamond>],[<enderio:itemAlloy:6>,<enderio:itemMaterial:6>,<enderio:itemAlloy:6>],[null,<enderio:itemAlloy:6>,null]]);
 
 //Dark Steel Ladder
 recipes.remove(<enderio:blockDarkSteelLadder> * 12);
