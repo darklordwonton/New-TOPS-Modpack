@@ -103,6 +103,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotMetals:3>);
 recipes.remove(<runesofwizardry:pestle>);
 recipes.addShaped(<runesofwizardry:pestle>, [[null,null,<ore:ingotMithril>],[<ore:blockBlaze>,smoothDiamond,<ore:blockBlaze>],[null,<ore:blockMithril>,null]]);
 
+
 //Fixing Iridium Alloy Ingot Recipe
 recipes.remove(<techreborn:ingot:22>);
 recipes.addShaped(<techreborn:ingot:22>,[[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>],[<techreborn:ingot:20>,<modernmetals:plutonium_ingot>,<techreborn:ingot:20>],[<ore:ingotIridium>,<techreborn:ingot:20>,<ore:ingotIridium>]]);
