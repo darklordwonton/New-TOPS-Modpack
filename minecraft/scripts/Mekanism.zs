@@ -49,6 +49,9 @@ recipes.remove(<mekanism:MachineBlock2:5>);
 recipes.addShaped(<mekanism:MachineBlock2:5>,[[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>],[<techreborn:advancedchainsaw>,<techreborn:industrialSawmill>,<techreborn:advancedchainsaw>],[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>]]);
 recipes.remove(<mekanism:MachineBlock2:13>);
 recipes.addShaped(<mekanism:MachineBlock2:13>,[[<ore:ingotIridium>,<ore:circuitElite>,null],[<refraction:laser>,<refraction:reflection_chamber>,<mekanismgenerators:ReactorGlass>],[<ore:ingotIridium>,<ore:circuitElite>,null]]);
+recipes.remove(<mekanism:MachineBlock2:14>);
+recipes.addShaped(<mekanism:MachineBlock2:14>,[[<stevescarts:ModuleComponents:49>,<mekanismgenerators:ReactorGlass>,<stevescarts:ModuleComponents:49>],[<mekanismgenerators:ReactorGlass>,<refraction:reflection_chamber>,<mekanismgenerators:ReactorGlass>],[<stevescarts:ModuleComponents:49>,<mekanismgenerators:ReactorGlass>,<stevescarts:ModuleComponents:49>]]);
+
 
 //Items
 recipes.remove(<mekanism:TierInstaller:*>);

@@ -46,7 +46,7 @@ recipes.addShaped(<opencomputers:material:22>,[[<ore:ingotDarkSteel>,<opencomput
 recipes.remove(<opencomputers:component:0>);
 recipes.addShaped(<opencomputers:component:0>,[[<ore:ingotSteel>,<forestry:chipsets:0>,<ore:ingotSteel>],[<opencomputers:material:8>,<opencomputers:material:12>,<opencomputers:material:8>],[<ore:ingotSteel>,<opencomputers:material:11>,<ore:ingotSteel>]]);
 recipes.remove(<opencomputers:component:1>);
-recipes.addShaped(<opencomputers:component:1>,[[<ore:ingotDarkSteel>,<forestry:chipsets:1>,<ore:ingotDarkSteel>],[<opencomputers:material:9>,<opencomputers:component:0>,<opencomputers:material:9>],[<ore:ingotDarkSteel>,<enderio:itemFrankenSkull:1>,<ore:ingotDarkSteel>]]);
+recipes.addShaped(<opencomputers:component:1>,[[<ore:ingotDarkSteel>,<forestry:chipsets:1>,<ore:ingotDarkSteel>],[<opencomputers:material:9>,<opencomputers:component:0>,<opencomputers:material:9>],[<ore:ingotDarkSteel>,<ore:circuitAdvanced>,<ore:ingotDarkSteel>]]);
 recipes.remove(<opencomputers:component:2>);
 recipes.addShaped(<opencomputers:component:2>,[[<ore:ingotTitanium>,<forestry:chipsets:3>,<ore:ingotTitanium>],[<opencomputers:material:10>,<opencomputers:component:1>,<opencomputers:material:10>],[<ore:ingotTitanium>,<ore:craftingSuperconductor>,<ore:ingotTitanium>]]);
 recipes.remove(<opencomputers:component:3>);
@@ -54,11 +54,11 @@ recipes.addShaped(<opencomputers:component:3>,[[<forestry:thermionicTubes:0>,<or
 recipes.remove(<opencomputers:component:4>);
 recipes.addShaped(<opencomputers:component:4>,[[<forestry:thermionicTubes:4>,<ore:ingotRedstoneAlloy>,<forestry:thermionicTubes:4>],[<opencomputers:material:9>,<opencomputers:material:12>,null],[<forestry:thermionicTubes:4>,<opencomputers:material:5>,<forestry:thermionicTubes:4>]]);
 recipes.remove(<opencomputers:component:5>);
-recipes.addShaped(<opencomputers:component:5>,[[<forestry:thermionicTubes:9>,<ore:ingotRedstoneAlloy>,<forestry:thermionicTubes:9>],[<opencomputers:material:10>,<opencomputers:material:12>,null],[<forestry:thermionicTubes:9>,<opencomputers:material:5>,<forestry:thermionicTubes:9>]]);
+recipes.addShaped(<opencomputers:component:5>,[[<forestry:thermionicTubes:5>,<ore:ingotRedstoneAlloy>,<forestry:thermionicTubes:5>],[<opencomputers:material:10>,<opencomputers:material:12>,null],[<forestry:thermionicTubes:5>,<opencomputers:material:5>,<forestry:thermionicTubes:5>]]);
 recipes.remove(<opencomputers:component:16>);
 recipes.addShaped(<opencomputers:component:16>,[[<ore:nuggetTin>,<opencomputers:material:8>,<ore:nuggetTin>],[<opencomputers:component:1>,<opencomputers:component:4>,<opencomputers:card:1>],[<ore:nuggetTin>,<opencomputers:material:8>,<ore:nuggetTin>]]);
 recipes.remove(<opencomputers:component:17>);
-recipes.addShaped(<opencomputers:component:17>,[[<ore:nuggetDiamond>,<opencomputers:material:9>,<ore:nuggetDiamond>],[<opencomputers:component:0>,<opencomputers:component:5>,<opencomputers:card:2>],[<ore:nuggetDiamond>,<opencomputers:material:9>,<ore:nuggetDiamond>]]);
+recipes.addShaped(<opencomputers:component:17>,[[<ore:nuggetDiamond>,<opencomputers:material:9>,<ore:nuggetDiamond>],[<opencomputers:component:2>,<opencomputers:component:5>,<opencomputers:card:2>],[<ore:nuggetDiamond>,<opencomputers:material:9>,<ore:nuggetDiamond>]]);
 
 //Cards
 recipes.remove(<opencomputers:card:10>);

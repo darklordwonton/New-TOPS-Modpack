@@ -1,8 +1,12 @@
+//Crystals
+recipes.remove(<enderio:itemMaterial:6>);
+recipes.addShaped(<enderio:itemMaterial:6>,[[<ore:nuggetVibrantAlloy>,<ore:nuggetVibrantAlloy>,<ore:nuggetVibrantAlloy>],[<ore:nuggetVibrantAlloy>,<ore:gemSerendibite>,<ore:nuggetVibrantAlloy>],[<ore:nuggetVibrantAlloy>,<ore:nuggetVibrantAlloy>,<ore:nuggetVibrantAlloy>]]);
+
 //Capacitors
 recipes.remove(<enderio:itemBasicCapacitor:*>);
-recipes.addShaped(<enderio:itemBasicCapacitor:0>, [[null,<ore:dustRedstone>,<ore:nuggetElectrum>],[<ore:dustRedstone>,<ore:ingotZinc>,<ore:dustRedstone>],[<ore:nuggetElectrum>,<ore:dustRedstone>, null]]);
-recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null,<ore:ingotArdite>,null],[<enderio:itemBasicCapacitor:0>,<ore:dustHOPGraphite>,<enderio:itemBasicCapacitor:0>],[null,<ore:ingotCobalt>, null]]);
-recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null,<enderio:itemAlloy:2>,null],[<enderio:itemBasicCapacitor:1>,<ore:ingotDarkSteel>,<enderio:itemBasicCapacitor:1>],[null,<enderio:itemAlloy:2>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:0>, [[null,<ore:ingotZinc>,<ore:nuggetElectrum>],[<ore:dustRedstone>,<forestry:thermionicTubes:2>,<ore:dustRedstone>],[<ore:nuggetElectrum>,<ore:ingotZinc>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null,<ore:ingotArdite>,<forestry:thermionicTubes:7>],[<enderio:itemBasicCapacitor:0>,<ore:dustHOPGraphite>,<enderio:itemBasicCapacitor:0>],[<forestry:thermionicTubes:7>,<ore:ingotCobalt>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null,<ore:itemVibrantCrystal>,<forestry:thermionicTubes:5>],[<enderio:itemBasicCapacitor:1>,<ore:ingotDarkSteel>,<enderio:itemBasicCapacitor:1>],[<forestry:thermionicTubes:5>,<ore:itemVibrantCrystal>, null]]);
 
 //Chasis
 recipes.remove(<enderio:itemMachinePart:0>);
@@ -48,7 +52,10 @@ recipes.addShaped(<enderio:blockVat>, [[<ore:ingotSilver>,<minecraft:cauldron>,<
 
 //Power Monitor
 recipes.remove(<enderio:blockPowerMonitor>);
-recipes.addShaped(<enderio:blockPowerMonitor>, [[<ore:ingotSilver>,<jurassicraft:computer_screen>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
+
+//RF Gauge
+recipes.remove(<enderio:blockGauge>);
+recipes.addShaped(<enderio:blockGauge>, [[<ore:ingotSilver>,<jurassicraft:computer_screen>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
 
 //Farming Station
 recipes.remove(<enderio:blockFarmStation>);
@@ -76,9 +83,18 @@ recipes.addShaped(<enderio:blockBuffer:1>, [[<ore:ingotPlatinum>,<ore:ingotPlati
 recipes.remove(<enderio:blockInventoryPanelSensor>);
 recipes.addShaped(<enderio:blockInventoryPanelSensor>, [[<ore:ingotSilver>,<enderio:itemFunctionUpgrade>,<ore:ingotSilver>],[<enderio:itemAlloy:3>,<enderio:itemMachinePart>,<enderio:itemAlloy:3>],[<ore:ingotSilver>,<minecraft:comparator>,<ore:ingotSilver>]]);
 
+//Inventory Panel
+recipes.remove(<enderio:blockInventoryPanel>);
+recipes.addShaped(<enderio:blockInventoryPanel>,[[<enderio:itemFunctionUpgrade>,<stevescarts:BlockMetalStorage:2>,<enderio:itemFunctionUpgrade>],[<ore:circuitUltimate>,<opencomputers:hologram2>,<ore:circuitUltimate>],[<opencomputers:component:17>,<opencomputers:component:15>,<opencomputers:component:17>]]);
+
 //Travel Anchor
 recipes.remove(<enderio:blockTravelAnchor>);
 recipes.addShaped(<enderio:blockTravelAnchor>, [[<ore:ingotDarkSteel>,<ore:ingotVibrantAlloy>,<ore:ingotDarkSteel>],[<ore:ingotVibrantAlloy>,<mekanism:TeleportationCore>,<ore:ingotVibrantAlloy>],[<ore:ingotDarkSteel>,<ore:ingotVibrantAlloy>,<ore:ingotDarkSteel>]]);
+
+//Telepad & Friends
+recipes.remove(<enderio:blockTelePad>);
+recipes.remove(<enderio:blockDialingDevice>);
+recipes.remove(<enderio:itemRodOfReturn>);
 
 //Powered Spawner
 recipes.remove(<enderio:blockPoweredSpawner>);
@@ -89,3 +105,7 @@ recipes.remove(<enderio:blockEnchanter>);
 //Dark Steel Ladder
 recipes.remove(<enderio:blockDarkSteelLadder> * 12);
 recipes.addShaped(<enderio:blockDarkSteelLadder> * 4, [[null,<enderio:blockDarkIronBars>,null],[null,<enderio:blockDarkIronBars>,null],[null,<enderio:blockDarkIronBars>,null]]);
+
+//Upgrades
+recipes.remove(<enderio:itemFunctionUpgrade>);
+recipes.addShaped(<enderio:itemFunctionUpgrade>,[[<enderio:itemBasicCapacitor:2>,<ore:blockCitrine>,<enderio:itemBasicCapacitor:2>],[<ore:blockSapphire>,<botania:enderEyeBlock>,<ore:blockRuby>],[<enderio:itemBasicCapacitor:2>,<ore:blockAgate>,<enderio:itemBasicCapacitor:2>]]);
