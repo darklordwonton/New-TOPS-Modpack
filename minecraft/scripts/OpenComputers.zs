@@ -30,7 +30,7 @@ recipes.addShaped(<opencomputers:material:9>*2,[[<opencomputers:material:7>,<ope
 recipes.remove(<opencomputers:material:10>);
 recipes.addShaped(<opencomputers:material:10>,[[<opencomputers:material:7>,<opencomputers:material:7>,<opencomputers:material:7>],[<ore:ingotTungstensteel>,<ore:plateIridium>,<ore:ingotTungstensteel>],[<opencomputers:material:7>,<opencomputers:material:7>,<opencomputers:material:7>]]);
 recipes.remove(<opencomputers:material:11>);
-recipes.addShaped(<opencomputers:material:11>,[[<ore:nuggetZirconium>,<ore:ingotRedstoneAlloy>,<ore:nuggetZirconium>],[<opencomputers:material:7>,<opencomputers:material:9>,<opencomputers:material:7>],[<ore:nuggetZirconium>,<opencomputers:material:7>,<ore:nuggetZirconium>]]);
+recipes.addShaped(<opencomputers:material:11>,[[<ore:nuggetZirconium>,<ore:ingotRedstoneAlloy>,<ore:nuggetZirconium>],[<opencomputers:material:7>,<opencomputers:material:8>,<opencomputers:material:7>],[<ore:nuggetZirconium>,<opencomputers:material:7>,<ore:nuggetZirconium>]]);
 recipes.remove(<opencomputers:material:12>);
 recipes.addShaped(<opencomputers:material:12>,[[<ore:ingotElectrum>,<ore:ingotRedstoneAlloy>,<ore:ingotElectrum>],[<opencomputers:material:7>,<ore:itemPulsatingCrystal>,<opencomputers:material:7>],[<ore:ingotElectrum>,<opencomputers:material:7>,<ore:ingotElectrum>]]);
 recipes.remove(<opencomputers:material:18>);

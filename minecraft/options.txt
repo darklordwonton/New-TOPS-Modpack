@@ -102,6 +102,7 @@ key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
+key_key.fart.desc:34
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
 key_enchiridion.key.library:0
@@ -201,9 +202,9 @@ key_Mekanism Item Mode Switch:44
 key_Mekanism Armor Mode Switch:33
 key_Mekanism Voice:22
 key_keys.techreborn.config:25
-key_key.dialerModeChange.name:50
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
+key_key.dialerModeChange.name:50
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
