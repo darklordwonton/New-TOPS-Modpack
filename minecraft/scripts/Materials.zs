@@ -101,7 +101,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<bigreactors:ingotMetals:3>);
 
 //Miscelaneous
 recipes.remove(<runesofwizardry:pestle>);
-recipes.addShaped(<runesofwizardry:pestle>, [[null,null,<ore:ingotMithril>],[<ore:blockBlaze>,smoothDiamond,<ore:blockBlaze>],[null,<ore:blockMithril>,null]]);
+recipes.addShaped(<runesofwizardry:pestle>, [[null,null,<ore:ingotMithril>],[<ore:blockBlaze>,<ore:gemDiamond>,<ore:blockBlaze>],[null,<ore:blockMithril>,null]]);
 
 
 //Fixing Iridium Alloy Ingot Recipe
