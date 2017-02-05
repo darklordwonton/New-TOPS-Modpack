@@ -6,14 +6,14 @@ gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:2
-particles:0
+particles:2
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:false
-ao:1
+ao:0
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -103,7 +103,6 @@ key_quark.emote.headbang:0
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
-key_key.fart.desc:34
 key_cos.key.openCosArmorInventory:51
 key_key.cannongui:26
 key_enchiridion.key.library:0
@@ -148,7 +147,6 @@ key_vc.key.moveRight:32
 key_vc.key.moveUp:57
 key_vc.key.moveDown:45
 key_vc.key.openInventory:19
-key_key.xtones.scroll:42
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.showRecipe:19
@@ -158,7 +156,7 @@ key_key.jei.toggleCheatMode:0
 key_keybind.baublesinventory:48
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
-key_key.charset.backpackOpen:38
+key_key.dab:19
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
@@ -206,7 +204,9 @@ key_Mekanism Voice:22
 key_keys.techreborn.config:25
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
+key_key.reloadSoundSystem:66
 key_key.dialerModeChange.name:50
+key_key.control:29
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
