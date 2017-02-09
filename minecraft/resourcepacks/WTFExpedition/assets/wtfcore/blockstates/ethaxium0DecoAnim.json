@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal" }}],
+"inventory2": [{"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal" }}],
+"type" : {
+"lava_crust": {"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal"}},
+"drip_lava": {"custom": { "base": "abyssalcraft:ethaxium#normal", "Solid": "abyssalcraft:ethaxium#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

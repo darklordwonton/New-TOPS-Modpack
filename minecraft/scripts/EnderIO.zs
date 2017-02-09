@@ -5,7 +5,7 @@ recipes.addShaped(<enderio:itemMaterial:6>,[[<ore:nuggetVibrantAlloy>,<ore:nugge
 //Capacitors
 recipes.remove(<enderio:itemBasicCapacitor:*>);
 recipes.addShaped(<enderio:itemBasicCapacitor:0>, [[null,<ore:ingotZinc>,<ore:nuggetElectrum>],[<ore:dustRedstone>,<forestry:thermionicTubes:2>,<ore:dustRedstone>],[<ore:nuggetElectrum>,<ore:ingotZinc>, null]]);
-recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null,<ore:ingotArdite>,<forestry:thermionicTubes:7>],[<enderio:itemBasicCapacitor:0>,<ore:dustHOPGraphite>,<enderio:itemBasicCapacitor:0>],[<forestry:thermionicTubes:7>,<ore:ingotCobalt>, null]]);
+recipes.addShaped(<enderio:itemBasicCapacitor:1>, [[null,<ore:ingotRedAlloy>,<forestry:thermionicTubes:7>],[<enderio:itemBasicCapacitor:0>,<ore:dustHOPGraphite>,<enderio:itemBasicCapacitor:0>],[<forestry:thermionicTubes:7>,<ore:ingotElectrotineAlloy>, null]]);
 recipes.addShaped(<enderio:itemBasicCapacitor:2>, [[null,<ore:itemVibrantCrystal>,<forestry:thermionicTubes:5>],[<enderio:itemBasicCapacitor:1>,<ore:ingotDarkSteel>,<enderio:itemBasicCapacitor:1>],[<forestry:thermionicTubes:5>,<ore:itemVibrantCrystal>, null]]);
 
 //Chasis
@@ -19,6 +19,10 @@ recipes.addShaped(<enderio:blockAlloySmelter>, [[<ore:ingotOsmium>,<minecraft:fu
 //SAG Mill
 recipes.remove(<enderio:blockSagMill>);
 recipes.addShaped(<enderio:blockSagMill>,[[<ore:itemFlint>,<ore:itemFlint>,<ore:itemFlint>],[<ore:gemSapphire>,<enderio:itemMachinePart:0>,<ore:gemRuby>],[<ore:gemCitrine>,<ore:gemDiamond>,<ore:gemAgate>]]);
+
+//Item Conduits
+recipes.remove(<enderio:itemItemConduit>);
+recipes.addShaped(<enderio:itemItemConduit> * 2,[[<ore:itemConduitBinder>,<ore:itemConduitBinder>,<ore:itemConduitBinder>],[<ore:ingotVibrantAlloy>,<ore:ingotDarkSteel>,<ore:ingotVibrantAlloy>],[<ore:itemConduitBinder>,<ore:itemConduitBinder>,<ore:itemConduitBinder>]]);
 
 //Generators
 recipes.remove(<enderio:blockStirlingGenerator>);

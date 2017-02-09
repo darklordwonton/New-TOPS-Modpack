@@ -1,16 +1,15 @@
 {"forge_marker": 1,
 "defaults": {
-"model": "wtfcore:cube_overlay",
-"textures": {"all": "minecraft:blocks/stone_diorite"}
-},
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
 "variants": {
-"normal": [{}],
-"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/lava_overlay"}}],
-"inventory1": [{"model": "cube_all"}],
-"inventory2": [{"model": "cube_all"}],
+"inventory0": [{"custom": { "base": "diorite#normal", "Solid": "diorite#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "diorite#normal", "Solid": "diorite#normal" }}],
+"inventory2": [{"custom": { "base": "diorite#normal", "Solid": "diorite#normal" }}],
 "type" : {
-"lava_crust" : { "textures" : { "mask" : "wtfcore:blocks/lava_overlay"}},
-"drip_water" : {"model": "cube_all"},
-"drip_lava" : {"model": "cube_all"}},
-"fast" : {"true" : {},"false" : {}}
-}}
+"lava_crust": {"custom": { "base": "diorite#normal", "Solid": "diorite#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "diorite#normal", "Solid": "diorite#normal"}},
+"drip_lava": {"custom": { "base": "diorite#normal", "Solid": "diorite#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

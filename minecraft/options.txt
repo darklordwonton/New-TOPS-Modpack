@@ -188,6 +188,7 @@ key_key.shieldwield:14
 key_key.restoreHotbar1:71
 key_key.restoreHotbar2:72
 key_key.restoreHotbar3:73
+key_CS3:46
 key_cyberware.keybinds.menu:19
 key_key.materialCosts:56
 key_key.clipboardPaste:210

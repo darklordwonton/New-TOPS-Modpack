@@ -1,16 +1,15 @@
 {"forge_marker": 1,
 "defaults": {
-"model": "wtfcore:cube_overlay",
-"textures": {"all": "minecraft:blocks/stone_andesite"}
-},
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
 "variants": {
-"normal": [{}],
-"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/lava_overlay"}}],
-"inventory1": [{"model": "cube_all"}],
-"inventory2": [{"model": "cube_all"}],
+"inventory0": [{"custom": { "base": "andesite#normal", "Solid": "andesite#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "andesite#normal", "Solid": "andesite#normal" }}],
+"inventory2": [{"custom": { "base": "andesite#normal", "Solid": "andesite#normal" }}],
 "type" : {
-"lava_crust" : { "textures" : { "mask" : "wtfcore:blocks/lava_overlay"}},
-"drip_water" : {"model": "cube_all"},
-"drip_lava" : {"model": "cube_all"}},
-"fast" : {"true" : {},"false" : {}}
-}}
+"lava_crust": {"custom": { "base": "andesite#normal", "Solid": "andesite#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "andesite#normal", "Solid": "andesite#normal"}},
+"drip_lava": {"custom": { "base": "andesite#normal", "Solid": "andesite#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

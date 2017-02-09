@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal" }}],
+"inventory2": [{"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal" }}],
+"type" : {
+"lava_crust": {"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal"}},
+"drip_lava": {"custom": { "base": "abyssalcraft:darkstone#normal", "Solid": "abyssalcraft:darkstone#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

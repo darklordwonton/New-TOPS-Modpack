@@ -1,0 +1,13 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "abyssalcraft:blocks/ds"}
+},
+"variants": {
+"normal": [{}],
+"inventory": [{"textures" : { "mask" : "wtfcore:overlays/techreborn.ore0"}}],
+"density" : {
+"0" : { "textures" : { "mask" : "wtfcore:overlays/techreborn.ore0"}},
+"1" : { "textures" : { "mask" : "wtfcore:overlays/techreborn.ore1"}},
+"2" : { "textures" : { "mask" : "wtfcore:overlays/techreborn.ore2"}}
+}}}

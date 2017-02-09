@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal" }}],
+"inventory2": [{"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal" }}],
+"type" : {
+"lava_crust": {"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal"}},
+"drip_lava": {"custom": { "base": "quark:marble#normal", "Solid": "quark:marble#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}

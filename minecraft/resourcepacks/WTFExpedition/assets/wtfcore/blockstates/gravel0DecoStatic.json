@@ -1,15 +1,18 @@
 {"forge_marker": 1,
+
 "defaults": {
-"model": "wtfcore:cube_overlay",
-"textures": {"all": "minecraft:blocks/gravel"}
-},
+
+"model": "forge:multi-layer",
+
+"transform": "forge:default-block"},
 "variants": {
-"normal": [{}],
-"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/moss_overlay"}}],
-"inventory1": [{"textures" : { "mask" : "wtfcore:blocks/soul_overlay"}}],
-"inventory2": [{"textures" : { "mask" : "wtfcore:overlays/destroy_stage_2"}}],
+"inventory0": [{"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#moss" }}],
+"inventory1": [{"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#soul" }}],
+"inventory2": [{"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#cracked" }}],
 "type" : {
-"moss" : { "textures" : { "mask" : "wtfcore:blocks/moss_overlay"}},
-"soul" : { "textures" : { "mask" : "wtfcore:blocks/soul_overlay"}},
-"cracked" : { "textures" : { "mask" : "wtfcore:overlays/destroy_stage_2"}}
-}}}
+"moss": {"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#moss" }},
+"soul": {"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#soul" }},
+"cracked": {"custom": { "base": "gravel#normal", "Solid": "gravel#normal", "Translucent": "wtfcore:base#cracked" }}
+}
+}
+}

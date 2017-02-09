@@ -1,0 +1,15 @@
+{"forge_marker": 1,
+"defaults": {
+"model": "forge:multi-layer",
+"transform": "forge:default-block"},
+"variants": {
+"inventory0": [{"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal", "Translucent": "wtfcore:base#lava" }}],
+"inventory1": [{"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal" }}],
+"inventory2": [{"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal" }}],
+"type" : {
+"lava_crust": {"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal", "Translucent": "wtfcore:base#lava" }},
+"drip_water": {"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal"}},
+"drip_lava": {"custom": { "base": "abyssalcraft:dreadstone#normal", "Solid": "abyssalcraft:dreadstone#normal"}}
+},
+"fast" : {"true" : {},"false" : {}
+}}}
