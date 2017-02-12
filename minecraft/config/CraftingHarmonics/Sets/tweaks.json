@@ -179,6 +179,11 @@
                 	euPerTick: 20
 				},
                 {
+					type: "TechReborn.removeRecipe",
+                 	what: ["modernmetals:iridium_plate"],
+                 	machine: "Compressor"
+				},
+                {
                     type: "TechReborn.addShapedRollingMachine",
                     output: "techreborn:plates:9:1",
                     with: ["enderio:itemAlloy:6","mekanism:ReinforcedAlloy","enderio:itemAlloy:6","mekanism:Ingot:0","techreborn:plates:5","mekanism:Ingot:0","enderio:itemAlloy:6","mekanism:ReinforcedAlloy","enderio:itemAlloy:6"]

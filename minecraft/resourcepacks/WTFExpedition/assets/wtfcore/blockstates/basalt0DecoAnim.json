@@ -1,15 +1,16 @@
 {"forge_marker": 1,
 "defaults": {
-"model": "forge:multi-layer",
-"transform": "forge:default-block"},
-"variants": {
-"inventory0": [{"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal", "Translucent": "wtfcore:base#lava" }}],
-"inventory1": [{"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal" }}],
-"inventory2": [{"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal" }}],
-"type" : {
-"lava_crust": {"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal", "Translucent": "wtfcore:base#lava" }},
-"drip_water": {"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal"}},
-"drip_lava": {"custom": { "base": "quark:basalt#normal", "Solid": "quark:basalt#normal"}}
+"model": "wtfcore:cube_overlay",
+"textures": {"all": "quark:blocks/stone_basalt"}
 },
-"fast" : {"true" : {},"false" : {}
-}}}
+"variants": {
+"normal": [{}],
+"inventory0": [{"textures" : { "mask" : "wtfcore:blocks/lava_overlay"}}],
+"inventory1": [{"model": "cube_all"}],
+"inventory2": [{"model": "cube_all"}],
+"type" : {
+"lava_crust" : { "textures" : { "mask" : "wtfcore:blocks/lava_overlay"}},
+"drip_water" : {"model": "cube_all"},
+"drip_lava" : {"model": "cube_all"}},
+"fast" : {"true" : {},"false" : {}}
+}}

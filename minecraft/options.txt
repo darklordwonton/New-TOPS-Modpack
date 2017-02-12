@@ -89,7 +89,6 @@ key_Airship Turn Left:30
 key_Airship Turn Right:32
 key_Airship Down:45
 key_Airship Dismount:42
-key_quark.keybind.toggleAutojump:0
 key_quark.emote.wave:0
 key_quark.emote.salute:0
 key_quark.emote.yes:0
@@ -100,6 +99,7 @@ key_quark.emote.point:0
 key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
+key_quark.keybind.toggleAutojump:0
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
@@ -188,7 +188,6 @@ key_key.shieldwield:14
 key_key.restoreHotbar1:71
 key_key.restoreHotbar2:72
 key_key.restoreHotbar3:73
-key_CS3:46
 key_cyberware.keybinds.menu:19
 key_key.materialCosts:56
 key_key.clipboardPaste:210

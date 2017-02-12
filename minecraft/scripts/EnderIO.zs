@@ -27,7 +27,7 @@ recipes.addShaped(<enderio:itemItemConduit> * 2,[[<ore:itemConduitBinder>,<ore:i
 //Generators
 recipes.remove(<enderio:blockStirlingGenerator>);
 recipes.remove(<enderio:blockCombustionGenerator>);
-recipes.addShaped(<enderio:blockCombustionGenerator>,[[<ore:ingotDarkSteel>,<ore:ingotDarkSteel>,<ore:ingotDarkSteel>],[<enderio:blockTank>,<enderio:itemMachinePart:0>,<enderio:blockTank>],[<ore:gearInvar>,<minecraft:piston>,<ore:gearInvar>]]);
+recipes.addShaped(<enderio:blockCombustionGenerator>,[[<ore:ingotDarkSteel>,<ore:blockDarkSteel>,<ore:ingotDarkSteel>],[<enderio:blockTank>,<enderio:itemMachinePart:0>,<enderio:blockTank>],[<ore:gearInvar>,<minecraft:piston>,<ore:gearInvar>]]);
 recipes.remove(<enderio:blockZombieGenerator>);
 recipes.addShaped(<enderio:blockZombieGenerator>,[[<ore:ingotDarkSteel>,<ore:ingotDarkSteel>,<ore:ingotDarkSteel>],[<ore:blockGlassHardened>,<enderio:itemFrankenSkull>,<ore:blockGlassHardened>],[<ore:ingotLead>,<ore:ingotLead>,<ore:ingotLead>]]);
 recipes.remove(<enderio:blockSolarPanel:1>);
@@ -89,7 +89,7 @@ recipes.addShaped(<enderio:blockInventoryPanelSensor>, [[<ore:ingotSilver>,<ende
 
 //Inventory Panel
 recipes.remove(<enderio:blockInventoryPanel>);
-recipes.addShaped(<enderio:blockInventoryPanel>,[[<enderio:itemFunctionUpgrade>,<stevescarts:BlockMetalStorage:2>,<enderio:itemFunctionUpgrade>],[<ore:circuitUltimate>,<opencomputers:hologram2>,<ore:circuitUltimate>],[<opencomputers:component:17>,<opencomputers:component:15>,<opencomputers:component:17>]]);
+recipes.addShaped(<enderio:blockInventoryPanel>,[[<enderio:itemFunctionUpgrade>,<stevescarts:BlockMetalStorage:2>,<enderio:itemFunctionUpgrade>],[<ore:circuitElite>,<opencomputers:hologram1>,<ore:circuitElite>],[<opencomputers:component:16>,<forestry:alveary.plain>,<opencomputers:component:16>]]);
 
 //Travel Anchor
 recipes.remove(<enderio:blockTravelAnchor>);

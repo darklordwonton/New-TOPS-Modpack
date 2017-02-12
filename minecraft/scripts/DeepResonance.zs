@@ -2,10 +2,10 @@ recipes.remove(<deepresonance:machine_frame>);
 recipes.addShaped(<deepresonance:machine_frame>,[[<ore:ingotStainlesssteel>,<deepresonance:resonating_plate>,<ore:ingotStainlesssteel>],[<deepresonance:resonating_plate>,<ore:circuitAdvanced>,<deepresonance:resonating_plate>],[<ore:ingotStainlesssteel>,<deepresonance:resonating_plate>,<ore:ingotStainlesssteel>]]);
 
 recipes.remove(<deepresonance:laser>);
-recipes.addShaped(<deepresonance:laser>,[[<ore:blockGlassReinforced>,<ore:blockGlassReinforced>,<ore:blockGlassReinforced>],[<ore:gemQuartz>,<deepresonance:machine_frame>,<ore:gemQuartz>],[<ore:ingotStainlesssteel>,<ore:blockDiamond>,<ore:ingotStainlesssteel>]]);
+recipes.addShaped(<deepresonance:laser>,[[<ore:glassReinforced>,<ore:glassReinforced>,<ore:glassReinforced>],[<ore:gemQuartz>,<deepresonance:machine_frame>,<ore:gemQuartz>],[<ore:ingotStainlesssteel>,<ore:blockDiamond>,<ore:ingotStainlesssteel>]]);
 
 recipes.remove(<deepresonance:valve>);
-recipes.addShaped(<deepresonance:valve>,[[<ore:blockGlassReinforced>,<ore:gemQuartz>,<ore:blockGlassReinforced>],[<deepresonance:filter>,<deepresonance:machine_frame>,<deepresonance:filter>],[<ore:blockGlassReinforced>,<ore:barsAluminum>,<ore:blockGlassReinforced>]]);
+recipes.addShaped(<deepresonance:valve>,[[<ore:glassReinforced>,<ore:gemQuartz>,<ore:glassReinforced>],[<deepresonance:filter>,<deepresonance:machine_frame>,<deepresonance:filter>],[<ore:glassReinforced>,<ore:barsAluminum>,<ore:glassReinforced>]]);
 
 recipes.remove(<deepresonance:pedestal>);
 recipes.addShaped(<deepresonance:pedestal>,[[<ore:ingotStainlesssteel>,<va:blockplacer>,<ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>,<deepresonance:machine_frame>,<ore:ingotStainlesssteel>],[<ore:ingotStainlesssteel>,<ore:circuitAdvanced>,<ore:ingotStainlesssteel>]]);

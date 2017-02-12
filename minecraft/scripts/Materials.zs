@@ -214,11 +214,20 @@ mods.immersiveengineering.MetalPress.addRecipe(<modernmetals:uranium_gear>,<mode
 
 //Smeltery
 mods.tconstruct.Smeltery.removeAlloy(<liquid:galvanizedsteel>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:titanium>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:tungsten_ore>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:tungsten_powder>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:titanium_ore>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:titanium_blend>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:chromium_ore>);
+mods.tconstruct.Smeltery.removeMelting(<modernmetals:chromium_powder>);
 mods.tconstruct.Casting.addTableRecipe(<modernmetals:galvanizedsteel_plate>, <liquid:zinc> * 288, <basemetals:steel_plate>, true, 200);
 
 //Dusts
 recipes.remove(<modernmetals:galvanizedsteel_blend>);
 recipes.remove(<modernmetals:stainlesssteel_blend>);
+recipes.remove(<basemetals:steel_blend>);
+recipes.remove(<basemetals:steel_powder>);
 recipes.addShapeless(<modernmetals:stainlesssteel_blend> * 9, [<ore:dustSteel>,<ore:dustSteel>,<ore:dustSteel>,<ore:dustSteel>,<ore:dustSteel>,<ore:dustSteel>,<ore:dustChrome>,<ore:dustChrome>,<ore:dustManganese>]);
 recipes.remove(<basemetals:steel_blend>);
 recipes.remove(<basemetals:mercury_ingot>);
@@ -230,10 +239,18 @@ recipes.addShapeless(<basemetals:mercury_powder> * 2,[<forge:bucketFilled>.withT
 
 //Metals That Require Special Processing
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:adamantine_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<modernmetals:tungsten_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<modernmetals:titanium_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<modernmetals:chromium_ingot>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<techreborn:ingot:3>);
 furnace.remove(<basemetals:adamantine_ingot>);
 furnace.remove(<basemetals:adamantine_nugget>);
 furnace.remove(<modernmetals:titanium_ingot>);
 furnace.remove(<modernmetals:tungsten_ingot>);
+furnace.remove(<modernmetals:chromium_ingot>);
+furnace.remove(<modernmetals:titanium_nugget>);
+furnace.remove(<modernmetals:tungsten_nugget>);
+furnace.remove(<modernmetals:chromium_nugget>);
 furnace.remove(<basemetals:mercury_ingot>);
 furnace.remove(<basemetals:mithril_ingot>, <basemetals:mithril_blend>);
 furnace.remove(<bigreactors:ingotMetals:0>);
