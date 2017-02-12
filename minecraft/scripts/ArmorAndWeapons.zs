@@ -5,7 +5,7 @@ recipes.remove(<silentgems:Leggings:*>);
 recipes.remove(<silentgems:Boots:*>);
 
 //Explosives
-recipes.addShaped(<techreborn:nuke>, [[<ore:plateLead>,<techreborn:part:22>,<ore:plateLead>],[<techreborn:part:22>,<mekanism:ObsidianTNT> ,<techreborn:part:22>],[<ore:plateLead>,<techreborn:part:22>,<ore:plateLead>]]);
+recipes.addShaped(<techreborn:nuke>, [[<ore:plateLead>,<quadrum:plutonium_weapon>,<ore:plateLead>],[<quadrum:plutonium_weapon>,<mekanism:ObsidianTNT> ,<quadrum:plutonium_weapon>],[<ore:plateLead>,<quadrum:plutonium_weapon>,<ore:plateLead>]]);
 
 //Generic Magic Armor and Robes
 recipes.remove(<wonderfulwands:hat_wizard>);

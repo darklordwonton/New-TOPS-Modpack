@@ -59,7 +59,7 @@ recipes.remove(<enderio:blockPowerMonitor>);
 
 //RF Gauge
 recipes.remove(<enderio:blockGauge>);
-recipes.addShaped(<enderio:blockGauge>, [[<ore:ingotSilver>,<jurassicraft:computer_screen>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
+recipes.addShaped(<enderio:blockGauge>, [[<ore:ingotSilver>,<opencomputers:screen1>,<ore:ingotSilver>],[<ore:ingotSilver>,<enderio:itemMachinePart>,<ore:ingotSilver>],[<ore:ingotSilver>,<minecraft:book>,<ore:ingotSilver>]]);
 
 //Farming Station
 recipes.remove(<enderio:blockFarmStation>);

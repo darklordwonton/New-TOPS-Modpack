@@ -262,9 +262,9 @@ recipes.remove(<basemetals:adamantine_nugget>);
 recipes.remove(<bigreactors:ingotMetals:0>);
 recipes.remove(<bigreactors:ingotMetals:1>);
 recipes.remove(<bigreactors:ingotMetals:3>);
-recipes.addShaped(<bigreactors:dustMetals:0>, [[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>,<modernmetals:uranium_bolt>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
-recipes.addShaped(<bigreactors:dustMetals:3>,[[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>],[<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>,<modernmetals:plutonium_crossbow>],[<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>,<modernmetals:uranium_crossbow>]]);
-recipes.addShaped(<techreborn:part:22>,[[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>],[<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>,<modernmetals:plutonium_bolt>]]);
+recipes.addShaped(<bigreactors:dustMetals:0>, [[<quadrum:uranium238>,<quadrum:uranium238>,<quadrum:uranium238>],[<quadrum:uranium235>,<quadrum:uranium235>,<quadrum:uranium235>],[<quadrum:uranium238>,<quadrum:uranium238>,<quadrum:uranium238>]]);
+recipes.addShaped(<bigreactors:dustMetals:3>,[[<quadrum:uranium238>,<quadrum:uranium238>,<quadrum:uranium238>],[<quadrum:plutonium_reactor>,<quadrum:plutonium_reactor>,<quadrum:plutonium_reactor>],[<quadrum:uranium238>,<quadrum:uranium238>,<quadrum:uranium238>]]);
+recipes.addShaped(<quadrum:plutonium_weapon>,[[<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>],[<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>],[<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>,<quadrum:plutonium_weapon_small>]]);
 
 //Miscellanious Magic Items
 recipes.remove(<evilcraft:promise:2>);

@@ -115,7 +115,7 @@
                 },
 				{
 					type: "TechReborn.addCentrifuge",
-                    what: ["modernmetals:uranium_crossbow:0:4","modernmetals:uranium_bolt:0:1"],
+                    what: ["quadrum:uranium238:0:4","quadrum:uranium235:0:1","techreborn:smallDust:29:1"],
                     with: ["modernmetals:uranium_powder"],
                     ticks: 200,
                     euPerTick: 30,
@@ -130,15 +130,15 @@
 				},
 				{
                     type: "TechReborn.addIndustrialElectrolyzer",
-                    what: ["modernmetals:uranium_crossbow:0:3","modernmetals:plutonium_horsearmor:0:1","techreborn:dynamicCell:0:1"],
+                    what: ["quadrum:uranium238:0:3","quadrum:plutonium_mix:0:1","techreborn:smallDust:29:1"],
                     with: ["bigreactors:ingotMetals:1:1"],
                     ticks: 100,
                     euPerTick: 120,
 				},
 				{
 					type: "TechReborn.addCentrifuge",
-                    what: ["modernmetals:plutonium_smallpowder:0:1","modernmetals:plutonium_bolt:0:2","modernmetals:plutonium_crossbow:0:3"],
-                    with: ["modernmetals:plutonium_horsearmor"],
+                    what: ["modernmetals:plutonium_smallpowder:0:1","quadrum:plutonium_weapon_small:0:2","quadrum:plutonium_reactor:0:3"],
+                    with: ["quadrum:plutonium_mix"],
                     ticks: 200,
                     euPerTick: 30,
                     useOreDict: true

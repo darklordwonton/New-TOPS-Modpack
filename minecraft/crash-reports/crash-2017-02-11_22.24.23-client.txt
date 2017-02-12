@@ -1,0 +1,467 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  Brandon's Core (BrandonsCore-1.10.2-2.1.4.92-universal.jar)
+  Crafting Harmonics Core (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar)
+  CCLCorePlugin (CodeChickenLib-1.10.2-2.5.2.213-universal.jar)
+  ForgelinPlugin (Forgelin-1.1.0.jar)
+  TANLoadingPlugin (ToughAsNails-1.9.4-1.0.11.jar)
+  SurgeLoadingPlugin (Surge-1.10.2-1.0.0.50.jar)
+  LoadingHook (Mekanism-1.10.2-9.2.1.295.jar)
+  Chiseled Me ASM (Chiseled-Me-1.0.jar)
+  CorePlugin (MrTJPCore-1.10.2-2.0.0.12-universal.jar)
+  DynamicSurroundingsCore (DynamicSurroundings-1.10.2-3.2.1.2.jar)
+  FMLPlugin (InventoryTweaks-1.61-58.jar)
+  PotionCoreFMLLoadingPlugin (PotionCore-1.4_for_1.10.2 (1).jar)
+  SHLoadingPlugin (ScalingHealth-1.10.2-1.0.3-36.jar)
+  RenderPlayerAPIPlugin (RenderPlayerAPI-1.10.2-1.1.jar)
+  LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  ValkyrienWarfareBase CoreMod (Valkyrien Warfare 0.8.7b.jar)
+  TransformerLoader (OpenComputers-MC1.10.2-1.6.0.4.jar)
+  BookshelfLoadingPlugin (Bookshelf-1.10.2-1.4.3.338.jar)
+  RebornCoreASM (RebornCore-1.10.2-2.13.3.119-universal.jar)
+  Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.5.0-anarchy.jar)
+  AppleCore (AppleCore-mc1.10.2-2.1.1.jar)
+  ProgressionTransformer (Progression-1.10.2-0.6.8.jar)
+  EnderCorePlugin (EnderCore-1.10.2-0.4.1.65-beta.jar)
+  LoadingPlugin (Quark-r1.1-70.jar)
+  llibrary (llibrary-1.7.4-1.10.2.jar)
+  PSLoadingPlugin (PerfectSpawn-MC1.10.2-1.4.jar)
+  BiomeTweakerCore (BiomeTweaker-1.10.2-2.1.230.jar)
+Contact their authors BEFORE contacting forge
+
+// This doesn't make any sense!
+
+Time: 2/11/17 10:24 PM
+Description: Rendering screen
+
+java.lang.NullPointerException: Rendering screen
+	at me.dmillerw.quadrum.item.ItemQuadrum.func_77624_a(ItemQuadrum.java:50)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:614)
+	at net.minecraft.client.gui.GuiScreen.func_146285_a(GuiScreen.java:136)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146285_a(GuiContainerCreative.java:682)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73863_a(GuiContainer.java:166)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.func_73863_a(InventoryEffectRenderer.java:51)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_73863_a(GuiContainerCreative.java:591)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1094)
+	at net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1076)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:371)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:236)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:297)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:162)
+	at org.multimc.EntryPoint.main(EntryPoint.java:53)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at me.dmillerw.quadrum.item.ItemQuadrum.func_77624_a(ItemQuadrum.java:50)
+	at net.minecraft.item.ItemStack.func_82840_a(ItemStack.java:614)
+	at net.minecraft.client.gui.GuiScreen.func_146285_a(GuiScreen.java:136)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_146285_a(GuiContainerCreative.java:682)
+	at net.minecraft.client.gui.inventory.GuiContainer.func_73863_a(GuiContainer.java:166)
+	at net.minecraft.client.renderer.InventoryEffectRenderer.func_73863_a(InventoryEffectRenderer.java:51)
+	at net.minecraft.client.gui.inventory.GuiContainerCreative.func_73863_a(GuiContainerCreative.java:591)
+	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:382)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.inventory.GuiContainerCreative
+	Mouse location: Scaled: (367, 196). Absolute: (734, 359)
+	Screen size: Scaled: (640, 376). Absolute: (1280, 751). Scale factor of 2
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['DarkLordWonton'/212, l='MpServer', x=-45.39, y=24.00, z=165.55]]
+	Chunk stats: MultiplayerChunkCache: 286, 286
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (0,115,0), Chunk: (at 0,7,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 11421 game time, 11421 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 51 total; [EntityLatchedRenderer['unknown'/1029, l='MpServer', x=-45.39, y=24.00, z=165.55], EntityItem['item.item.coal'/12326, l='MpServer', x=-25.31, y=24.00, z=138.92], EntityCow['Cow'/57, l='MpServer', x=-96.82, y=4.00, z=88.56], EntityCow['Cow'/58, l='MpServer', x=-108.50, y=4.00, z=88.50], EntityCow['Cow'/59, l='MpServer', x=-94.84, y=4.00, z=93.16], EntityMaka['Maka'/60, l='MpServer', x=-85.70, y=4.00, z=104.30], EntityMaka['Maka'/61, l='MpServer', x=-82.68, y=4.00, z=103.32], EntityEssence['Living Essence'/64, l='MpServer', x=-67.07, y=14.41, z=130.39], EntityChupacabra['Violet Chupacabra'/67, l='MpServer', x=-77.53, y=24.00, z=151.47], EntityShade['Shade'/69, l='MpServer', x=-75.55, y=24.00, z=150.45], EntityMaka['Maka'/71, l='MpServer', x=-53.66, y=26.00, z=91.34], EntityShade['Shade'/76, l='MpServer', x=-52.50, y=24.00, z=126.50], EntitySilex['Silex'/78, l='MpServer', x=-58.36, y=22.02, z=142.95], EntityEssence['Living Essence'/81, l='MpServer', x=-49.49, y=10.84, z=157.98], EntityEssence['Living Essence'/82, l='MpServer', x=-54.29, y=15.56, z=159.23], EntityChupacabra['Chupacabra'/87, l='MpServer', x=-47.83, y=18.92, z=160.73], EntityMaka['Maka'/88, l='MpServer', x=-38.68, y=4.00, z=88.32], EntityMaka['Maka'/89, l='MpServer', x=-33.06, y=4.00, z=88.06], EntityEssence['Living Essence'/90, l='MpServer', x=-41.30, y=23.20, z=135.30], EntityChupacabra['Chupacabra'/93, l='MpServer', x=-47.00, y=22.29, z=158.48], EntityChupacabra['Chupacabra'/99, l='MpServer', x=-16.49, y=22.00, z=120.52], EntityEssence['Living Essence'/103, l='MpServer', x=-16.92, y=15.75, z=145.11], EntityEssence['Living Essence'/112, l='MpServer', x=-26.35, y=11.83, z=163.38], EntityEssence['Living Essence'/113, l='MpServer', x=-20.54, y=4.00, z=163.00], EntityChupacabra['Verdant Chupacabra'/118, l='MpServer', x=-3.52, y=25.00, z=76.48], EntityChupacabra['Chupacabra'/121, l='MpServer', x=-9.50, y=24.00, z=95.29], EntityChupacabra['Chupacabra'/136, l='MpServer', x=-22.48, y=24.00, z=139.14], EntityChupacabra['Chupacabra'/141, l='MpServer', x=-5.50, y=24.00, z=135.50], EntityCephignis['Cephignis'/154, l='MpServer', x=9.41, y=22.00, z=100.41], EntityShade['Shade'/172, l='MpServer', x=28.47, y=24.00, z=70.20], EntityChupacabra['Chupacabra'/173, l='MpServer', x=25.73, y=24.00, z=69.00], EntityEssence['Living Essence'/177, l='MpServer', x=20.50, y=21.14, z=140.86], EntityMaka['Maka'/179, l='MpServer', x=12.98, y=4.00, z=198.04], EntityChupacabra['Chupacabra'/182, l='MpServer', x=34.24, y=24.00, z=144.53], EntityEssence['Living Essence'/183, l='MpServer', x=34.31, y=29.26, z=146.30], EntityEssence['Living Essence'/184, l='MpServer', x=34.06, y=25.55, z=169.97], EntityEssence['Living Essence'/185, l='MpServer', x=34.92, y=24.83, z=168.95], EntityMaka['Maka'/187, l='MpServer', x=13.49, y=4.00, z=175.50], EntityChupacabra['Chupacabra'/196, l='MpServer', x=54.28, y=24.00, z=146.50], EntityMaka['Maka'/199, l='MpServer', x=66.78, y=4.00, z=129.82], EntityPlayerSP['DarkLordWonton'/212, l='MpServer', x=-45.39, y=24.00, z=165.55], EntityLatchedRenderer['unknown'/214, l='MpServer', x=8.50, y=65.00, z=8.50], EntityItem['item.item.coal'/17136, l='MpServer', x=-41.90, y=4.00, z=152.90], EntityItem['item.item.rottenFlesh'/17137, l='MpServer', x=5.59, y=4.00, z=165.86], EntityItem['item.item.scorchfirecharge'/17138, l='MpServer', x=10.13, y=24.00, z=158.62], EntityItem['item.item.snowball'/17139, l='MpServer', x=10.13, y=24.00, z=158.93], EntityLatchedRenderer['unknown'/264, l='MpServer', x=-37.22, y=25.00, z=166.01], EntityLatchedRenderer['unknown'/271, l='MpServer', x=-37.22, y=25.00, z=166.01], EntityEssence['Living Essence'/7466, l='MpServer', x=-29.64, y=4.32, z=149.47], EntityEssence['Living Essence'/6979, l='MpServer', x=-87.66, y=10.75, z=210.97], EntityEssence['Living Essence'/11105, l='MpServer', x=-67.64, y=20.74, z=131.30]]
+	Retry entities: 3 total; [EntityLatchedRenderer['unknown'/214, l='MpServer', x=8.50, y=65.00, z=8.50], EntityLatchedRenderer['unknown'/264, l='MpServer', x=-37.22, y=25.00, z=166.01], EntityLatchedRenderer['unknown'/271, l='MpServer', x=-37.22, y=25.00, z=166.01]]
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.func_72914_a(WorldClient.java:415)
+	at net.minecraft.client.Minecraft.func_71396_d(Minecraft.java:2660)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:392)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:236)
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:297)
+	at org.multimc.EntryPoint.listen(EntryPoint.java:162)
+	at org.multimc.EntryPoint.main(EntryPoint.java:53)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.10.2
+	Operating System: Mac OS X (x86_64) version 10.10.2
+	Java Version: 1.8.0_65, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1479826280 bytes (1411 MB) / 3980394496 bytes (3796 MB) up to 3980394496 bytes (3796 MB)
+	JVM Flags: 2 total; -Xms4096m -Xmx4096m
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.32 Powered by Forge 12.18.3.2185 207 mods loaded, 206 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.10.2-12.18.3.2185-universal.jar) 
+	UCHIJAAAA	Forge{12.18.3.2185} [Minecraft Forge] (forge-1.10.2-12.18.3.2185-universal.jar) 
+	UCHIJAAAA	OpenComputers|Core{1.6.0.4} [OpenComputers (Core)] (minecraft.jar) 
+	UCHIJAAAA	potioncore_coremod{1.4_for_1.10.2} [Potion Core Coremod] (minecraft.jar) 
+	UCHIJAAAA	RenderPlayerAPI{1.1} [Render Player API] (minecraft.jar) 
+	UCHIJAAAA	foamfixcore{7.7.4} [FoamFixCore] (minecraft.jar) 
+	UCHIJAAAA	ccl-entityhook{1.0} [ccl-entityhook] (CodeChickenLib-1.10.2-2.5.2.213-universal.jar) 
+	UCHIJAAAA	movillages{1.5.2} [Mo' Villages] ([1.9.4]Mo' Villages-1.5.2.jar) 
+	UCHIJAAAA	bettercombatmod{1.4.0} [Better Combat] ([MC 1.10.X] BetterCombatMod 1.4.jar) 
+	UCHIJAAAA	JEI{3.14.5.406} [Just Enough Items] (jei_1.10.2-3.14.5.406.jar) 
+	UCHIJAAAA	abyssalcraft{1.9.3.10} [AbyssalCraft] (AbyssalCraft-1.10.2-1.9.3.10.jar) 
+	UCHIJAAAA	mantle{1.10.2-1.1.4.203} [Mantle] (Mantle-1.10.2-1.1.4.jar) 
+	UCHIJAAAA	tconstruct{1.10.2-2.6.2.487} [Tinkers' Construct] (TConstruct-1.10.2-2.6.2.jar) 
+	UCHIJAAAA	acintegration{1.4.7} [AbyssalCraft Integration] (AbyssalCraft Integration-1.9.4-1.4.7.jar) 
+	UCHIJAAAA	alt{1.06} [Additional Loot Tables] (AdditionalLootTables_1.10.2-1.06.jar) 
+	UCHIJAAAA	advancedcables{1.2.2} [Advanced Cables] (advancedcables-1.2.2.jar) 
+	UCHIJAAAA	AppleCore{2.1.1} [AppleCore] (AppleCore-mc1.10.2-2.1.1.jar) 
+	UCHIJAAAA	appleskin{1.0.3} [AppleSkin] (AppleSkin-mc1.10.2-1.0.3.jar) 
+	UCHIJAAAA	Quark{r1.1-70} [Quark] (Quark-r1.1-70.jar) 
+	UCHIJAAAA	AutoRegLib{1.0-2} [AutoRegLib] (AutoRegLib-1.0-2.jar) 
+	UCHIJAAAA	basemetals{2.4.0} [Base Metals] (BaseMetals_1.10.2-2.4.0.11.jar) 
+	UCHIJAAAA	Baubles{1.3.9} [Baubles] (Baubles-1.10.2-1.3.9.jar) 
+	UCHIJAAAA	betterbuilderswands{0.10.2} [Better Builder's Wands] (BetterBuildersWands-1.10.2-0.10.2.209+115b204.jar) 
+	UCHIJAAAA	BetterHorseHud{1.0} [Better Horse Hud] (BetterHorseHud-[1.9-1.10.2]-1.0.jar) 
+	UCHIJAAAA	BiblioCraft{2.2.1} [BiblioCraft] (BiblioCraft[v2.2.1][MC1.10.2].jar) 
+	UCHIJAAAA	BiomeTweaker{2.1.230} [BiomeTweaker] (BiomeTweaker-1.10.2-2.1.230.jar) 
+	UCHIJAAAA	guideapi{@VERSION@} [Guide-API] (Guide-API-1.10.2-2.0.2-45.jar) 
+	UCHIJAAAA	BloodMagic{1.9.4-2.1.0-69} [Blood Magic: Alchemical Wizardry] (BloodMagic-1.9.4-2.1.0-69.jar) 
+	UCHIJAAAA	BloodArsenal{1.10.2-2.0.1-17} [Blood Arsenal] (BloodArsenal-1.10.2-2.0.1-17.jar) 
+	UCHIJAAAA	infinitylib{1.10.2-0.6.2} [InfinityLib] (infinitylib-0.6.2.jar) 
+	UCHIJAAAA	boatifull{@MAJOR@.@MINOR@.@REVIS@} [Boatifull] (boatifull-0.4.0.jar) 
+	UCHIJAAAA	bookshelf{1.4.3.338} [Bookshelf] (Bookshelf-1.10.2-1.4.3.338.jar) 
+	UCHIJAAAA	Botania{r1.9-340} [Botania] (Botania r1.9-340.jar) 
+	UCHIJAAAA	CodeChickenLib{2.5.2.213} [CodeChicken Lib] (CodeChickenLib-1.10.2-2.5.2.213-universal.jar) 
+	UCHIJAAAA	brandonscore{2.1.4} [Brandon's Core] (BrandonsCore-1.10.2-2.1.4.92-universal.jar) 
+	UCHIJAAAA	cdabm{1.0.3} [MrCrayfish's Dab Mod] (cdabm-1.0.3-mc1.10.2.jar) 
+	UCHIJAAAA	ceramics{1.10.2-1.1.4b} [Ceramics] (Ceramics-1.10.2-1.1.4b.jar) 
+	UCHIJAAAA	Chameleon{1.10-2.2.2} [Chameleon] (Chameleon-1.10-2.2.2.jar) 
+	UCHIJAAAA	chameleoncreepers{1.4.1} [Chameleon Creepers] (chameleoncreepers-1.4.1-1.10.2.jar) 
+	UCHIJAAAA	chiseled_me{1.0} [Chiseled Me] (Chiseled-Me-1.0.jar) 
+	UCHIJAAAA	mcmultipart{1.3.0_87} [MCMultiPart] (MCMultiPart-experimental-2.0.0_88-universal.jar) 
+	UCHIJAAAA	chiselsandbits{12.11} [Chisels & Bits] (chiselsandbits-12.11.jar) 
+	UCHIJAAAA	CodeChickenCore{2.4.0.101} [CodeChicken Core] (CodeChickenCore-1.10.2-2.4.0.101-universal (1).jar) 
+	UCHIJAAAA	combathelp{1.1.1} [Combat Help] (combathelp-1.1x-1.1.1.jar) 
+	UCHIJAAAA	controlling{1.0.3} [Controlling] (Controlling-1.0.3.jar) 
+	UCHIJAAAA	cookingforblockheads{4.2.29} [Cooking for Blockheads] (CookingForBlockheads_1.10.2-4.2.29.jar) 
+	UCHIJAAAA	cosmeticarmorreworked{1.10.2-v1a} [CosmeticArmorReworked] (CosmeticArmorReworked-1.10.2-v1a.jar) 
+	UCHIJAAAA	NashornLib{1.9.4-1.8.77-1.3.1} [Nashorn Library] (NashornLib-1.9.4-1.8.77-1.3.1.8.jar) 
+	UCHIJAAAA	craftingharmonics{1.9.4_1.10_1.10.2-1.5.7} [Crafting Harmonics] (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar) 
+	UCHIJAAAA	crafttweakerjei{1.0.1} [CraftTweaker JEI Support] (CraftTweaker-1.10.2-3.0.20.jar) 
+	UCHIJAAAA	MineTweaker3{3.0.20} [MineTweaker 3] (CraftTweaker-1.10.2-3.0.20.jar) 
+	UCHIJAAAA	ctgui{1.0.0} [CT-GUI] (CraftTweaker-1.10.2-3.0.20.jar) 
+	UCHIJAAAA	simpleArtilleryMod{Alpha1_2_0} [CustomizableArtilleryMod] (CustomizableArtilleryMODv1_2_0forMC1.10.2.jar) 
+	UCHIJAAAA	wonderfulwands{2.2.0} [Wonderful Wands] (CyanosWonderfulWands_1.10.2-2.2.0.jar) 
+	UCHIJAAAA	cyberware{beta-0.2.6} [Cyberware] (cyberware-1.9.4-1.10.2-beta-0.2.6.jar) 
+	UCHIJAAAA	cyclopscore{0.9.1} [Cyclops Core] (CyclopsCore-1.9.4-0.9.1.jar) 
+	UCHIJAAAA	darkutils{1.1.6.105} [Dark Utilities] (DarkUtilities-1.10.2-1.1.6.105.jar) 
+	UCHIJAAAA	forestry{5.2.17.362} [Forestry] (forestry_1.10.2-5.2.17.362.jar) 
+	UCHIJAAAA	eleccore{1.6.379} [ElecCore] (ElecCore-1.10.2-1.6.379.jar) 
+	UCHIJAAAA	OpenComputers{1.6.0.4} [OpenComputers] (OpenComputers-MC1.10.2-1.6.0.4.jar) 
+	UCHIJAAAA	deepresonance{1.4.5} [DeepResonance] (deepresonance-1.1x-1.4.5.jar) 
+	UCHIJAAAA	dldungeonsjdg{1.9.0} [Doomlike Dungeons] (DoomlikeDungeons-1.9.0-MC1.10.jar) 
+	UCHIJAAAA	draconicevolution{2.0.8} [Draconic Evolution] (Draconic-Evolution-1.10.2-2.0.8.177-universal.jar) 
+	UCHIJAAAA	DragonMounts{r46-1.9.4} [Dragon Mounts] (DragonMounts-r46-1.9.4.jar) 
+	UCHIJAAAA	StorageDrawers{1.10.2-3.5.16} [Storage Drawers] (StorageDrawers-1.10.2-3.5.16.jar) 
+	UCHIJAAAA	bitdrawers{0.35} [Drawers & Bits] (DrawersBits-1.10.2-0.35.jar) 
+	UCHIJAAAA	dsurround{3.2.1.2} [Dynamic Surroundings] (DynamicSurroundings-1.10.2-3.2.1.2.jar) 
+	UCHIJAAAA	elementsofpower{1.0.0-beta} [Elements of Power] (ElementsOfPowerReborn-1.10.2-1.0.0-beta.jar) 
+	UCHIJAAAA	enchiridion{3.1.17} [Enchiridion] (Enchiridion-1.10.2-3.1.17.jar) 
+	UCHIJAAAA	endercore{1.10.2-0.4.1.65-beta} [EnderCore] (EnderCore-1.10.2-0.4.1.65-beta.jar) 
+	UCHIJAAAA	EnderIO{1.10.2-3.1.155} [Ender IO] (EnderIO-1.10.2-3.1.155.jar) 
+	UCHIJAAAA	EnderZoo{1.10-1.2.3.43} [Ender Zoo] (EnderZoo-1.10-1.2.3.43.jar) 
+	UCHIJAAAA	engineersworkshop{1.1.4-1.10.2} [Engineers Workshop] (EngineersWorkshop-1.1.5-1.10.2.jar) 
+	UCHIJAAAA	event_tweaks{1.1.2} [event_tweaks] (Event Tweaks 1.1.2.jar) 
+	UCHIJAAAA	evilcraft{0.10.19} [EvilCraft] (EvilCraft-1.10.2-0.10.19.jar) 
+	UCHIJAAAA	zerocore{1.10.2-0.1.0.1} [Zero CORE] (zerocore-1.10.2-0.1.0.1.jar) 
+	UCHIJAAAA	bigreactors{1.10.2-0.4.5.24} [Extreme Reactors] (ExtremeReactors-1.10.2-0.4.5.24.jar) 
+	UCHIJAAAA	FastLeaveDecay{1.1} [Fast Leave Decay] (FastLeaveDecay-MC1.10.2-1.2.2.jar) 
+	UCHIJAAAA	foamfix{@VERSION@} [FoamFix] (foamfix-0.5.0-anarchy.jar) 
+	UCHIJAAAA	forgemultipartcbe{2.0.0.24} [Forge Multipart CBE] (ForgeMultipart-1.10.2-2.0.0.24-universal.jar) 
+	UCHIJAAAA	microblockcbe{2.0.0.24} [Forge Microblocks] (ForgeMultipart-1.10.2-2.0.0.24-universal.jar) 
+	UCHIJAAAA	minecraftmultipartcbe{2.0.0.24} [Minecraft Multipart Plugin] (ForgeMultipart-1.10.2-2.0.0.24-universal.jar) 
+	UCHIJAAAA	funkylocomotion{1.0} [Funky Locomotion] (funky-locomotion-1.10.2-alpha-0.0.3.jar) 
+	UCHIJAAAA	shadowmc{3.5.0} [ShadowMC] (ShadowMC-1.10.2-3.6.0.jar) 
+	UCHIJAAAA	Funnels{1.1.2} [Funnels] (Funnels-1.10.2-1.1.2.jar) 
+	UCHIJAAAA	godweapons{4.5_1.10} [Gods' Weapons] (godweapons - 4.5_1.10.jar) 
+	UCHIJAAAA	gravestone{1.5.11} [Gravestone] (GraveStone Mod 1.5.11.jar) 
+	UCHIJAAAA	hopperducts{1.4.8} [Hopper Ducts] (hopperducts-mc1.9.4-1.4.8.jar) 
+	UCHIJAAAA	ichunutil{6.1.1} [iChunUtil] (iChunUtil-1.10.2-6.1.1.jar) 
+	UCHIJAAAA	immersiveengineering{0.10-56} [Immersive Engineering] (ImmersiveEngineering-0.10-56.jar) 
+	UCHIJAAAA	InfernalMobs{1.7.1} [Infernal Mobs] (InfernalMobs-1.10.jar) 
+	UCHIJAAAA	inventorytweaks{1.61-58-a1fd884} [Inventory Tweaks] (InventoryTweaks-1.61-58.jar) 
+	UCHIJAAAA	ironchest{1.10.2-7.0.11.797} [Iron Chest] (ironchest-1.10.2-7.0.11.797.jar) 
+	UCHIJAAAA	loottweaker{0.0.1} [LootTweaker] (LootTweaker-1.10.2-0.0.1.jar) 
+	UCHIJAAAA	jeresources{0.5.7.87} [Just Enough Resources] (JustEnoughResources-1.10.2-0.5.7.87.jar) 
+	UCHIJAAAA	kleeslabs{3.3.5} [KleeSlabs] (KleeSlabs_1.10.2-3.3.5.jar) 
+	UCHIJAAAA	librarianlib{GRADLE:VERSION.GRADLE:BUILD} [LibrarianLib] (librarianlib-1.9.jar) 
+	UCHIJAAAA	llibrary{1.7.4} [LLibrary] (llibrary-1.7.4-1.10.2.jar) 
+	UCHIJAAAA	llor{1.1.0-mc[1.9-1.10.2]} [Light Level Overlay Reloaded] (LLOverlayReloaded-1.1.0-mc[1.9-1.10.2].jar) 
+	UCHIJAAAA	lycanitesmobs{1.15.1.5 - MC 1.10.2} [Lycanites Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	arcticmobs{1.15.1.5 - MC 1.10.2} [Lycanites Arctic Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	demonmobs{1.15.1.5 - MC 1.10.2} [Lycanites Demon Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	desertmobs{1.15.1.5 - MC 1.10.2} [Lycanites Desert Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	forestmobs{1.15.1.5 - MC 1.10.2} [Lycanites Forest Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	freshwatermobs{1.15.1.5 - MC 1.10.2} [Lycanites Freshwater Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	infernomobs{1.15.1.5 - MC 1.10.2} [Lycanites Inferno Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	junglemobs{1.15.1.5 - MC 1.10.2} [Lycanites Jungle Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	mountainmobs{1.15.1.5 - MC 1.10.2} [Lycanites Mountain Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	plainsmobs{1.15.1.5 - MC 1.10.2} [Lycanites Plains Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	saltwatermobs{1.15.1.5 - MC 1.10.2} [Lycanites Saltwater Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	shadowmobs{1.15.1.5 - MC 1.10.2} [Lycanites Shadow Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	swampmobs{1.15.1.5 - MC 1.10.2} [Lycanites Swamp Mobs] (LycanitesMobsComplete 1.15.1.5 [1.10.2].jar) 
+	UCHIJAAAA	Mekanism{9.2.1} [Mekanism] (Mekanism-1.10.2-9.2.1.295.jar) 
+	UCHIJAAAA	MekanismGenerators{9.2.1} [MekanismGenerators] (MekanismGenerators-1.10.2-9.2.1.295.jar) 
+	UCHIJAAAA	MekanismTools{9.2.1} [MekanismTools] (MekanismTools-1.10.2-9.2.1.295.jar) 
+	UCHIJAAAA	mtrm{1.2.1.20} [MineTweakerRecipeMaker] (MineTweakerRecipeMaker-1.10.2-1.2.1.20.jar) 
+	UCHIJAAAA	testdummy{1.11} [MmmMmmMmmMmm] (MmmMmmMmmMmm-1.11.jar) 
+	UCHIJAAAA	natura{1.10.2-4.1.0.17} [Natura] (natura-1.10.2-4.1.0.17.jar) 
+	UCHIJAAAA	railcraft{10.0.1} [Railcraft] (Railcraft_1.10.2-10.0.1.jar) 
+	UCHIJAAAA	roots{0.207} [Roots] (roots-0.207.jar) 
+	UCHIJAAAA	reborncore{2.13.3.119} [RebornCore] (RebornCore-1.10.2-2.13.3.119-universal.jar) 
+	UCHIJAAAA	techreborn{2.1.4.172} [TechReborn] (TechReborn-1.10.2-2.1.4.172-universal.jar) 
+	UCHIJAAAA	tesla{1.2.1.49} [TESLA] (Tesla-1.10.2-1.2.1.49.jar) 
+	UCHIJAAAA	theoneprobe{1.4.2} [The One Probe] (theoneprobe-1.1x-1.4.2.jar) 
+	UCHIJAAAA	moarsigns{4.2.2.8} [MoarSigns] (MoarSigns-1.10.2-4.2.2.8.jar) 
+	UCHIJAAAA	mob_properties{1.0.3} [Mob Properties] (mob_properties-1.10.2-1.0.3.jar) 
+	UCHIJAAAA	mobamputation{6.0.0} [MobAmputation] (MobAmputation-1.10.2-6.0.0.jar) 
+	UCHIJAAAA	mob_grinding_utils{0.1.8.14} [mob_grinding_utils] (MobGrindingUtils-0.1.8.14.jar) 
+	UCHIJAAAA	modernmetals{0.11.0} [Modern Metals] (ModernMetals-0.11.0.jar) 
+	UCHIJAAAA	mtlib{@VERSION@} [MTLib] (MTLib-1.0.1.jar) 
+	UCHIJAAAA	modtweaker{2.0.9} [Mod Tweaker] (ModTweaker2-2.0.9.jar) 
+	UCHIJAAAA	Morpheus{1.10.2-3.1.13} [Morpheus] (Morpheus-1.10.2-3.1.13.jar) 
+	UCHIJAAAA	mousetweaks{2.6.4} [Mouse Tweaks] (MouseTweaks-2.6.4-mc1.10.2.jar) 
+	UCHIJAAAA	MrTJPCoreMod{2.0.0.12} [MrTJPCore] (MrTJPCore-1.10.2-2.0.0.12-universal.jar) 
+	UCHIJAAAA	oilcraft{0.4.0} [Oil Craft] (OilCraft-1.10.2-0.4.0.jar) 
+	UCHIJAAAA	omlib{1.10.2-3.0.0-56} [OMLib] (omlib-1.10.2-3.0.0-56.jar) 
+	UCHIJAAAA	openglasses{1.4} [OC Glasses] (OpenGlasses-1.4.jar) 
+	UCHIJAAAA	openmodularturrets{1.10.2-3.0.0-85} [Open Modular Turrets] (openmodularturrets-1.10.2-3.0.0-85.jar) 
+	UCHIJAAAA	harvestcraft{1.9.4-1.10.2f} [Pam's HarvestCraft] (Pam's HarvestCraft 1.9.4-1.10.2f.jar) 
+	UCHIJAAAA	PerfectSpawn{1.4} [Perfect Spawn] (PerfectSpawn-MC1.10.2-1.4.jar) 
+	UCHIJAAAA	PersistentBits{1.0.6} [Persistent Bits] (PersistentBits-1.10.2-1.0.6.jar) 
+	UCHIJAAAA	possessed{1.0.0} [Possessed] (possessed-1.0.0.jar) 
+	UCHIJAAAA	potioncore{1.4_for_1.10.2} [Potion Core] (PotionCore-1.4_for_1.10.2 (1).jar) 
+	UCHIJAAAA	progression{0.6.8} [Progression] (Progression-1.10.2-0.6.8.jar) 
+	UCHIJAAAA	projectred-core{4.8.0.17} [ProjectRed Core] (ProjectRed-1.10.2-4.8.0.17-Base.jar) 
+	UCHIJAAAA	projectred-integration{4.8.0.17} [ProjectRed integration] (ProjectRed-1.10.2-4.8.0.17-integration.jar) 
+	UCHIJAAAA	projectred-transmission{4.8.0.17} [ProjectRed Transmission] (ProjectRed-1.10.2-4.8.0.17-integration.jar) 
+	UCHIJAAAA	projectred-illumination{4.8.0.17} [ProjectRed Illumination] (ProjectRed-1.10.2-4.8.0.17-lighting.jar) 
+	UCHIJAAAA	projectred-expansion{4.8.0.17} [ProjectRed Expansion] (ProjectRed-1.10.2-4.8.0.17-mechanical.jar) 
+	UCHIJAAAA	projectred-tansportation{1.0} [projectred-tansportation] (ProjectRed-1.10.2-4.8.0.17-mechanical.jar) 
+	UCHIJAAAA	projectred-exploration{4.8.0.17} [ProjectRed Exploration] (ProjectRed-1.10.2-4.8.0.17-world.jar) 
+	UCHIJAAAA	quadrum{0.3.0} [Quadrum] (Quadrum-0.3.0.jar) 
+	UCHIJAAAA	rblr{6.0.2.10} [Rabbits Breed Like Rabbits] (RabbitsBreedLikeRabbits-Forge-6.0.2.10.jar) 
+	UCHIJAAAA	randomtweaks{1.11.2-1.0.0.0} [RandomTweaks] (randomtweaks-1.11.2-1.0.0.0.jar) 
+	UCHIJAAAA	ReAuth{3.2} [ReAuth] (ReAuth-3.2.jar) 
+	UCHIJAAAA	reborncore-mcmultipart{2.13.3.119} [reborncore-MCMultiPart] (RebornCore-1.10.2-2.13.3.119-universal.jar) 
+	UCHIJAAAA	redstoneremote{@VERSION@} [Redstone Remote] (RedstoneRemote-1.10.2-1.0.0.jar) 
+	UCHIJAAAA	refraction{1.3.4} [Refraction] (refraction-1.3.4.jar) 
+	UCHIJAAAA	ResourceLoader{1.5.1} [Resource Loader] (ResourceLoader-MC1.9.4-1.5.1.jar) 
+	UCHIJAAAA	rfutilities{1.10.2-0.1-hotfix2} [RFUtilities] (RFUtilities-1.10.2-0.1-hotfix2.jar) 
+	UCHIJAAAA	rice{1.0.1} [Rice] (RiceCraftingTable-1.0.1-1.10.2.jar) 
+	UCHIJAAAA	Roguelike{1.5.6} [Roguelike Dungeons] (RoguelikeDungeons-1.10.2-1.5.6.jar) 
+	UCHIJAAAA	roughMobs{1.0} [Rough Mobs] (roughMobs1.0.9-1.10.2.jar) 
+	UCHIJAAAA	runesofwizardry{1.10.2-0.7.2} [Runes of Wizardry] (Runes-of-Wizardry-1.10.2-0.7.2.jar) 
+	UCHIJAAAA	runesofwizardry_classics{1.10.2-0.4.3} [Runes of Wizardry - Classic Dusts Pack] (RunesofWizardry-Classics-1.10.2-0.4.3.jar) 
+	UCHIJAAAA	SilentLib{1.1.0} [Silent Lib] (SilentLib-1.10.2-1.1.0-23.jar) 
+	UCHIJAAAA	scalinghealth{1.0.3} [Scaling Health] (ScalingHealth-1.10.2-1.0.3-36.jar) 
+	UCHIJAAAA	shellMod{Beta1_5_2} [shellMod] (ShellsMod1_5_2FixedforMC1.10.2.jar) 
+	UCHIJAAAA	SilentGems{2.2.5} [Silent's Gems] (SilentsGems-1.10.2-2.2.5-103.jar) 
+	UCHIJAAAA	smedry{1.1} [Silimatics] (Silimatics-r1.1.jar) 
+	UCHIJAAAA	SophisticatedWolves{3.6.1} [SophisticatedWolves] (SophisticatedWolves-3.6.4.jar) 
+	UCHIJAAAA	special_ai{1.1.3} [Special AI] (special_ai-1.10.2-1.1.3.jar) 
+	UCHIJAAAA	SpiceOfLife{1.3.7} [The Spice of Life] (SpiceOfLife-mc1.9.4-1.3.7.jar) 
+	UCHIJAAAA	stacksonstacks{1.1.4} [stacksonstacks] (StacksOnStacks2-1.1.4.jar) 
+	UCHIJAAAA	stevescarts{2.1.4.81} [Steve's Carts 2] (StevesCarts-1.10.2-2.1.4.81.jar) 
+	UCHIJAAAA	structuredcrafting{0.1.7} [Structured Crafting] (StructuredCrafting-1.9.4-0.1.7.jar) 
+	UCHIJAAAA	rscircuits{1.0.4} [Super Circuit Maker] (SuperCircuitMaker-1.0.4.jar) 
+	UCHIJAAAA	supercraftingframe{1.2.1.88} [Super Crafting Frame] (supercraftingframe-1.10.2-1.2.1.88.jar) 
+	UCHIJAAAA	surge{1.0.0.50} [Surge] (Surge-1.10.2-1.0.0.50.jar) 
+	UCHIJAAAA	thirdpersonelytra{1.0} [Third Person Elytra] (thirdpersonelytra-110.2-1.0.jar) 
+	UCHIJAAAA	thutcore{3.12.0} [ThutCore] (thutcore-3.12.0.jar) 
+	UCHIJAAAA	thuttech{@VERSION@} [Thut's Tech] (thuttech-4.0.10.b.jar) 
+	UCHIJAAAA	topaddons{1.10.2-0.9.1b} [TOP Addons] (topaddons-1.10.2-0.9.1b.jar) 
+	UCHIJAAAA	totemic{1.9.4-0.7.9.1} [Totemic] (Totemic-1.9.4-0.7.9.1.jar) 
+	UCHIJAAAA	ToughAsNails{1.0.11} [Tough As Nails] (ToughAsNails-1.9.4-1.0.11.jar) 
+	UCHIJAAAA	usefulnullifiers{1.3.3} [Useful Nullifiers] (usefulnullifiers-1.3.3.jar) 
+	UCHIJAAAA	va{1.10.2-1.6.1} [Vanilla Automation] (va-1.10.2-1.6.1.jar) 
+	UCHIJAAAA	valkyrienwarfare{0.87a} [Valkyrien Warfare] (Valkyrien Warfare 0.8.7b.jar) 
+	UCHIJAAAA	valkyrienwarfarecombat{0.1} [Valkyrien Warfare Combat] (Valkyrien Warfare 0.8.7b.jar) 
+	UCHIJAAAA	valkyrienwarfarecontrol{0.3b} [Valkyrien Warfare Control] (Valkyrien Warfare 0.8.7b.jar) 
+	UCHIJAAAA	can{can} [can] (Valkyrien Warfare 0.8.7b.jar) 
+	UCHIJAAAA	valkyrienwarfareworld{0.0a} [Valkyrien Warfare World] (Valkyrien Warfare 0.8.7b.jar) 
+	UCHIJAAAA	vampirism{1.0.2} [Vampirism] (Vampirism-1.10.2-1.0.2.jar) 
+	UCHIJAAAA	teamlapen-lib{1.0.2} [TeamLapen Library] (Vampirism-1.10.2-1.0.2.jar) 
+	UCHIJAAAA	vending{1.3.4} [vending] (vending-1.9.4-1.3.4.jar) 
+	UCHIJAAAA	vd{v1.1a-mc1.10.2} [Viesis' Dismounter] (Viesis' Dismount-1.1a-mc1.10.2.jar) 
+	UCHIJAAAA	vtb{2.0.0} [VillageTradingBan] (VillagerTradingBan-2.0.0.4-universal.jar) 
+	UCHIJAAAA	wanionlib{1.10.2-1.3} [WanionLib] (WanionLib-1.10.2-1.3.jar) 
+	UCHIJAAAA	wired{1.6.0} [WIRED: More Augs] (WIRED-1.6.0.jar) 
+	UCHIJAAAA	examplemod{1.0} [examplemod] (WTF-Expedition_1.10.2_v-1.4.jar) 
+	UCHIJAAAA	wtfcore{1.10.2_v1.4} [WTFs-Expedition] (WTF-Expedition_1.10.2_v-1.4.jar) 
+	UCHIJAAAA	fluidity{6.1.4} [Fluidity] (Fluidity-6.1.4.jar) 
+	UCHIJAAAA	librarianliblate{GRADLE:VERSION.GRADLE:BUILD} [LibrarianLib Stage 2] (librarianlib-1.9.jar) 
+	UCHIJAAAA	zml{GRADLE:VERSION.GRADLE:BUILD} [Zen Mod Loader] (ModelMaker-r1.4.jar) 
+	UCHIJAAAA	unidict{1.10.2-2.5c} [UniDict] (UniDict-1.10.2-2.5c.jar) 
+	UD	BiomeTweakerCore{2.1.230} [BiomeTweaker Core] (minecraft.jar) 
+	Loaded coremods (and transformers): 
+Brandon's Core (BrandonsCore-1.10.2-2.1.4.92-universal.jar)
+  com.brandon3055.brandonscore.asm.ClassTransformer
+Crafting Harmonics Core (craftingharmonics-1.9.4_1.10_1.10.2-1.5.7.42.jar)
+  org.winterblade.minecraft.harmony.asm.PotionRemovedHookTransformer
+CCLCorePlugin (CodeChickenLib-1.10.2-2.5.2.213-universal.jar)
+  codechicken.lib.asm.ClassHeirachyManager
+  codechicken.lib.asm.BlockStateLoaderTransformer
+ForgelinPlugin (Forgelin-1.1.0.jar)
+  
+TANLoadingPlugin (ToughAsNails-1.9.4-1.0.11.jar)
+  toughasnails.asm.transformer.BlockCropsTransformer
+  toughasnails.asm.transformer.EntityRendererTransformer
+  toughasnails.asm.transformer.WorldTransformer
+SurgeLoadingPlugin (Surge-1.10.2-1.0.0.50.jar)
+  net.epoxide.surge.asm.SurgeTransformerManager
+LoadingHook (Mekanism-1.10.2-9.2.1.295.jar)
+  
+Chiseled Me ASM (Chiseled-Me-1.0.jar)
+  necauqua.mods.cm.asm.Plugin
+CorePlugin (MrTJPCore-1.10.2-2.0.0.12-universal.jar)
+  
+DynamicSurroundingsCore (DynamicSurroundings-1.10.2-3.2.1.2.jar)
+  org.blockartistry.mod.DynSurround.asm.Transformer
+FMLPlugin (InventoryTweaks-1.61-58.jar)
+  invtweaks.forge.asm.ContainerTransformer
+PotionCoreFMLLoadingPlugin (PotionCore-1.4_for_1.10.2 (1).jar)
+  com.tmtravlr.potioncore.asm.ArmorHandlerTransformer
+SHLoadingPlugin (ScalingHealth-1.10.2-1.0.3-36.jar)
+  net.silentchaos512.scalinghealth.asm.SHClassTransformer
+RenderPlayerAPIPlugin (RenderPlayerAPI-1.10.2-1.1.jar)
+  api.player.forge.RenderPlayerAPITransformer
+LoadingPlugin (ResourceLoader-MC1.9.4-1.5.1.jar)
+  lumien.resourceloader.asm.ClassTransformer
+ValkyrienWarfareBase CoreMod (Valkyrien Warfare 0.8.7b.jar)
+  ValkyrienWarfareBase.CoreMod.ValkyrienWarfareTransformer
+TransformerLoader (OpenComputers-MC1.10.2-1.6.0.4.jar)
+  li.cil.oc.common.asm.ClassTransformer
+BookshelfLoadingPlugin (Bookshelf-1.10.2-1.4.3.338.jar)
+  net.darkhax.bookshelf.asm.BookshelfTransformerManager
+RebornCoreASM (RebornCore-1.10.2-2.13.3.119-universal.jar)
+  reborncore.mixin.transformer.MixinTransformer
+Do not report to Forge! Remove FoamFixAPI (or replace with FoamFixAPI-Lawful) and try again. (foamfix-0.5.0-anarchy.jar)
+  pl.asie.foamfix.coremod.FoamFixTransformer
+AppleCore (AppleCore-mc1.10.2-2.1.1.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+ProgressionTransformer (Progression-1.10.2-0.6.8.jar)
+  joshie.progression.asm.ProgressionTransformer
+EnderCorePlugin (EnderCore-1.10.2-0.4.1.65-beta.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+LoadingPlugin (Quark-r1.1-70.jar)
+  vazkii.quark.base.asm.ClassTransformer
+llibrary (llibrary-1.7.4-1.10.2.jar)
+  net.ilexiconn.llibrary.server.core.plugin.LLibraryTransformer
+  net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+PSLoadingPlugin (PerfectSpawn-MC1.10.2-1.4.jar)
+  lumien.perfectspawn.asm.PSClassTransformer
+BiomeTweakerCore (BiomeTweaker-1.10.2-2.1.230.jar)
+  me.superckl.biometweaker.core.BiomeTweakerASMTransformer
+	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.2.46' Renderer: 'Intel HD Graphics 4000 OpenGL Engine'
+	Pulsar/tconstruct loaded Pulses: 
+		- TinkerCommons (Enabled/Forced)
+		- TinkerWorld (Enabled/Not Forced)
+		- TinkerSmeltery (Enabled/Not Forced)
+		- TinkerGadgets (Enabled/Not Forced)
+		- TinkerOredict (Enabled/Forced)
+		- TinkerIntegration (Enabled/Forced)
+		- TinkerFluids (Enabled/Forced)
+		- chiselsandbitsIntegration (Enabled/Not Forced)
+		- theoneprobeIntegration (Enabled/Not Forced)
+
+	Pulsar/natura loaded Pulses: 
+		- NaturaCommons (Enabled/Forced)
+		- NaturaOverworld (Enabled/Not Forced)
+		- NaturaNether (Enabled/Not Forced)
+		- NaturaEntities (Enabled/Not Forced)
+		- NaturaOredict (Enabled/Forced)
+		- NaturaWorld (Enabled/Not Forced)
+
+	CodeChickenLib Invalid Fingerprint Reports: 
+	CodeChickenCore Invalid Fingerprint Reports: 
+	EnderIO: Found the following problem(s) with your installation (That does NOT mean that Ender IO caused the crash or was involved in it in any way. We add this information to help finding common problems, not as an invitation to post any crash you encounter to Ender IO's issue tracker. Always check the stack trace above to see which mod is most likely failing.):
+                  * An unsupportted RF API is installed (1.7.10R1.3.1 from BrandonsCore-1.10.2-2.1.4.92-universal.jar).
+                    Ender IO needs at least 1.8.9R1.2.0B1 and will NOT work with older versions.
+                 This may (look up the meaning of 'may' in the dictionary if you're not sure what it means) have caused the error. Try reproducing the crash WITHOUT this/these mod(s) before reporting it.
+	Detailed RF API diagnostics:
+                  * RF API class 'EnergyStorage' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/EnergyStorage.class
+                  * RF API class 'IEnergyConnection' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyConnection.class
+                  * RF API class 'IEnergyContainerItem' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyContainerItem.class
+                  * RF API class 'IEnergyHandler' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyHandler.class
+                  * RF API class 'IEnergyProvider' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyProvider.class
+                  * RF API class 'IEnergyReceiver' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyReceiver.class
+                  * RF API class 'IEnergyStorage' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/IEnergyStorage.class
+                  * RF API class 'ItemEnergyContainer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/ItemEnergyContainer.class
+                  * RF API class 'TileEnergyHandler' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/BrandonsCore-1.10.2-2.1.4.92-universal.jar!/cofh/api/energy/TileEnergyHandler.class
+	Detailed Tesla API diagnostics:
+                  * Tesla API class 'Tesla' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/Tesla.class
+                  * Tesla API class 'TeslaCapabilities' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/capability/TeslaCapabilities.class
+                  * Tesla API class 'ITeslaConsumer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/ITeslaConsumer.class
+                  * Tesla API class 'ITeslaHolder' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/ITeslaHolder.class
+                  * Tesla API class 'ITeslaProducer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/ITeslaProducer.class
+                  * Tesla API class 'BaseTeslaContainer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/BaseTeslaContainer.class
+                  * Tesla API class 'BaseTeslaContainerProvider' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/BaseTeslaContainerProvider.class
+                  * Tesla API class 'InfiniteTeslaConsumer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/InfiniteTeslaConsumer.class
+                  * Tesla API class 'InfiniteTeslaConsumerProvider' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/InfiniteTeslaConsumerProvider.class
+                  * Tesla API class 'InfiniteTeslaProducer' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/InfiniteTeslaProducer.class
+                  * Tesla API class 'InfiniteTeslaProducerProvider' is loaded from: jar:file:/Applications/MultiMC.app/Contents/MacOS/instances/New%20TOPS%20Modpack/minecraft/mods/Tesla-1.10.2-1.2.1.49.jar!/net/darkhax/tesla/api/implementation/InfiniteTeslaProducerProvider.class
+
+	Launched Version: MultiMC5
+	LWJGL: 2.9.1
+	OpenGL: Intel HD Graphics 4000 OpenGL Engine GL version 2.1 INTEL-10.2.46, Intel Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because ARB_framebuffer_object is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 4x Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz
