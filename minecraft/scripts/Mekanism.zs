@@ -57,7 +57,7 @@ recipes.addShaped(<mekanism:MachineBlock2:14>,[[<stevescarts:ModuleComponents:49
 recipes.remove(<mekanism:TierInstaller:*>);
 recipes.addShaped(<mekanism:TierInstaller:0>,[[<mekanism:Polyethene:2>,<ore:circuitAdvanced>,<mekanism:Polyethene:2>],[<ore:plateLead>,<ore:plankWood>,<ore:plateLead>],[<mekanism:Polyethene:2>,<ore:circuitAdvanced>,<mekanism:Polyethene:2>]]);
 recipes.addShaped(<mekanism:TierInstaller:1>,[[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>],[<ore:plateGalvanizedsteel>,<ore:plankWood>,<ore:plateGalvanizedsteel>],[<ore:plateTitanium>,<ore:circuitElite>,<ore:plateTitanium>]]);
-recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>],[<ore:plateIridium>,<ore:plankWood>,<ore:plateIridium>],[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>],[null,<enderio:itemBasicFilterUpgrade:1>,null]]);
+recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>],[<ore:plateIridium>,<ore:plankWood>,<ore:plateIridium>],[<techreborn:part:9>,<ore:circuitUltimate>,<techreborn:part:9>]]);
 
 //Reactor and lasers
 recipes.remove(<mekanismgenerators:Reactor:1>);

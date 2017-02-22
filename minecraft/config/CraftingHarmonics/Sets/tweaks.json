@@ -130,14 +130,14 @@
 				},
 				{
                     type: "TechReborn.addIndustrialElectrolyzer",
-                    what: ["quadrum:uranium238:0:3","quadrum:plutonium_mix:0:1","techreborn:smallDust:29:1"],
+                    what: ["quadrum:uranium238:0:2","quadrum:plutonium_mix:0:1","techreborn:smallDust:29:1"],
                     with: ["bigreactors:ingotMetals:1:1"],
                     ticks: 100,
                     euPerTick: 120,
 				},
 				{
 					type: "TechReborn.addCentrifuge",
-                    what: ["modernmetals:plutonium_smallpowder:0:1","quadrum:plutonium_weapon_small:0:2","quadrum:plutonium_reactor:0:3"],
+                    what: ["modernmetals:plutonium_smallpowder:0:1","quadrum:plutonium_weapon_small:0:2","quadrum:plutonium_reactor:0:1"],
                     with: ["quadrum:plutonium_mix"],
                     ticks: 200,
                     euPerTick: 30,
@@ -214,7 +214,7 @@
 				},
                 {
                     type: "addStarterItem",
-                    what: ["minecraft:dirt:0:64","minecraft:pumpkin_pie:0:2","minecraft:torch:0:2"]
+                    what: ["minecraft:dirt:0:64","minecraft:pumpkin_pie:0:1","minecraft:torch:0:1"]
                 }
             ]
         }
