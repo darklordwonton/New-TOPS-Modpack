@@ -50,7 +50,7 @@
       </recipe>
       <recipe name="Vibrant Alloy" energyCost="10000" >
         <input>
-          <itemStack oreDictionary="ingotEnderiumBase" /> <!-- Energetic Alloy -->
+          <itemStack oreDictionary="ingotReflectiveAlloy" />
           <itemStack modID="minecraft" itemName="ender_pearl" />
 		  <itemStack modID="minecraft" itemName="blaze_powder" />
         </input>

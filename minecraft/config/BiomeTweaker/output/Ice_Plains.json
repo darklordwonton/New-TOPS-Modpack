@@ -101,6 +101,24 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "muchmorespiders.common.entity.EntitySnowSpider",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlizz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBasalz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "toughasnails.entities.EntityFreeze",
       "Weight": 3,
       "Min Group Count": 1,

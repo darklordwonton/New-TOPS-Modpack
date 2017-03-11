@@ -119,6 +119,24 @@
       "Max Group Count": 2
     },
     {
+      "Entity Class": "muchmorespiders.common.entity.EntityDesertSpider",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "muchmorespiders.common.entity.EntityCactusSpider",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "muchmorespiders.common.entity.EntityAquaticSpider",
+      "Weight": 35,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "de.teamlapen.vampirism.entity.vampire.EntityBasicVampire",
       "Weight": 75,
       "Min Group Count": 1,

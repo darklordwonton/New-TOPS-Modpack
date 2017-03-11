@@ -7,7 +7,7 @@
             operations: [
                 {
 					type: "addBloodAltarRecipe",
-					output: "basemetals:mithril_ingot",
+					output: "thermalfoundation:material:136",
 					with: ["basemetals:mithril_blend"],
                     minTier: 1,
                     lpCost: 200,
@@ -82,7 +82,7 @@
                 },
                 {
                     type: "Botania.addManaInfusion",
-                    output: "basemetals:mithril_ingot",
+                    output: "thermalfoundation:material:136",
                     with: "basemetals:mithril_blend",
                     mana: 2000,
                 },
@@ -93,7 +93,7 @@
                 {
                     type: "Botania.addManaInfusion",
                     output: "botania:manaResource:0",
-                    with: "basemetals:mithril_ingot",
+                    with: "thermalfoundation:material:136",
                     mana: 4000,
                 },
                 {
@@ -103,7 +103,7 @@
                 {
                     type: "Botania.addManaInfusion",
                     output: "botania:storage:0",
-                    with: "basemetals:mithril_block",
+                    with: "thermalfoundation:storage:8",
                     mana: 36000,
                 },
                 {
@@ -123,15 +123,15 @@
 				},
 				{
 					type: "TechReborn.addImplosionCompressor",
-               		what: ["bigreactors:ingotMetals:0:1"],
-               	 	with: ["bigreactors:dustMetals:0:1","minecraft:tnt:0:4"],
+               		what: ["bigreactors:ingotmetals:0:1"],
+               	 	with: ["bigreactors:dustmetals:0:1","minecraft:tnt:0:4"],
                	 	ticks: 20,
                 	euPerTick: 30
 				},
 				{
                     type: "TechReborn.addIndustrialElectrolyzer",
                     what: ["quadrum:uranium238:0:2","quadrum:plutonium_mix:0:1","techreborn:smallDust:29:1"],
-                    with: ["bigreactors:ingotMetals:1:1"],
+                    with: ["bigreactors:dustmetals:1:1"],
                     ticks: 100,
                     euPerTick: 120,
 				},
@@ -145,8 +145,8 @@
 				},
 				{
 					type: "TechReborn.addImplosionCompressor",
-               		what: ["bigreactors:ingotMetals:3:1"],
-               	 	with: ["bigreactors:dustMetals:3:1","minecraft:tnt:0:8"],
+               		what: ["bigreactors:ingotmetals:3:1"],
+               	 	with: ["bigreactors:dustmetals:3:1","minecraft:tnt:0:8"],
                	 	ticks: 20,
                 	euPerTick: 30
 				},
@@ -180,7 +180,7 @@
 				},
                 {
 					type: "TechReborn.removeRecipe",
-                 	what: ["modernmetals:iridium_plate"],
+                 	what: ["thermalfoundation:material:327"],
                  	machine: "Compressor"
 				},
                 {
@@ -190,7 +190,7 @@
                 },
                 {
                     type: "removeSmelteryTableCast",
-                    what: "modernmetals:iridium_plate"
+                    what: "thermalfoundation:material:327"
                 },
 				{
                     type: "show",

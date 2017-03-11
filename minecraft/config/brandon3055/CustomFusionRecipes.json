@@ -1,0 +1,210 @@
+[
+	{
+		"mode": "ADD",
+		"result": "[basemetals:adamantine_powder]",
+		"catalyst": "[dustDraconium]",
+		"energy": 10000,
+		"tier": 0,
+		"ingredients": [
+			"[ingotIridium]",
+			"[stevescarts:ModuleComponents]:49",
+			"[ingotMercury]",
+			"[ingotRedAlloy]",
+			"[ingotElectrotineAlloy]",
+			"[ingotPlutonium]",
+			"[ingotLudicrite]",
+			"[ingotManyullyn]",
+			"[ingotVibrantAlloy]",
+			"[ingotTitanium]",
+			"[ingotEnderium]",
+			"[ingotLumium]",
+			"[ingotSignalum]",
+			"[ingotElectrumFlux]",
+			"[ingotTungstensteel]",
+			"[ingotDarkSteel]"
+		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:wyvern_core]",
+		"catalyst": "[blockEmerald]"
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_core]",
+		"catalyst": "[avaritiaadditions:endest_pearl]",
+		"energy": 2000000,
+		"tier": 0,
+		"ingredients": [
+			"[minecraft:dragon_breath]",
+			"[blockDraconium]",
+			"[draconicevolution:draconic_core]",
+			"[plateAdamantine]",
+			"[draconicevolution:draconic_core]",
+			"[plateStarsteel]",
+			"[draconicevolution:draconic_core]",
+			"[minecraft:dragon_breath]",
+			"[minecraft:dragon_breath]",
+			"[draconicevolution:draconic_core]",
+			"[plateStarsteel]",
+			"[draconicevolution:draconic_core]",
+			"[plateAdamantine]",
+			"[draconicevolution:draconic_core]",
+			"[blockDraconium]",
+			"[minecraft:dragon_breath]"
+		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:awakened_core]",
+		"catalyst": "[netherStar]"
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:awakened_core]",
+		"catalyst": "[avaritiaadditions:infinity_catalyst]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[blockAdamantine]",
+			"[blockDraconiumAwakened]",
+			"[draconicevolution:wyvern_core]",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]",
+			"[blockDraconiumAwakened]",
+			"[blockStarsteel]",
+			"[blockDraconiumAwakened]",
+			"[draconicevolution:wyvern_core]",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]",
+			"[blockDraconiumAwakened]"
+		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_energy_core]",
+		"catalyst": "[draconicevolution:wyvern_energy_core]"
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:draconic_energy_core]",
+		"catalyst": "[draconicevolution:wyvern_energy_core]",
+		"energy": 10000000,
+		"tier": 2,
+		"ingredients": [
+			"[draconicevolution:awakened_core]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[botania:manaCookie]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[draconicevolution:awakened_core]",
+			"[draconicevolution:awakened_core]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[botania:manaCookie]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[avaritiaadditions:redstone_singularity]",
+			"[draconicevolution:awakened_core]"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_axe]",
+		"catalyst": "[redstonearsenal:tool.axe_flux]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[draconicevolution:wyvern_core]",
+			"[godweapons:defense_essence]",
+			"[blockDraconium]",
+			"[blockDraconium]",
+			"[draconicevolution:wyvern_energy_core]",
+			"[itemPrecientCrystal]",
+			"[botania:manaCookie]",
+			"[forestry:logs.7]:0",
+			"[avaritiaadditions:cosmic_meatballs]",
+			"[draconicevolution:wyvern_core]"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_pick]",
+		"catalyst": "[redstonearsenal:tool.pickaxe_flux]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[draconicevolution:wyvern_core]",
+			"[godweapons:dark_essence]",
+			"[blockDraconium]",
+			"[blockDraconium]",
+			"[draconicevolution:wyvern_energy_core]",
+			"[itemPrecientCrystal]",
+			"[botania:manaCookie]",
+			"[draconicevolution:draconium_ore]:2",
+			"[avaritiaadditions:gold_singularity]",
+			"[draconicevolution:wyvern_core]"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_shovel]",
+		"catalyst": "[redstonearsenal:tool.shovel_flux]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[draconicevolution:wyvern_core]",
+			"[godweapons:speed_essence]",
+			"[blockDraconium]",
+			"[blockDraconium]",
+			"[draconicevolution:wyvern_energy_core]",
+			"[itemPrecientCrystal]",
+			"[botania:manaCookie]",
+			"[minecraft:mycelium]",
+			"[avaritiaadditions:ultimate_stew]",
+			"[draconicevolution:wyvern_core]"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_sword]",
+		"catalyst": "[redstonearsenal:tool.sword_flux]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[draconicevolution:wyvern_core]",
+			"[godweapons:power_essence]",
+			"[blockDraconium]",
+			"[blockDraconium]",
+			"[draconicevolution:wyvern_energy_core]",
+			"[itemPrecientCrystal]",
+			"[botania:manaCookie]",
+			"[quark:soul_bead]",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "[draconicevolution:wyvern_bow]",
+		"catalyst": "[redstonearsenal:tool.bow_flux]",
+		"energy": 5000000,
+		"tier": 1,
+		"ingredients": [
+			"[draconicevolution:wyvern_core]",
+			"[godweapons:dark_essence]",
+			"[blockDraconium]",
+			"[blockDraconium]",
+			"[draconicevolution:wyvern_energy_core]",
+			"[itemPrecientCrystal]",
+			"[botania:manaCookie]",
+			"[botania:manaResource]:15",
+			"[avaritiaadditions:neutronium_ingot]",
+			"[draconicevolution:wyvern_core]"
+		]
+	}
+]

@@ -16,4 +16,4 @@ recipes.addShaped(<immersiveengineering:metalDevice1:5>,[[<ore:ingotZinc>,<ender
 
 //Liquids
 mods.immersiveengineering.Refinery.removeRecipe(<liquid:biodiesel>);
-mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 8, <liquid:rocket_fuel> * 8, <liquid:oil> * 8, 2048);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:biodiesel> * 8, <liquid:rocket_fuel> * 8, <liquid:crude_oil> * 8, 2048);

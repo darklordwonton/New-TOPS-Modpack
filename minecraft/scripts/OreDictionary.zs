@@ -4,8 +4,7 @@
 <ore:blockChrome>.add(<modernmetals:chromium_block>);
 <ore:plateChrome>.add(<modernmetals:chromium_plate>);
 <ore:ammoBolt>.remove(<modernmetals:uranium_bolt>);
-<ore:ingotPlutonium>.remove(<bigreactors:ingotMetals:3>);
-<ore:ingotUranium>.remove(<bigreactors:ingotMetals>);
+<ore:dustMithril>.remove(<basemetals:mithril_blend>);
 
 <ore:gemHeliodor>.add(<elementsofpower:gemstone:2>);
 <ore:gemTopaz>.add(<elementsofpower:gemstone:3>);

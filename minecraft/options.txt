@@ -154,6 +154,7 @@ key_key.jei.showRecipe:19
 key_key.jei.showUses:22
 key_key.jei.recipeBack:14
 key_key.jei.toggleCheatMode:0
+key_key.cofh.multimode:47
 key_keybind.baublesinventory:48
 key_bbw.key.mode:50
 key_bbw.key.fluidmode:33
@@ -197,14 +198,14 @@ key_key.toolConfig:46
 key_key.toolProfileChange:43
 key_Toggle Farting:25
 key_Open Exalted Crafter:46
+key_key.toggleLiquids:0
+key_key.toggleVisible:0
 key_invtweaks.key.sort:19
 key_key.llor.hotkey:62
 key_Mekanism Item Mode Switch:50
 key_Mekanism Armor Mode Switch:33
 key_Mekanism Voice:22
 key_keys.techreborn.config:25
-key_key.toggleLiquids:0
-key_key.toggleVisible:0
 key_key.dialerModeChange.name:50
 key_key.toolbelt.open:19
 key_key.control:29

@@ -1,0 +1,59 @@
+In order to use specificEntrySorting.json you must use the following format:
+
+[
+	{
+		"entryName" : "oreCopper",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	},
+	{
+		"entryName" : "oreIron",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	}
+]
+
+In order to use specificKindSorting.json you must use the following format:
+
+[
+	{
+		"kindName" : "ore",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	},
+	{
+		"kindName" : "ingot",
+		"modIdPriorityList" :
+		[
+			"minecraft",
+			"substratum",
+			"ic2",
+			"mekanism",
+			"immersiveengineering",
+			"techreborn"
+		]
+	}
+]
+
+note: specific Entry Sorting always will have priority over specific Kind Sorting.

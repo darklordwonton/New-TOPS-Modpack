@@ -36,6 +36,12 @@
       "Max Group Count": 3
     },
     {
+      "Entity Class": "muchmorespiders.common.entity.EntityEnderSpider",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
       "Entity Class": "lycanite.lycanitesmobs.shadowmobs.entity.EntityGeist",
       "Weight": 8,
       "Min Group Count": 1,
