@@ -2,5 +2,36 @@
   "_name": "miab.Shrek",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.maxHealth",
+		  "value": 600.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.movementSpeed",
+		  "value": -0.6,
+		  "operator": 1
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.attackDamage",
+		  "value": 100.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.followRange",
+		  "value": 128.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.knockbackResistance",
+		  "value": 1.0,
+		  "override": true
+	  }
+  ]
 }

@@ -2,5 +2,36 @@
   "_name": "miab.Sanic",
   "drops": [],
   "pre_stats": [],
-  "stats": []
+  "stats": [
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.maxHealth",
+		  "value": 600.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.movementSpeed",
+		  "value": 19.0,
+		  "operator": 1
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.attackDamage",
+		  "value": 10.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.followRange",
+		  "value": 256.0,
+		  "override": true
+	  },
+	  {
+		  "function": "modifier",
+		  "attribute": "generic.knockbackResistance",
+		  "value": 1.0,
+		  "override": true
+	  }
+  ]
 }

@@ -1,34 +1,29 @@
 //Gemstones
-val pureRuby = <elementsofpower:gemstone:0>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureSapphire = <elementsofpower:gemstone:1>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureCitrine = <elementsofpower:gemstone:2>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureAgate = <elementsofpower:gemstone:3>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureQuartz = <elementsofpower:gemstone:4>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureSerendibite = <elementsofpower:gemstone:5>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureEmerald = <elementsofpower:gemstone:6>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureAmethyst = <elementsofpower:gemstone:7>.withTag({quality:4}).onlyWithTag({quality:4});
-val pureDiamond = <elementsofpower:gemstone:8>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureRuby = <elementsofpower:gemstone:0>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureSapphire = <elementsofpower:gemstone:1>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureCitrine = <elementsofpower:gemstone:2>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureAgate = <elementsofpower:gemstone:3>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureQuartz = <elementsofpower:gemstone:4>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureSerendibite = <elementsofpower:gemstone:5>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureEmerald = <elementsofpower:gemstone:6>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureAmethyst = <elementsofpower:gemstone:7>.withTag({quality:4}).onlyWithTag({quality:4});
+//val pureDiamond = <elementsofpower:gemstone:8>.withTag({quality:4}).onlyWithTag({quality:4});
+
+val pureRuby = <elementsofpower:gemstone:0>.withTag({quality:4});
+val pureSapphire = <elementsofpower:gemstone:1>.withTag({quality:4});
+val pureCitrine = <elementsofpower:gemstone:2>.withTag({quality:4});
+val pureAgate = <elementsofpower:gemstone:3>.withTag({quality:4});
+val pureQuartz = <elementsofpower:gemstone:4>.withTag({quality:4});
+val pureSerendibite = <elementsofpower:gemstone:5>.withTag({quality:4});
+val pureEmerald = <elementsofpower:gemstone:6>.withTag({quality:4});
+val pureAmethyst = <elementsofpower:gemstone:7>.withTag({quality:4});
+val pureDiamond = <elementsofpower:gemstone:8>.withTag({quality:4});
 
 //Normal Recipes
 recipes.remove(<avaritia:matrix_ingot>);
 recipes.addShaped(<avaritia:matrix_ingot>,[[<avaritiaadditions:diamond_lattice>,<ore:netherStar>,<avaritiaadditions:diamond_lattice>],[<ore:ingotAdamantine>,<ore:netherStar>,<ore:ingotStarsteel>],[<avaritiaadditions:diamond_lattice>,<ore:netherStar>,<avaritiaadditions:diamond_lattice>]]);
 
 //EXTREME Recipes
-mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:endest_pearl>,[[null,null,null,<ore:endstone>,<ore:endstone>,<ore:endstone>,null,null,null],
-[null,<ore:endstone>,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,<ore:endstone>,null],
-[null,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,null],
-[<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>],
-[<ore:endstone>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<ore:netherStar>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:endstone>],
-[<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>],
-[null,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,null],
-[null,<ore:endstone>,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,<ore:endstone>,null],
-[null,null,null,<ore:endstone>,<ore:endstone>,<ore:endstone>,null,null,null]]);
-
-mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_ingot>,[[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>],
-[<avaritiaadditions:neutronium_ingot>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:neutronium_ingot>],
-[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:neutronium_ingot>],
-[<avaritiaadditions:neutronium_ingot>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:neutronium_ingot>],
-[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>]]);
 
 mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:neutronium_compressor>,[[<ore:blockStainlesssteel>,<ore:blockStainlesssteel>,<ore:blockStarsteel>,<mob_grinding_utils:absorption_hopper>,<mob_grinding_utils:absorption_hopper>,<mob_grinding_utils:absorption_hopper>,<ore:blockStarsteel>,<ore:blockStainlesssteel>,<ore:blockStainlesssteel>],
 [<ore:ingotCrystalMatrix>,<ore:circuitUltimate>,<avaritiaadditions:neutronium_ingot>,null,null,null,<avaritiaadditions:neutronium_ingot>,<ore:circuitUltimate>,<ore:ingotCrystalMatrix>],
@@ -55,4 +50,21 @@ mods.avaritia.ExtremeCrafting.addShapeless(<avaritiaadditions:ultimate_stew>,[<o
 
 mods.avaritia.ExtremeCrafting.addShapeless(<avaritiaadditions:cosmic_meatballs>,[<minecraft:porkchop>,<minecraft:beef>,<minecraft:chicken>,<minecraft:rabbit>,<minecraft:mutton>,<totemic:buffaloMeat>,<minecraft:fish>,<minecraft:fish:1>,<minecraft:fish:2>,<minecraft:fish:3>,<arcticmobs:yetimeatraw>,<demonmobs:pinkymeatraw>,<desertmobs:joustmeatraw>,<forestmobs:arisaurmeatraw>,<freshwatermobs:silexmeatraw>,<junglemobs:concapedemeatraw>,<mountainmobs:yalemeatraw>,<plainsmobs:makameatraw>,<saltwatermobs:ikameatraw>,<shadowmobs:chupacabrameatraw>,<swampmobs:aspidmeatraw>]);
 
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:endest_pearl>,[[null,null,null,<ore:endstone>,<ore:endstone>,<ore:endstone>,null,null,null],
+[null,<ore:endstone>,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,<ore:endstone>,null],
+[null,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,null],
+[<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>],
+[<ore:endstone>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<ore:netherStar>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:endstone>],
+[<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:netherStar>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>],
+[null,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<avaritiaadditions:neutronium_nugget>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,null],
+[null,<ore:endstone>,<ore:endstone>,<ore:enderpearl>,<ore:enderpearl>,<ore:enderpearl>,<ore:endstone>,<ore:endstone>,null],
+[null,null,null,<ore:endstone>,<ore:endstone>,<ore:endstone>,null,null,null]]);
+
 mods.avaritia.ExtremeCrafting.addShapeless(<avaritiaadditions:infinity_catalyst>,[pureRuby,pureSapphire,pureCitrine,pureAgate,pureQuartz,pureSerendibite,pureEmerald,pureAmethyst,pureDiamond,<avaritiaadditions:iron_singularity>,<avaritiaadditions:copper_singularity>,<avaritiaadditions:tin_singularity>,<avaritiaadditions:gold_singularity>,<avaritiaadditions:silver_singularity>,<avaritiaadditions:lead_singularity>,<avaritiaadditions:nickel_singularity>,<avaritiaadditions:redstone_singularity>,<avaritiaadditions:lapis_singularity>,<avaritiaadditions:ultimate_stew>,<avaritiaadditions:cosmic_meatballs>,<avaritiaadditions:endest_pearl>,<ore:record>,<ore:blockAdamantine>,<ore:blockStarsteel>,<avaritiaadditions:neutronium_block>,<ore:blockDraconiumAwakened>,<ore:plateIridium>,<botania:manaCookie>,<draconicevolution:wyvern_core>]);
+
+mods.avaritia.ExtremeCrafting.addShaped(<avaritiaadditions:infinity_ingot>,[[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>],
+[<avaritiaadditions:neutronium_ingot>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:neutronium_ingot>],
+[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:neutronium_ingot>],
+[<avaritiaadditions:neutronium_ingot>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:infinity_catalyst>,<avaritiaadditions:infinity_catalyst>,<ore:ingotCrystalMatrix>,<avaritiaadditions:neutronium_ingot>],
+[<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>,<avaritiaadditions:neutronium_ingot>]]);

@@ -92,7 +92,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:3>, <ore:itemS
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:5>, <ore:ingotIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:5>, <ore:dustIron>, null, 100, 512, [<ore:enderpearl>], "Alloying");
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:6>);
-mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<godweapons:dark_steel_ore>,<ore:slimeballBlue>], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemAlloy:6>, <ore:ingotPigiron>, <immersiveengineering:material:7>, 1200, 1024, [<ore:obsidian>,<ore:dustCoal>,<darkutils:material:0>,<ore:slimeballBlue>], "Alloying");
 mods.immersiveengineering.ArcFurnace.removeRecipe(<enderio:itemAlloy:7>);
 mods.immersiveengineering.ArcFurnace.addRecipe(<enderio:itemPowderIngot:6>, <ore:ingotPlatinum>, null, 100, 512, [<ore:dustTin>,<ore:dustTin>,<ore:dustSilver>], "Alloying");
 mods.immersiveengineering.ArcFurnace.removeRecipe(<basemetals:mercury_ingot>);

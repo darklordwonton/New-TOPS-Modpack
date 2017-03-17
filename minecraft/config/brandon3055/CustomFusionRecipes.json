@@ -206,5 +206,30 @@
 			"[avaritiaadditions:neutronium_ingot]",
 			"[draconicevolution:wyvern_core]"
 		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_axe]",
+		"catalyst": "[draconicevolution:wyvern_axe]"
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_bow]",
+		"catalyst": "[draconicevolution:wyvern_bow]"
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_pick]",
+		"catalyst": "[draconicevolution:wyvern_pick]"
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_shovel]",
+		"catalyst": "[draconicevolution:wyvern_shovel]"
+	},
+	{
+		"mode": "REMOVE",
+		"result": "[draconicevolution:draconic_sword]",
+		"catalyst": "[draconicevolution:wyvern_sword]"
 	}
 ]
