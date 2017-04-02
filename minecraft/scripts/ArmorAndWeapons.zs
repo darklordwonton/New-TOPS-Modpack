@@ -5,13 +5,19 @@ recipes.remove(<silentgems:Leggings:*>);
 recipes.remove(<silentgems:Boots:*>);
 
 //Explosives
-recipes.addShaped(<techreborn:nuke>, [[<ore:plateLead>,<quadrum:plutonium_weapon>,<ore:plateLead>],[<quadrum:plutonium_weapon>,<mekanism:ObsidianTNT> ,<quadrum:plutonium_weapon>],[<ore:plateLead>,<quadrum:plutonium_weapon>,<ore:plateLead>]]);
+//recipes.addShaped(<techreborn:nuke>, [[<ore:plateLead>,<ore:>,<ore:plateLead>],[<quadrum:plutonium_weapon>,<mekanism:ObsidianTNT> ,<quadrum:plutonium_weapon>],[<ore:plateLead>,<quadrum:plutonium_weapon>,<ore:plateLead>]]);
 
 //Generic Magic Armor and Robes
 recipes.remove(<wonderfulwands:hat_wizard>);
 recipes.remove(<wonderfulwands:hat_witch>);
 recipes.remove(<possessed:possessive_helmet>);
 mods.abyssalcraft.InfusionRitual.addRitual("ac.ritual.possession", 4, -1, 50000, true, <possessed:possessive_helmet>, <wonderfulwands:hat_witch>, [<modernmetals:tantalum_horsearmor>,<godweapons:fire_soul>,<godweapons:ice_soul>,<bloodmagic:ItemBloodShard:1>,<godweapons:demon_crystal>]);
+
+//Boron
+recipes.remove(<nuclearcraft:helm_boron>);
+recipes.remove(<nuclearcraft:chest_boron>);
+recipes.remove(<nuclearcraft:legs_boron>);
+recipes.remove(<nuclearcraft:boots_boron>);
 
 //Dark Steel
 recipes.remove(<enderio:darkSteel_helmet>);

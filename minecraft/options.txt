@@ -6,14 +6,14 @@ gamma:1.0
 saturation:0.0
 renderDistance:8
 guiScale:2
-particles:2
+particles:0
 bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:0
 fancyGraphics:false
-ao:0
+ao:1
 renderClouds:false
 resourcePacks:[]
 incompatibleResourcePacks:[]
@@ -101,6 +101,10 @@ key_quark.emote.shrug:0
 key_quark.emote.facepalm:0
 key_quark.emote.headbang:0
 key_quark.keybind.toggleAutojump:0
+key_Toggle Special:46:SHIFT
+key_Toggle Chaos Gem (First):34
+key_Toggle Chaos Gem (All):34:SHIFT
+key_Use Return Home Charm:25:SHIFT
 key_BloodMagic.keybind.open_holding:35
 key_BloodMagic.keybind.cycle_holding_pos:13:SHIFT
 key_BloodMagic.keybind.cycle_holding_neg:12:SHIFT
@@ -122,6 +126,9 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
+key_Jet Pack Lift:33
+key_Jet Pack Hover:35
+key_Creepssile Launch:34
 key_Mount Ability:45
 key_Mount Inventory:0
 key_Lycanites Mobs Main Menu:34
@@ -134,7 +141,8 @@ key_Minion Selection:19
 key_key.interact:46
 key_Stop Possessing:144
 key_Open Possess Experience:25
-key_Toggle Special:46:SHIFT
+key_Difficulty Meter - Show:49
+key_Difficulty Meter - Show Always:49:SHIFT
 key_key.rscircuits:monocle:44
 key_keys.vampirism.action:36
 key_keys.vampirism.suck:47
@@ -208,13 +216,14 @@ key_Mekanism Voice:22
 key_keys.techreborn.config:25
 key_key.dialerModeChange.name:50
 key_key.toolbelt.open:19
+key_key.craftingGrid:46
 key_key.control:29
 key_keybind.railcraft.loco.reverse:53:ALT
 key_keybind.railcraft.loco.faster:52:ALT
 key_keybind.railcraft.loco.slower:51:ALT
 key_keybind.railcraft.loco.mode:50:ALT
 key_keybind.railcraft.loco.whistle:49:ALT
-soundCategory_master:1.0
+soundCategory_master:0.5
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

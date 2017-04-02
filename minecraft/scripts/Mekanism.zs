@@ -1,6 +1,8 @@
 //Materials & Components
 recipes.remove(<mekanism:ControlCircuit:*>);
-recipes.addShaped(<mekanism:ControlCircuit:3>,[[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>],[<ore:craftingSuperconductor>,<techreborn:lapotronicOrb>,<ore:craftingSuperconductor>],[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>]]);
+recipes.addShaped(<mekanism:ControlCircuit:3>,[[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>],[<ore:craftingSuperconductor>,<stevescarts:BlockMetalStorage:2>,<ore:craftingSuperconductor>],[<ore:circuitElite>,<ore:craftingSuperconductor>,<ore:circuitElite>]]);
+recipes.remove(<mekanism:TeleportationCore>);
+recipes.addShaped(<mekanism:TeleportationCore>,[[<ore:alloyUltimate>,<ore:ingotEnderium>,<ore:alloyUltimate>],[<ore:ingotEnderium>,<ore:itemVibrantCrystal>,<ore:ingotEnderium>],[<ore:alloyUltimate>,<ore:ingotEnderium>,<ore:alloyUltimate>]]);
 recipes.remove(<mekanism:BasicBlock:8>);
 recipes.addShaped(<mekanism:BasicBlock:8>,[[<ore:ingotDarkSteel>,<deepresonance:dense_glass>,<ore:ingotDarkSteel>],[<deepresonance:dense_glass>,<ore:machineBlockAdvanced>,<deepresonance:dense_glass>],[<ore:ingotDarkSteel>,<deepresonance:dense_glass>,<ore:ingotDarkSteel>]]);
 
@@ -34,7 +36,7 @@ recipes.remove(<mekanism:MachineBlock:*>);
 recipes.addShaped(<mekanism:MachineBlock:0>,[[<ore:ingotEnergeticAlloy>,<ore:circuitAdvanced>,<ore:ingotEnergeticAlloy>],[<ore:ic2Macerator>,<mekanism:BasicBlock:8>,<ore:ic2Macerator>],[<ore:ingotEnergeticAlloy>,<ore:circuitAdvanced>,<ore:ingotEnergeticAlloy>]]);
 recipes.addShaped(<mekanism:MachineBlock:1>,[[<ore:alloyAdvanced>,<ore:circuitAdvanced>,<ore:alloyAdvanced>],[<techreborn:techreborn.compressor>,<mekanism:BasicBlock:8>,<techreborn:techreborn.compressor>],[<ore:alloyAdvanced>,<ore:circuitAdvanced>,<ore:alloyAdvanced>]]);
 recipes.addShaped(<mekanism:MachineBlock:3>,[[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>],[<techreborn:grinder>,<ore:machineBlockElite>,<techreborn:grinder>],[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>]]);
-recipes.addShaped(<mekanism:MachineBlock:4>,[[<ore:alloyUltimate>,<mekanism:Robit>,<ore:alloyUltimate>],[<mekanism:TeleportationCore>,<mekanism:BasicBlock:8>,<mekanism:MachineBlock:15>],[<ore:blockRefinedObsidian>,<techreborn:advanceddrill>,<ore:blockRefinedObsidian>]]);
+recipes.addShaped(<mekanism:MachineBlock:4>,[[<ore:alloyUltimate>,<mekanism:Robit>,<ore:alloyUltimate>],[<mekanism:TeleportationCore>,<mekanism:BasicBlock:8>,<mekanism:MachineBlock:15>],[<ore:blockRefinedObsidian>,<techreborn:diamonddrill>,<ore:blockRefinedObsidian>]]);
 recipes.addShaped(<mekanism:MachineBlock:8>,[[<mekanism:CompressedDiamond>,<ore:circuitAdvanced>,<mekanism:CompressedDiamond>],[<techreborn:alloySmelter>,<mekanism:BasicBlock:8>,<techreborn:alloySmelter>],[<mekanism:CompressedDiamond>,<ore:circuitAdvanced>,<mekanism:CompressedDiamond>]]);
 recipes.addShaped(<mekanism:MachineBlock:9>,[[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>],[<deepresonance:purifier>,<ore:machineBlockElite>,<deepresonance:purifier>],[<ore:alloyElite>,<ore:circuitElite>,<ore:alloyElite>]]);
 recipes.addShaped(<mekanism:MachineBlock:10>,[[<ore:ingotRefinedObsidian>,<ore:circuitAdvanced>,<ore:ingotRefinedObsidian>],[<techreborn:techreborn.electricfurnace>,<mekanism:BasicBlock:8>,<techreborn:techreborn.electricfurnace>],[<ore:ingotRefinedObsidian>,<ore:circuitAdvanced>,<ore:ingotRefinedObsidian>]]);
@@ -46,12 +48,22 @@ recipes.addShaped(<mekanism:MachineBlock:15>,[[<opencomputers:component:6>,<open
 recipes.remove(<mekanism:MachineBlock2:3>);
 recipes.addShaped(<mekanism:MachineBlock2:3>,[[<ore:plateTitanium>,<ore:circuitUltimate>,<ore:plateTitanium>],[<ore:ingotChrome>,<mekanism:MachineBlock:9>,<ore:ingotChrome>],[<ore:plateTitanium>,<ore:circuitUltimate>,<ore:plateTitanium>]]);
 recipes.remove(<mekanism:MachineBlock2:5>);
-recipes.addShaped(<mekanism:MachineBlock2:5>,[[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>],[<techreborn:advancedchainsaw>,<techreborn:industrialSawmill>,<techreborn:advancedchainsaw>],[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>]]);
+recipes.addShaped(<mekanism:MachineBlock2:5>,[[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>],[<techreborn:diamondchainsaw>,<mekanism:BasicBlock:8>,<techreborn:diamondchainsaw>],[<ore:alloyUltimate>,<ore:circuitElite>,<ore:alloyUltimate>]]);
+recipes.remove(<mekanism:MachineBlock2:6>);
+recipes.addShaped(<mekanism:MachineBlock2:6>,[[<ore:circuitUltimate>,<mekanism:GasTank>,<ore:circuitUltimate>],[<ore:plateIridium>,<ore:plateIridium>,<ore:plateIridium>],[<ore:circuitUltimate>,<mekanism:GasTank>,<ore:circuitUltimate>]]);
+recipes.remove(<mekanism:MachineBlock2:7>);
+recipes.addShaped(<mekanism:MachineBlock2:7>,[[<ore:circuitUltimate>,<minecraft:bucket>,<ore:circuitUltimate>],[<ore:plateIridium>,<ore:plateIridium>,<ore:plateIridium>],[<ore:circuitUltimate>,<mekanism:GasTank>,<ore:circuitUltimate>]]);
+recipes.remove(<mekanism:MachineBlock2:8>);
+recipes.addShaped(<mekanism:MachineBlock2:8>,[[<ore:circuitUltimate>,<mekanism:GasTank>,<ore:circuitUltimate>],[<ore:plateIridium>,<mekanism:BasicBlock:8>,<ore:plateIridium>],[<ore:circuitUltimate>,<mekanism:GasTank>,<ore:circuitUltimate>]]);
+recipes.remove(<mekanism:MachineBlock2:12>);
 recipes.remove(<mekanism:MachineBlock2:13>);
 recipes.addShaped(<mekanism:MachineBlock2:13>,[[<ore:ingotIridium>,<ore:circuitElite>,null],[<refraction:laser>,<refraction:reflection_chamber>,<mekanismgenerators:ReactorGlass>],[<ore:ingotIridium>,<ore:circuitElite>,null]]);
 recipes.remove(<mekanism:MachineBlock2:14>);
 recipes.addShaped(<mekanism:MachineBlock2:14>,[[<stevescarts:ModuleComponents:49>,<mekanismgenerators:ReactorGlass>,<stevescarts:ModuleComponents:49>],[<mekanismgenerators:ReactorGlass>,<refraction:reflection_chamber>,<mekanismgenerators:ReactorGlass>],[<stevescarts:ModuleComponents:49>,<mekanismgenerators:ReactorGlass>,<stevescarts:ModuleComponents:49>]]);
 
+recipes.remove(<mekanism:MachineBlock3:0>);
+
+recipes.remove(<mekanism:EnergyCube:*>);
 
 //Items
 recipes.remove(<mekanism:TierInstaller:*>);
@@ -61,7 +73,7 @@ recipes.addShaped(<mekanism:TierInstaller:2>,[[<techreborn:part:9>,<ore:circuitU
 
 //Reactor and lasers
 recipes.remove(<mekanismgenerators:Reactor:1>);
-recipes.addShaped(<mekanismgenerators:Reactor:1>,[[<ore:ingotMercury>,<bigreactors:reactorcasing>,<ore:ingotMercury>],[<bigreactors:reactorcasing>,<ore:plateIridium>,<bigreactors:reactorcasing>],[<ore:ingotMercury>,<bigreactors:reactorcasing>,<ore:ingotMercury>]]);
+recipes.addShaped(<mekanismgenerators:Reactor:1>,[[<ore:ingotMercury>,<ore:plateElite>,<ore:ingotMercury>],[<ore:plateElite>,<ore:plateIridium>,<ore:plateElite>],[<ore:ingotMercury>,<ore:plateElite>,<ore:ingotMercury>]]);
 recipes.remove(<mekanismgenerators:ReactorGlass:1>);
 recipes.addShaped(<mekanismgenerators:ReactorGlass:1>,[[<techreborn:part:8>,<refraction:reflection_chamber>,<techreborn:part:8>],[<refraction:reflection_chamber>,<ore:blockRedstone>,<refraction:reflection_chamber>],[<techreborn:part:8>,<refraction:reflection_chamber>,<techreborn:part:8>]]);
 

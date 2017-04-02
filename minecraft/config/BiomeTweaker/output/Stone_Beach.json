@@ -19,7 +19,26 @@
     "BEACH"
   ],
   "BiomeManager Entries": {},
-  "Spawnable Creatures": [],
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    }
+  ],
   "Spawnable Monsters": [
     {
       "Entity Class": "net.minecraft.entity.monster.EntitySpider",

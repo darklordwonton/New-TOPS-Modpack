@@ -15,15 +15,15 @@
 <ore:gemBeryl>.add(<elementsofpower:gemstone:6>);
 <ore:gemMoonstone>.add(<minecraft:diamond>);
 <ore:gemMoonstone>.add(<elementsofpower:gemstone:8>);
-<ore:blockRuby>.remove(<silentgems:GemBlock:0>);
-<ore:blockSapphire>.remove(<silentgems:GemBlock:9>);
-<ore:blockHeliodor>.remove(<silentgems:GemBlock:4>);
-<ore:blockTopaz>.remove(<silentgems:GemBlock:2>);
-<ore:blockOpal>.remove(<silentgems:GemBlock:15>);
-<ore:blockOnyx>.remove(<silentgems:GemBlock:14>);
-<ore:blockBeryl>.remove(<silentgems:GemBlock:6>);
-<ore:blockAmethyst>.remove(<silentgems:GemBlock:11>);
-<ore:blockMoonstone>.remove(<silentgems:GemBlockDark:8>);
+<ore:blockRuby>.remove(<silentgems:gemblock:0>);
+<ore:blockSapphire>.remove(<silentgems:gemblock:9>);
+<ore:blockHeliodor>.remove(<silentgems:gemblock:4>);
+<ore:blockTopaz>.remove(<silentgems:gemblock:2>);
+<ore:blockOpal>.remove(<silentgems:gemblock:15>);
+<ore:blockOnyx>.remove(<silentgems:gemblock:14>);
+<ore:blockBeryl>.remove(<silentgems:gemblock:6>);
+<ore:blockAmethyst>.remove(<silentgems:gemblock:11>);
+<ore:blockMoonstone>.remove(<silentgems:gemblockdark:8>);
 
 <ore:circuitAdvanced>.remove(<mekanism:ControlCircuit:1>);
 <ore:circuitElite>.remove(<mekanism:ControlCircuit:2>);

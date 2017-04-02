@@ -10,8 +10,8 @@
   "Grass Color": "Not set. Check in-game.",
   "Foliage Color": "Not set. Check in-game.",
   "Water Color": "14745518",
-  "Temperature": 0.5,
-  "Humidity": 0.5,
+  "Temperature": 0.2,
+  "Humidity": 0.3,
   "Water Tint": 14745518,
   "Enable Rain": true,
   "Enable Snow": false,
@@ -20,7 +20,7 @@
     "HILLS"
   ],
   "BiomeManager Entries": {
-    "WARM Weights": [
+    "COOL Weights": [
       10
     ]
   },
@@ -36,6 +36,24 @@
       "Weight": 10,
       "Min Group Count": 4,
       "Max Group Count": 4
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
     },
     {
       "Entity Class": "lycanite.lycanitesmobs.swampmobs.entity.EntityAspid",

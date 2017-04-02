@@ -24,6 +24,24 @@
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
     {
+      "Entity Class": "lcrdrfs.entities.EntityLaserCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityRoboDino",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lcrdrfs.entities.EntityJetPackSpider",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
       "Entity Class": "lycanite.lycanitesmobs.plainsmobs.entity.EntityMakaAlpha",
       "Weight": 6,
       "Min Group Count": 1,
@@ -72,6 +90,12 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 2
+    },
+    {
+      "Entity Class": "cofh.thermalfoundation.entity.monster.EntityBlitz",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
     },
     {
       "Entity Class": "flaxbeard.cyberware.common.entity.EntityCyberZombie",

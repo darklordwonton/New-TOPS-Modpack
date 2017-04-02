@@ -52,7 +52,7 @@
         <input>
           <itemStack oreDictionary="ingotReflectiveAlloy" />
           <itemStack modID="minecraft" itemName="ender_pearl" />
-		  <itemStack modID="minecraft" itemName="blaze_powder" />
+		  <itemStack oreDictionary="dustElectrotine" />
         </input>
         <output>
           <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="2" exp="1" />

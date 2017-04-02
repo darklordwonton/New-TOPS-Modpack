@@ -114,43 +114,6 @@
 					isAlchemy:true,
                 },
 				{
-					type: "TechReborn.addCentrifuge",
-                    what: ["quadrum:uranium238:0:4","quadrum:uranium235:0:1","techreborn:smallDust:29:1"],
-                    with: ["modernmetals:uranium_powder"],
-                    ticks: 200,
-                    euPerTick: 30,
-                    useOreDict: true
-				},
-				{
-					type: "TechReborn.addImplosionCompressor",
-               		what: ["bigreactors:ingotmetals:0:1"],
-               	 	with: ["bigreactors:dustmetals:0:1","minecraft:tnt:0:4"],
-               	 	ticks: 20,
-                	euPerTick: 30
-				},
-				{
-                    type: "TechReborn.addIndustrialElectrolyzer",
-                    what: ["quadrum:uranium238:0:2","quadrum:plutonium_mix:0:1","techreborn:smallDust:29:1"],
-                    with: ["bigreactors:dustmetals:1:1"],
-                    ticks: 100,
-                    euPerTick: 120,
-				},
-				{
-					type: "TechReborn.addCentrifuge",
-                    what: ["modernmetals:plutonium_smallpowder:0:1","quadrum:plutonium_weapon_small:0:2","quadrum:plutonium_reactor:0:1"],
-                    with: ["quadrum:plutonium_mix"],
-                    ticks: 200,
-                    euPerTick: 30,
-                    useOreDict: true
-				},
-				{
-					type: "TechReborn.addImplosionCompressor",
-               		what: ["bigreactors:ingotmetals:3:1"],
-               	 	with: ["bigreactors:dustmetals:3:1","minecraft:tnt:0:8"],
-               	 	ticks: 20,
-                	euPerTick: 30
-				},
-				{
 					type: "TechReborn.addImplosionCompressor",
                		what: ["basemetals:adamantine_ingot:0:1"],
                	 	with: ["basemetals:adamantine_powder:0:4","techreborn:nuke:0:1"],
@@ -193,8 +156,12 @@
                     what: "thermalfoundation:material:327"
                 },
 				{
-                    type: "show",
-                    what: "bigreactors:ingotMetals:0"
+                    type: "TechReborn.addBlastFurnace",
+                    what: ["nuclearcraft:ingot:6:1"],
+                    with: ["mekanism:OtherDust:4:1"],
+                    ticks: 2000,
+                    euPerTick: 120,
+                    neededHeat: 3200
 				},
 				{
                 	type: "addEntityEvent",
